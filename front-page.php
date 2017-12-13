@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
-
-<p>FRONT PAGE</p>
-
+<?php
+$image_big = get_field('image_big');
+include(locate_template('inc/image-big.php'));
+?>
 
 <?php get_footer(); ?>

@@ -1,7 +1,7 @@
 <!-- START IMAGE BIG -->
 <?php if( $image_big ): ?>
 
-	<div class="image-full">
+	<div class="image-big">
 	  <?php
 	  $size = '_2560';
 	  if( $image_big ) {
