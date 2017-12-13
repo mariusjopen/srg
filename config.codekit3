@@ -48,6 +48,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/image-slideshow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/image-slideshow.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/min\/combine.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -55,6 +68,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/min\/combine.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/image-slideshow.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/image-slideshow.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -93,22 +116,19 @@
 		"oAP": "\/inc\/image-big.php",
 		"oF": 0
 		},
+	"\/inc\/image-slideshow.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/image-slideshow.php",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
-		},
-	"\/js\/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/min\/app.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/js\/combine.js": {
 		"ft": 64,
@@ -120,12 +140,22 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/extra.js": {
+	"\/js\/flickity.pkgd.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/min\/extra.min.js",
+		"oAP": "\/js\/min\/flickity.pkgd.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/image-slideshow.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/image-slideshow.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -156,6 +186,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/js\/min\/extra.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/min\/flickity.pkgd.min.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/flickity.pkgd.min.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

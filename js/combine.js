@@ -1,1 +1,1 @@
-// @codekit-prepend "app.js", "extra.js";
+// @codekit-prepend "image-slideshow.js", "flickity.pkgd.js";
