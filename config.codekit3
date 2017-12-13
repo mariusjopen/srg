@@ -7,14 +7,14 @@
 		"uuidString": "C417FE28-5D50-4C43-AEB4-8E94CA2BDA4B"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
-	"\/css\/combine.sass": {
+	"\/css\/combine.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/min\/combine.min.css",
@@ -22,12 +22,12 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/general.sass": {
+	"\/css\/general.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/general.min.css",
@@ -45,32 +45,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/min\/general.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/min\/general.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/min\/mobile.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/min\/mobile.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/mobile.sass": {
+	"\/css\/mobile.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/mobile.min.css",
@@ -104,6 +84,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/inc\/image-big.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/image-big.php",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -215,7 +202,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 528850828,
-	"displayValue": "boiler",
+	"displayValue": "srg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray"
 	},
