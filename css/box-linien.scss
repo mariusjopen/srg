@@ -1,0 +1,50 @@
+.box.linien {
+	background-size: cover;
+	@extend .background-blue ;
+}
+
+.box.linien .top {
+	@extend .center-padding ;
+	padding-bottom: $difference-l;
+}
+
+.box.linien .item-container {
+	@extend .flex-center-align;
+	justify-content: space-around;
+	align-items: unset;
+	@extend .center-padding ;
+	margin-bottom: $difference-l;
+}
+
+.box.linien .item {
+	@extend .background-white ;
+	width: calc(100% / 4);
+}
+
+.box.linien .sub-headline {
+  padding: 12px 10px 7px 10px;
+	border-bottom: 1px solid $blue;
+}
+
+.box.linien .inhalt {
+  padding: 10px 15px 30px 15px;
+}
+
+.box.linien .item li {
+	margin-bottom: $difference-xs;
+}
+
+.box.linien .item li:before {
+	content: "– ";
+}
+
+.box.linien .item .inhalt p {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.box.linien .link {
+  width: 100%;
+  text-align: center;
+	padding-bottom: $difference-s;
+}

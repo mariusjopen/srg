@@ -37,6 +37,19 @@
 	}
 }
 
+.background-white {
+	background-color: white;
+	color: $blue;
+
+	& a {
+		color: $blue;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}
+
 .left-padding {
 	padding-left: $padding-sides;
 	width: calc(#{$left} - #{$padding-sides});

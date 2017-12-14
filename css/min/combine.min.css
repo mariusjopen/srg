@@ -1,9 +1,10 @@
-.background-blue, .box.welcome, .box.navigation-main {
+@charset "UTF-8";
+.background-blue, .box.welcome, .box.navigation-main, .box.linien {
   background-color: #182130;
   color: white; }
-  .background-blue a, .box.welcome a, .box.navigation-main a {
+  .background-blue a, .box.welcome a, .box.navigation-main a, .box.linien a {
     color: white; }
-  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover {
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .box.linien a:hover {
     color: #e4002b; }
 
 .background-red, .box.grafik .bottom .line, .box.grafik .bottom .block {
@@ -22,6 +23,14 @@
   .background-beige a:hover, .box.electronic a:hover {
     color: #e4002b; }
 
+.background-white, .box.linien .item {
+  background-color: white;
+  color: #182130; }
+  .background-white a, .box.linien .item a {
+    color: #182130; }
+  .background-white a:hover, .box.linien .item a:hover {
+    color: #e4002b; }
+
 .left-padding, .left {
   padding-left: 50px;
   width: calc(45% - 50px); }
@@ -30,7 +39,7 @@
   padding-left: 0px;
   width: 45%; }
 
-.center-padding, .center {
+.center-padding, .center, .box.linien .top, .box.linien .item-container {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -42,7 +51,7 @@
   padding-right: 0px;
   width: 55%; }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -56,6 +65,17 @@ h2 {
       font-size: 20px; } }
   @media screen and (max-width: 600px) {
     h2 {
+      font-size: 15px; } }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.38;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 600px) {
+    h3 {
       font-size: 15px; } }
 
 .headline {
@@ -299,6 +319,9 @@ http://flickity.metafizzy.co
   padding: 6px 12px 6px 12px;
   text-align: center; }
 
+.box.electronic {
+  display: flex; }
+
 .box.electronic .logo-electronic {
   margin-top: 40px; }
 
@@ -307,3 +330,39 @@ http://flickity.metafizzy.co
 
 .box.electronic .link {
   margin-top: 50px; }
+
+.box.linien {
+  background-size: cover; }
+
+.box.linien .top {
+  padding-bottom: 50px; }
+
+.box.linien .item-container {
+  justify-content: space-around;
+  align-items: unset;
+  margin-bottom: 50px; }
+
+.box.linien .item {
+  width: calc(100% / 4); }
+
+.box.linien .sub-headline {
+  padding: 12px 10px 7px 10px;
+  border-bottom: 1px solid #182130; }
+
+.box.linien .inhalt {
+  padding: 10px 15px 30px 15px; }
+
+.box.linien .item li {
+  margin-bottom: 10px; }
+
+.box.linien .item li:before {
+  content: "– "; }
+
+.box.linien .item .inhalt p {
+  font-weight: bold;
+  font-size: 15px; }
+
+.box.linien .link {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px; }
