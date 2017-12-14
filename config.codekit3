@@ -152,6 +152,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/min\/box-electronic.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-electronic.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/min\/box-grafik.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -323,6 +333,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/image-slideshow.php",
+		"oF": 0
+		},
+	"\/inc\/page-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/page-link.php",
 		"oF": 0
 		},
 	"\/index.php": {

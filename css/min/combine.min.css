@@ -68,6 +68,16 @@ p {
 p-2 {
   font-size: 15px; }
 
+p-3 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #e4002b !important;
+  text-transform: uppercase; }
+  p-3 a {
+    color: #e4002b !important; }
+  p-3 a:hover {
+    color: #182130 !important; }
+
 html, * {
   margin: 0px;
   padding: 0px; }
@@ -232,7 +242,7 @@ http://flickity.metafizzy.co
   width: 100%;
   display: inline-block;
   padding-top: 40px;
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
 
 .box.welcome {
   padding-top: 0px;
@@ -263,6 +273,9 @@ http://flickity.metafizzy.co
   padding-left: 10px;
   padding-right: 10px; }
 
+.box.grafik {
+  padding-bottom: 40px; }
+
 .box.grafik .top {
   padding-bottom: 40px;
   text-align: center; }
@@ -285,3 +298,12 @@ http://flickity.metafizzy.co
 .box.grafik .bottom .block {
   padding: 6px 12px 6px 12px;
   text-align: center; }
+
+.box.electronic .logo-electronic {
+  margin-top: 40px; }
+
+.box.electronic .logo-electronic img {
+  width: 25%; }
+
+.box.electronic .link {
+  margin-top: 50px; }

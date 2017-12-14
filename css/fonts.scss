@@ -24,3 +24,19 @@ p {
 p-2 {
 	font-size: 15px;
 }
+
+p-3 {
+	font-size: 12px;
+	font-weight: 500;
+	color: $red !important;
+	text-transform: uppercase;
+
+
+		& a {
+			color: $red !important;
+		}
+
+		& a:hover {
+			color: $blue !important;
+		}
+}

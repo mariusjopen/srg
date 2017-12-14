@@ -1,3 +1,15 @@
 .box.electronic {
 	@extend .background-beige;
 }
+
+.box.electronic .logo-electronic {
+  margin-top: $difference-m;
+}
+
+.box.electronic .logo-electronic img {
+  width: 25%;
+}
+
+.box.electronic .link {
+  margin-top: $difference-l;
+}
