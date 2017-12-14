@@ -7,7 +7,7 @@ remove_action( 'wp_head', 'wp_generator' );
 add_filter( 'show_admin_bar', '__return_false' );
 add_action( 'after_setup_theme', 'image_sizes' );
 add_action( 'init', 'register_my_menu' );
-
+add_action( 'init', 'register_my_menu_footer' );
 
 // QUERY SCRIPT AND CSS
 
@@ -44,6 +44,10 @@ if( function_exists('acf_add_options_page') ) {
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+
+function register_my_menu_footer() {
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 
 

@@ -39,7 +39,7 @@
   padding-left: 0px;
   width: 45%; }
 
-.center-padding, .center, .box.linien .top, .box.linien .item-container {
+.center-padding, .center, .box.linien .top, .box.linien .item-container, .footer .top, .footer .bottom {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -51,7 +51,7 @@
   padding-right: 0px;
   width: 55%; }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container, .footer .top, .footer .bottom, .footer .navigation {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -408,3 +408,57 @@ http://flickity.metafizzy.co
   text-align: center;
   padding-bottom: 20px;
   margin-top: -10px; }
+
+.footer .top {
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+.footer .bottom {
+  margin-bottom: 20px;
+  align-items: unset; }
+
+.footer .bottom p {
+  font-size: 10px;
+  line-height: 1.4; }
+
+.footer .bottom span {
+  padding-right: 10px; }
+
+.footer .email,
+.footer .fax {
+  margin-bottom: 10px; }
+
+.footer .navigation li {
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.footer .top .footer-left {
+  width: 20%;
+  float: left; }
+
+.footer .top .footer-middle {
+  width: 60%;
+  float: left; }
+
+.footer .top .footer-right {
+  width: 20%;
+  float: left; }
+
+.footer .item {
+  width: calc(100% / 3); }
+
+.footer .footer-right {
+  text-align: right;
+  position: relative; }
+
+.footer .logo img {
+  width: 30%; }
+
+.footer .data {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; }
+
+.footer .footer-middle {
+  text-align: center; }

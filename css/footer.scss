@@ -1,0 +1,75 @@
+.footer .top {
+	@extend .flex-center-align;
+	@extend .center-padding ;
+	padding-bottom: $difference-m;
+	padding-top: $difference-m;
+}
+
+.footer .bottom {
+	@extend .flex-center-align;
+	@extend .center-padding ;
+	margin-bottom: $difference-s;
+  align-items: unset;
+}
+
+.footer .bottom p {
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+.footer .bottom span {
+	padding-right: $difference-xs;
+}
+
+.footer .email,
+.footer .fax {
+  margin-bottom: $difference-xs;
+}
+
+.footer .navigation {
+	@extend .flex-center-align;
+}
+
+.footer .navigation li {
+  display: inline-flex;
+	padding-left: $difference-xs;
+	padding-right: $difference-xs;
+}
+
+.footer .top .footer-left {
+	width: 20%;
+	float: left;
+}
+
+.footer .top .footer-middle {
+	width: 60%;
+	float: left;
+}
+
+.footer .top .footer-right {
+	width: 20%;
+	float: left;
+}
+
+.footer .item {
+	width: calc(100% / 3);
+}
+
+.footer .footer-right {
+	text-align: right;
+	position: relative;
+}
+
+.footer .logo img {
+  width: 30%;
+}
+
+.footer .data {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.footer .footer-middle {
+	text-align: center;
+}
