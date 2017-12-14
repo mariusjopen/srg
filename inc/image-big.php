@@ -1,9 +1,3 @@
-
-<?php
-$image_big = get_field('image_big');
-include(locate_template('inc/image-big.php'));
-?>
-
 <!-- START IMAGE BIG -->
 <?php if( $image_big ): ?>
 

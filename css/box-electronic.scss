@@ -1,6 +1,7 @@
 .box.electronic {
 	@extend .background-beige;
   display: flex;
+	position: relative;
 }
 
 .box.electronic .logo-electronic {
@@ -12,5 +13,6 @@
 }
 
 .box.electronic .link {
-  margin-top: $difference-l;
+	position: absolute;
+	bottom: $difference-s;
 }

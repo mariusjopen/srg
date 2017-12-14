@@ -48,6 +48,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-mitarbeiter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-mitarbeiter.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-navigation-main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -182,6 +195,26 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/min\/box-grafik.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/box-linien.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-linien.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/box-mitarbeiter.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-mitarbeiter.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -325,6 +358,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-linien.php",
+		"oF": 0
+		},
+	"\/inc\/box-mitarbeiter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-mitarbeiter.php",
 		"oF": 0
 		},
 	"\/inc\/box-navigation-main.php": {

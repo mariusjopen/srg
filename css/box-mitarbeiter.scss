@@ -1,0 +1,39 @@
+.box.mitarbeiter {
+	padding-bottom: 0px;
+}
+.box.mitarbeiter .right {
+	float: left;
+	width: calc(#{$right} - #{$padding-sides});
+	padding-left: $padding-sides;
+	padding-right: 0px;
+}
+
+.box.mitarbeiter .left {
+	float: left;
+	width: calc(#{$left} - #{$padding-sides});
+	padding-left: $difference-s;
+}
+
+.box.mitarbeiter .blue {
+	@extend .background-blue;
+	display: inline-block;
+	margin-top: -$difference-xl;
+	width: 100%;
+}
+
+.box.mitarbeiter .blue .left {
+	float: left;
+	width: calc(#{$left} - #{$padding-sides});
+	padding-left: $difference-s;
+	margin-left: $right;
+	padding-top: $difference-l;
+	padding-bottom: $difference-l;
+}
+
+.box.mitarbeiter .link {
+	@extend .background-blue;
+  width: 100%;
+  text-align: center;
+	padding-bottom: $difference-s;
+	margin-top: -$difference-xs;
+}
