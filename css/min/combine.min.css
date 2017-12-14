@@ -1,21 +1,56 @@
+.background-blue, .box.welcome {
+  background-color: #182130;
+  color: white; }
+
+.left-padding, .left {
+  padding-left: 50px;
+  width: calc(45% - 50px); }
+
+.left-no-padding {
+  padding-left: 0px;
+  width: 45%; }
+
+.right-padding, .right {
+  padding-right: 50px;
+  width: calc(55% - 50px); }
+
+.right-no-padding, .box.welcome .right {
+  padding-right: 0px;
+  width: 55%; }
+
+h2 {
+  font-size: 28px;
+  line-height: 1.38;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    h2 {
+      font-size: 20px; } }
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 15px; } }
+
+.headline {
+  padding-right: 20px; }
+
 html, * {
   margin: 0px;
   padding: 0px; }
+
+body {
+  font-family: helvetica, arial; }
 
 .image-big img {
   width: 100%;
   height: auto; }
 
-.main-carousel {
-  width: 40vw; }
+.carousel-cell {
+  width: 100%;
+  height: 40vw; }
 
 .carousel-cell img {
-  height: 30vw;
-  width: 40vw;
+  width: 100%;
+  height: 100%;
   object-fit: cover; }
-
-.flickity-prev-next-button {
-  display: none; }
 
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co
@@ -56,6 +91,7 @@ http://flickity.metafizzy.co
 
 /* ---- previous/next buttons ---- */
 .flickity-prev-next-button {
+  display: none;
   position: absolute;
   top: 50%;
   width: 44px;
@@ -112,7 +148,7 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -25px;
+  bottom: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -127,10 +163,37 @@ http://flickity.metafizzy.co
   width: 10px;
   height: 10px;
   margin: 0 8px;
-  background: #333;
+  background: none;
   border-radius: 50%;
-  opacity: 0.25;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid #182130; }
 
 .flickity-page-dots .dot.is-selected {
-  opacity: 1; }
+  background: #182130; }
+
+.left {
+  float: left; }
+
+.right {
+  float: left; }
+
+.box {
+  width: 100%;
+  display: inline-block; }
+
+.box.welcome .left {
+  height: 45vw;
+  position: relative; }
+
+.box.welcome .carousel-cell {
+  height: 45vw; }
+
+.logo-big {
+  padding-top: 6vw; }
+
+.logo-big img {
+  width: 20%; }
+
+.box.welcome .headline {
+  position: absolute;
+  bottom: 40px; }

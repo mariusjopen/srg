@@ -9,6 +9,32 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/css\/box-welcome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-welcome.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/combine.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -18,6 +44,32 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/min\/combine.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/extend.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/extend.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/fonts.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -61,6 +113,26 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/min\/box-navigation.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-navigation.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/box.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/min\/combine.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -68,6 +140,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/min\/combine.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/extend.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/extend.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -80,6 +162,29 @@
 		"oAP": "\/css\/min\/image-slideshow.min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/min\/variables.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/variables.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/variables.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -107,6 +212,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/inc\/box-welcome.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-welcome.php",
 		"oF": 0
 		},
 	"\/inc\/image-big.php": {

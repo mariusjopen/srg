@@ -1,0 +1,29 @@
+.box.welcome {
+	@extend .background-blue;
+}
+
+.box.welcome .right {
+	@extend .right-no-padding ;
+}
+
+.box.welcome .left {
+  height: 45vw; //HEIGHT OF BOX
+	position: relative;
+}
+
+.box.welcome .carousel-cell {
+  height: 45vw; //HEIGHT OF BOX
+}
+
+.logo-big {
+  padding-top: 6vw;
+}
+
+.logo-big img {
+    width: 20%;
+}
+
+.box.welcome .headline {
+	position: absolute;
+	bottom: 40px;
+}

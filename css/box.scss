@@ -1,0 +1,14 @@
+.left {
+	float: left;
+	@extend .left-padding ;
+}
+
+.right {
+	float: left;
+	@extend .right-padding ;
+}
+
+.box {
+  width: 100%;
+  display: inline-block;
+}

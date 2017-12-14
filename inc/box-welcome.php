@@ -1,12 +1,11 @@
-<?php get_header(); ?>
-
-<?php
-include(locate_template('inc/box-welcome.php'));
-?>
-
-<div class="box lalala">
+<!-- START BOX WELCOME -->
+<div class="box welcome">
 
 	<div class="left">
+		<div class="logo-big">
+			<img src="<?php echo get_field('logo_big' , 'option'); ?>">
+		</div>
+
 		<div class="headline">
 			<h2><?php echo get_field('text_welcome'); ?></h2>
 		</div>
@@ -20,9 +19,4 @@ include(locate_template('inc/box-welcome.php'));
 	</div>
 
 </div>
-
-<?php
-include(locate_template('inc/box-welcome.php'));
-?>
-
-<?php get_footer(); ?>
+<!-- END BOX WELCOME -->
