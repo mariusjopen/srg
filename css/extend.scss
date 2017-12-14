@@ -1,24 +1,32 @@
 .background-blue {
-	background-color: $background-color;
+	background-color: $blue;
 	color: white;
+
+	& a {
+		color: white;
+	}
+
+	& a:hover {
+		color: $red;
+	}
 }
 
 .left-padding {
-	padding-left: 50px;
-	width: calc(45% - 50px);
+	padding-left: $padding-sides;
+	width: calc(#{$left} - #{$padding-sides});
 }
 
 .left-no-padding {
 	padding-left: 0px;
-	width: 45%;
+	width: $left;
 }
 
 .right-padding {
-	padding-right: 50px;
-	width: calc(55% - 50px);
+	padding-right: $padding-sides;
+	width: calc(#{$right} - #{$padding-sides});
 }
 
 .right-no-padding {
 	padding-right: 0px;
-	width: 55%;
+	width: $right;
 }

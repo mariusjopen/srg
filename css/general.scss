@@ -5,4 +5,22 @@ html, * {
 
 body {
 	font-family: helvetica, arial;
+	color: $blue;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	transition: 0.2s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $red;
+}
+
+li {
+	list-style: none;
 }

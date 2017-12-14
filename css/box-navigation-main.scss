@@ -1,0 +1,16 @@
+.box.navigation-main {
+	@extend .background-blue;
+	padding-top: $difference-s;
+	padding-bottom: $difference-s;
+}
+
+.box.navigation-main .menu {
+  display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.box.navigation-main .menu li {
+	padding-left: $difference-xs;
+	padding-right: $difference-xs;
+}

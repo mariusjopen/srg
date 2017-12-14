@@ -1,6 +1,10 @@
-.background-blue, .box.welcome {
+.background-blue, .box.welcome, .box.navigation-main {
   background-color: #182130;
   color: white; }
+  .background-blue a, .box.welcome a, .box.navigation-main a {
+    color: white; }
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover {
+    color: #e4002b; }
 
 .left-padding, .left {
   padding-left: 50px;
@@ -32,12 +36,30 @@ h2 {
 .headline {
   padding-right: 20px; }
 
+p-2 {
+  font-size: 16px; }
+
 html, * {
   margin: 0px;
   padding: 0px; }
 
 body {
-  font-family: helvetica, arial; }
+  font-family: helvetica, arial;
+  color: #182130;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  text-decoration: none;
+  color: #182130;
+  transition: 0.2s ease; }
+
+a:hover {
+  text-decoration: none;
+  color: #e4002b; }
+
+li {
+  list-style: none; }
 
 .image-big img {
   width: 100%;
@@ -197,3 +219,16 @@ http://flickity.metafizzy.co
 .box.welcome .headline {
   position: absolute;
   bottom: 40px; }
+
+.box.navigation-main {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.box.navigation-main .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.box.navigation-main .menu li {
+  padding-left: 10px;
+  padding-right: 10px; }

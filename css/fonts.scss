@@ -3,15 +3,19 @@ h2 {
   line-height: 1.38;
 	font-weight: normal;
 
-	@media screen and (max-width: $break-middle) {
+	@media screen and (max-width: $break-m) {
 		font-size: 20px;
 	}
 
-	@media screen and (max-width: $break-small) {
+	@media screen and (max-width: $break-s) {
 		font-size: 15px;
 	}
 }
 
 .headline {
-	padding-right: 20px;
+	padding-right: $difference-s;
+}
+
+p-2 {
+	font-size: 16px;
 }

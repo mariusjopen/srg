@@ -9,6 +9,19 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/css\/box-navigation-main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-navigation-main.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-welcome.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -113,6 +126,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/min\/box-navigation-main.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-navigation-main.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/min\/box-navigation.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -150,6 +173,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/min\/extend.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/min\/fonts.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/fonts.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -212,6 +245,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/inc\/box-navigation-main.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-navigation-main.php",
 		"oF": 0
 		},
 	"\/inc\/box-welcome.php": {
