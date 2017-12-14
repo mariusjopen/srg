@@ -9,12 +9,12 @@
 }
 
 .box.welcome .left {
-  height: 45vw; //HEIGHT OF BOX
+  height: 40vw; //HEIGHT OF BOX
 	position: relative;
 }
 
 .box.welcome .carousel-cell {
-  height: 45vw; //HEIGHT OF BOX
+  height: 40vw; //HEIGHT OF BOX
 }
 
 .logo-big {
@@ -22,10 +22,15 @@
 }
 
 .logo-big img {
-    width: 20%;
+  width: 20%;
 }
 
 .box.welcome .headline {
 	position: absolute;
 	bottom: $difference-m;
+}
+
+.box.welcome .image-slideshow {
+	position: absolute;
+	width: $right;
 }

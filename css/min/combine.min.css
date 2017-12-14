@@ -272,11 +272,11 @@ http://flickity.metafizzy.co
   padding-bottom: 0px; }
 
 .box.welcome .left {
-  height: 45vw;
+  height: 40vw;
   position: relative; }
 
 .box.welcome .carousel-cell {
-  height: 45vw; }
+  height: 40vw; }
 
 .logo-big {
   padding-top: 6vw; }
@@ -287,6 +287,10 @@ http://flickity.metafizzy.co
 .box.welcome .headline {
   position: absolute;
   bottom: 40px; }
+
+.box.welcome .image-slideshow {
+  position: absolute;
+  width: 55%; }
 
 .box.navigation-main {
   padding-top: 20px;
