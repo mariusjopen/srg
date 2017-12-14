@@ -9,6 +9,19 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/css\/box-electronic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-electronic.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-grafik.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -268,6 +281,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/inc\/box-electronic.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-electronic.php",
 		"oF": 0
 		},
 	"\/inc\/box-grafik.php": {

@@ -14,6 +14,14 @@
   .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover {
     color: #182130; }
 
+.background-beige, .box.electronic {
+  background-color: #ebe8e3;
+  color: #182130; }
+  .background-beige a, .box.electronic a {
+    color: #182130; }
+  .background-beige a:hover, .box.electronic a:hover {
+    color: #e4002b; }
+
 .left-padding, .left {
   padding-left: 50px;
   width: calc(45% - 50px); }
@@ -222,7 +230,13 @@ http://flickity.metafizzy.co
 
 .box {
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 50px; }
+
+.box.welcome {
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .box.welcome .left {
   height: 45vw;
@@ -249,11 +263,7 @@ http://flickity.metafizzy.co
   padding-left: 10px;
   padding-right: 10px; }
 
-.box.grafik {
-  padding-bottom: 50px; }
-
 .box.grafik .top {
-  padding-top: 40px;
   padding-bottom: 40px;
   text-align: center; }
 

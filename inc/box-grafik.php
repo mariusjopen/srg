@@ -7,21 +7,21 @@
 
 		<div class="bottom">
 			<div class="item text-left">
-				<h2>Ihre Idee</h2>
+				<h2><?php echo get_field('grafik_text_links'); ?></h2>
 			</div>
 
 			<div class="item line">
 			</div>
 
 			<div class="item block">
-				<p-2>unsere Dienstleistungen</p-2>
+				<p-2><?php echo get_field('grafik_text_mitte'); ?></p-2>
 			</div>
 
 			<div class="item line">
 			</div>
 
 			<div class="item text-right">
-				<h2>Ihr Produkt</h2>
+				<h2><?php echo get_field('grafik_text_rechts'); ?></h2>
 			</div>
 		</div>
 
