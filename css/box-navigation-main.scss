@@ -5,9 +5,7 @@
 }
 
 .box.navigation-main .menu {
-  display: flex;
-	align-items: center;
-  justify-content: center;
+  @extend .flex-center-align;
 }
 
 .box.navigation-main .menu li {

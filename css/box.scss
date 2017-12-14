@@ -8,6 +8,10 @@
 	@extend .right-padding ;
 }
 
+.center {
+	@extend .center-padding ;
+}
+
 .box {
   width: 100%;
   display: inline-block;

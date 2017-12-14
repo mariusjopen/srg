@@ -11,6 +11,19 @@
 	}
 }
 
+.background-red {
+	background-color: $red;
+	color: white;
+
+	& a {
+		color: white;
+	}
+
+	& a:hover {
+		color: $blue;
+	}
+}
+
 .left-padding {
 	padding-left: $padding-sides;
 	width: calc(#{$left} - #{$padding-sides});
@@ -21,6 +34,11 @@
 	width: $left;
 }
 
+.center-padding {
+	padding-left: $padding-sides;
+	padding-right: $padding-sides;
+}
+
 .right-padding {
 	padding-right: $padding-sides;
 	width: calc(#{$right} - #{$padding-sides});
@@ -29,4 +47,10 @@
 .right-no-padding {
 	padding-right: 0px;
 	width: $right;
+}
+
+.flex-center-align {
+	display: flex;
+	align-items: center;
+  justify-content: center;
 }

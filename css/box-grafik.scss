@@ -1,0 +1,40 @@
+.box.grafik {
+	padding-bottom: $difference-l;
+}
+
+.box.grafik .top {
+	padding-top: $difference-m;
+	padding-bottom: $difference-m;
+	text-align: center;
+	@extend .flex-center-align;
+}
+
+.box.grafik .top  p{
+	width: 70%;
+}
+
+.box.grafik .bottom {
+	@extend .flex-center-align;
+}
+
+.box.grafik .bottom .text-left {
+	text-align: right;
+	padding-right: $difference-s;
+}
+
+.box.grafik .bottom .text-right {
+	text-align: left;
+	padding-left: $difference-s;
+}
+
+.box.grafik .bottom .line {
+	width: calc(100% / 7);
+	@extend .background-red;
+	height: 4px;
+}
+
+.box.grafik .bottom .block {
+	@extend .background-red;
+	padding: 6px 12px 6px 12px;
+	text-align: center;
+}
