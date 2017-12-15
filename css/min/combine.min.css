@@ -279,10 +279,11 @@ http://flickity.metafizzy.co
   height: 40vw; }
 
 .logo-big {
-  padding-top: 6vw; }
+  padding-top: 4vw;
+  margin-left: -1.3vw; }
 
 .logo-big img {
-  width: 20%; }
+  width: 28%; }
 
 .box.welcome .headline {
   position: absolute;
@@ -439,7 +440,8 @@ http://flickity.metafizzy.co
 
 .footer .top .footer-middle {
   width: 60%;
-  float: left; }
+  float: left;
+  margin-top: -10px; }
 
 .footer .top .footer-right {
   width: 20%;
@@ -453,7 +455,8 @@ http://flickity.metafizzy.co
   position: relative; }
 
 .footer .logo img {
-  width: 30%; }
+  height: 34px;
+  margin-left: -1.1vw; }
 
 .footer .data {
   position: absolute;
@@ -462,3 +465,10 @@ http://flickity.metafizzy.co
 
 .footer .footer-middle {
   text-align: center; }
+
+.footer .social-media img {
+  height: 20px; }
+
+.footer .social-media .social {
+  float: right;
+  margin-left: 10px; }

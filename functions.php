@@ -8,6 +8,7 @@ add_filter( 'show_admin_bar', '__return_false' );
 add_action( 'after_setup_theme', 'image_sizes' );
 add_action( 'init', 'register_my_menu' );
 add_action( 'init', 'register_my_menu_footer' );
+add_filter('upload_mimes', 'allow_svgimg_types');
 
 // QUERY SCRIPT AND CSS
 
@@ -49,6 +50,15 @@ function register_my_menu() {
 function register_my_menu_footer() {
   register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
+
+
+// SVG Uploads erlauben
+
+function allow_svgimg_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+
 
 
 ?>

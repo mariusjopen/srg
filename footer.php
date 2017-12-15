@@ -41,7 +41,20 @@
 
 		<div class="item footer-right">
 			<div class="social-media">
-				ICONS
+				<?php
+				if( have_rows('social_media', 'option') ):
+			    while ( have_rows('social_media', 'option') ) : the_row();
+					?>
+					<div class="social">
+						<a target="_blank" href="<?php echo get_sub_field('social_link'); ?>">
+							<img src="<?php echo get_sub_field('social_bild'); ?>">
+						</a>
+					</div>
+					<?php
+			    endwhile;
+				else :
+				endif;
+				?>
 			</div>
 
 			<div class="data">
