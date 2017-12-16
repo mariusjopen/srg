@@ -7,28 +7,28 @@
   .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .box.linien a:hover, .box.mitarbeiter .blue a:hover, .box.mitarbeiter .link a:hover {
     color: #e4002b; }
 
-.background-red, .box.grafik .bottom .line, .box.grafik .bottom .block {
+.background-red, .box.grafik .bottom .line, .box.grafik .bottom .block, .box.technische-beratung-slide .button {
   background-color: #e4002b;
   color: white; }
-  .background-red a, .box.grafik .bottom .line a, .box.grafik .bottom .block a {
+  .background-red a, .box.grafik .bottom .line a, .box.grafik .bottom .block a, .box.technische-beratung-slide .button a {
     color: white; }
-  .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover {
+  .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.electronic {
+.background-beige, .box.electronic, .box.technische-beratung, .box.technische-beratung-slide {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.electronic a {
+  .background-beige a, .box.electronic a, .box.technische-beratung a, .box.technische-beratung-slide a {
     color: #182130; }
-  .background-beige a:hover, .box.electronic a:hover {
+  .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover {
     color: #e4002b; }
 
-.background-white, .box.linien .item {
+.background-white, .box.linien .item, .box.technische-beratung-slide .white {
   background-color: white;
   color: #182130; }
-  .background-white a, .box.linien .item a {
+  .background-white a, .box.linien .item a, .box.technische-beratung-slide .white a {
     color: #182130; }
-  .background-white a:hover, .box.linien .item a:hover {
+  .background-white a:hover, .box.linien .item a:hover, .box.technische-beratung-slide .white a:hover {
     color: #e4002b; }
 
 .left-padding, .left {
@@ -267,6 +267,12 @@ http://flickity.metafizzy.co
   padding-top: 40px;
   padding-bottom: 20px; }
 
+.icon img {
+  height: 45px; }
+
+.icon {
+  margin-top: 10px; }
+
 .box.welcome {
   padding-top: 0px;
   padding-bottom: 0px; }
@@ -481,3 +487,43 @@ http://flickity.metafizzy.co
 .footer .social-media .social {
   float: right;
   margin-left: 10px; }
+
+.box.technische-beratung-slide {
+  margin-top: -10px; }
+
+.box.technische-beratung-slide {
+  padding-bottom: 0px; }
+
+.box.technische-beratung-slide .right {
+  float: left;
+  width: calc(55% - 50px);
+  padding-left: 50px;
+  padding-right: 0px; }
+
+.box.technische-beratung-slide .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px; }
+
+.box.technische-beratung-slide .white {
+  display: inline-block;
+  margin-top: -120px;
+  width: 100%;
+  height: 150px; }
+
+.box.technische-beratung-slide .white .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px;
+  margin-left: 55%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.box.technische-beratung-slide .button {
+  padding: 6px 12px 6px 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px; }
+
+.box.technische-beratung-slide .button a:hover {
+  color: white; }

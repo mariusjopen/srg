@@ -100,6 +100,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-technische-beratung-slide.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-technische-beratung-slide.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/box-technische-beratung.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-technische-beratung.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-welcome.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -274,6 +300,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/min\/box-technische-beratung.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/box-technische-beratung.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/min\/box.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -432,6 +468,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-navigation-main.php",
+		"oF": 0
+		},
+	"\/inc\/box-technische-beratung-slide.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-technische-beratung-slide.php",
+		"oF": 0
+		},
+	"\/inc\/box-technische-beratung.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-technische-beratung.php",
 		"oF": 0
 		},
 	"\/inc\/box-welcome.php": {
