@@ -5,5 +5,73 @@
 			<h3><?php echo get_field('navigation_text'); ?></h3>
 		</div>
 	</div>
+
+	<div class="center">
+
+		<div class="row-1 block-nav">
+			<div class="item nav-1">
+				<div class="word">
+					<?php echo get_field('navigation_1_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_1_image'); ?>">
+				</div>
+			</div>
+
+			<div class="item nav-2">
+				<div class="word">
+					<?php echo get_field('navigation_2_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_2_image'); ?>">
+				</div>
+			</div>
+
+			<div class="item nav-3">
+				<div class="word">
+					<?php echo get_field('navigation_3_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_3_image'); ?>">
+				</div>
+			</div>
+		</div>
+
+		<div class="row-2 block-nav">
+			<div class="item nav-4">
+				<div class="word">
+					<?php echo get_field('navigation_4_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_4_image'); ?>">
+				</div>
+			</div>
+
+			<div class="item nav-5">
+				<div class="word">
+					<?php echo get_field('navigation_5_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_5_image'); ?>">
+				</div>
+			</div>
+
+			<div class="item nav-6">
+				<div class="word">
+					<?php echo get_field('navigation_6_text'); ?>
+				</div>
+
+				<div class="image">
+					<img src="<?php echo get_field('navigation_6_image'); ?>">
+				</div>
+			</div>
+		</div>
+
+	</div>
 </div>
 <!-- END BOX NAVIGATION BLOCKS -->

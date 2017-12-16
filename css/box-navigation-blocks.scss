@@ -7,3 +7,30 @@
 	text-align: center;
 	@extend .flex-center-align;
 }
+
+.box.navigation-blocks .block-nav {
+	@extend .flex-center-align;
+}
+
+.box.navigation-blocks .item {
+	width: calc(100vw / 6);
+	height: calc(100vw / 6);
+	text-align: center;
+	@extend .background-beige;
+	cursor: pointer;
+	margin: $difference-xs;
+	transition: 0.2s ease;
+}
+
+.box.navigation-blocks .item:hover {
+	@extend .background-dark-beige;
+}
+
+.box.navigation-blocks img {
+    width: 40%;
+}
+
+.box.navigation-blocks .word {
+    padding-top: 2vw;
+    padding-bottom: 1.7vw;
+}

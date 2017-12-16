@@ -37,6 +37,19 @@
 	}
 }
 
+.background-dark-beige {
+	background-color: $dark-beige;
+	color: $blue;
+
+	& a {
+		color: $blue;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}
+
 .background-white {
 	background-color: white;
 	color: $blue;
