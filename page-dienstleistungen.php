@@ -12,4 +12,9 @@ include(locate_template('inc/box-technische-beratung.php'));
 include(locate_template('inc/box-technische-beratung-slide.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-material.php'));
+?>
+
+
 <?php get_footer(); ?>

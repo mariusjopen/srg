@@ -61,6 +61,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-material.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-material.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-mitarbeiter.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -447,6 +460,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-linien.php",
+		"oF": 0
+		},
+	"\/inc\/box-material.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-material.php",
 		"oF": 0
 		},
 	"\/inc\/box-mitarbeiter.php": {

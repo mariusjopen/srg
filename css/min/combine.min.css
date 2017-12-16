@@ -23,12 +23,12 @@
   .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover {
     color: #e4002b; }
 
-.background-white, .box.linien .item, .box.technische-beratung-slide .white {
+.background-white, .box.linien .item, .box.technische-beratung-slide .white, .box.material {
   background-color: white;
   color: #182130; }
-  .background-white a, .box.linien .item a, .box.technische-beratung-slide .white a {
+  .background-white a, .box.linien .item a, .box.technische-beratung-slide .white a, .box.material a {
     color: #182130; }
-  .background-white a:hover, .box.linien .item a:hover, .box.technische-beratung-slide .white a:hover {
+  .background-white a:hover, .box.linien .item a:hover, .box.technische-beratung-slide .white a:hover, .box.material a:hover {
     color: #e4002b; }
 
 .left-padding, .left {
@@ -527,3 +527,6 @@ http://flickity.metafizzy.co
 
 .box.technische-beratung-slide .button a:hover {
   color: white; }
+
+.box.material {
+  margin-top: -10px; }
