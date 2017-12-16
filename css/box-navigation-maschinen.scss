@@ -32,3 +32,10 @@
 .box.navigation-maschinen .item:hover {
 	@extend .background-blue;
 }
+
+
+.active-linie-1 .box.navigation-maschinen .linie-nav-1,
+.active-linie-2 .box.navigation-maschinen .linie-nav-2,
+.active-linie-3 .box.navigation-maschinen .linie-nav-3 {
+	@extend .background-blue;
+}

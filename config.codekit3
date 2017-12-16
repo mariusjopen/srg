@@ -74,6 +74,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-maschinen-linien.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-maschinen-linien.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-material.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -495,6 +508,13 @@
 		"oAP": "\/inc\/box-linien.php",
 		"oF": 0
 		},
+	"\/inc\/box-maschinen-linien.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-maschinen-linien.php",
+		"oF": 0
+		},
 	"\/inc\/box-material.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -645,6 +665,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/js\/min\/flickity.pkgd.min.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/min\/slect-linien.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/slect-linien.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/select-linien.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/select-linien.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

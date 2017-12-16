@@ -1,7 +1,7 @@
 <!-- START BOX NAVIGATION MASCHINEN -->
 <div class="box navigation-maschinen">
 	<div class="top">
-		<h3><?php echo get_field('elektronik_fertigung_technische_spezifikationen'); ?></h3>
+		<h3><?php echo get_field('elektronik_fertigung_uberblick'); ?></h3>
 	</div>
 
 	<div class="center">

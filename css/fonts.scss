@@ -26,6 +26,20 @@ h3 {
 	}
 }
 
+h4 {
+	font-size: 17.5px;
+  line-height: 1.38;
+	font-weight: bold;
+
+	@media screen and (max-width: $break-m) {
+		font-size: 20px;
+	}
+
+	@media screen and (max-width: $break-s) {
+		font-size: 15px;
+	}
+}
+
 .headline {
 	padding-right: $difference-s;
 }

@@ -1,0 +1,49 @@
+.box.maschinen-linien {
+	@extend .background-beige;
+	margin-top: -$difference-xs;
+}
+
+.box.maschinen-linien .right {
+	float: left;
+	width: calc(#{$right} - #{$padding-sides});
+	padding-left: $padding-sides;
+	padding-right: 0px;
+}
+
+.box.maschinen-linien .left {
+	float: left;
+	width: calc(#{$left} - #{$padding-sides});
+	padding-left: $difference-s;
+}
+
+.box.maschinen-linien .technische-spez {
+	margin-bottom: $difference-m;
+}
+
+.box.maschinen-linien .text p {
+	font-size: 12px;
+	line-height: 1.3;
+	margin-bottom: $difference-xxs;
+}
+
+.box.maschinen-linien .text li {
+	font-size: 12px;
+	line-height: 1.3;
+	list-style: decimal;
+	margin-left: 16px;
+	margin-bottom: $difference-xs;
+}
+
+.box.maschinen-linien .item {
+	display: none;
+}
+
+.active-linie-1 .box.maschinen-linien .linie-1,
+.active-linie-2 .box.maschinen-linien .linie-2,
+.active-linie-3 .box.maschinen-linien .linie-3 {
+	display: block;
+}
+
+.box.maschinen-linien .flickity-page-dots {
+    bottom: -30px;
+}

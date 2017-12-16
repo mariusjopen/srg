@@ -24,4 +24,8 @@ include(locate_template('inc/box-elektronik-fertigung.php'));
 include(locate_template('inc/box-navigation-maschinen.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-maschinen-linien.php'));
+?>
+
 <?php get_footer(); ?>
