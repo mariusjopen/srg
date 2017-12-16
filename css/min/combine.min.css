@@ -15,12 +15,12 @@
   .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.electronic, .box.technische-beratung, .box.technische-beratung-slide {
+.background-beige, .box.electronic, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.electronic a, .box.technische-beratung a, .box.technische-beratung-slide a {
+  .background-beige a, .box.electronic a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a {
     color: #182130; }
-  .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover {
+  .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover {
     color: #e4002b; }
 
 .background-white, .box.linien .item, .box.technische-beratung-slide .white, .box.material {
@@ -529,4 +529,7 @@ http://flickity.metafizzy.co
   color: white; }
 
 .box.material {
+  margin-top: -10px; }
+
+.box.elektronik-fertigung {
   margin-top: -10px; }

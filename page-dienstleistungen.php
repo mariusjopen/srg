@@ -16,5 +16,8 @@ include(locate_template('inc/box-technische-beratung-slide.php'));
 include(locate_template('inc/box-material.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-elektronik-fertigung.php'));
+?>
 
 <?php get_footer(); ?>

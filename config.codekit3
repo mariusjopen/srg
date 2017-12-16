@@ -22,6 +22,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-elektronik-fertigung.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-elektronik-fertigung.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -439,6 +452,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-electronic.php",
+		"oF": 0
+		},
+	"\/inc\/box-elektronik-fertigung.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-elektronik-fertigung.php",
 		"oF": 0
 		},
 	"\/inc\/box-footer.php": {
