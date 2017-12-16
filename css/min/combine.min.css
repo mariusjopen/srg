@@ -580,7 +580,8 @@ http://flickity.metafizzy.co
   border-right: 0px; }
 
 .box.maschinen-linien {
-  margin-top: -10px; }
+  margin-top: -10px;
+  padding-bottom: 80px; }
 
 .box.maschinen-linien .right {
   float: left;
@@ -608,16 +609,32 @@ http://flickity.metafizzy.co
   margin-left: 16px;
   margin-bottom: 10px; }
 
-.box.maschinen-linien .item {
-  display: none; }
+.box.maschinen-linien .item.linie-1,
+.box.maschinen-linien .item.linie-2,
+.box.maschinen-linien .item.linie-3 {
+  visibility: hidden;
+  height: 0px;
+  pointer-events: none;
+  overflow: hidden; }
 
-.active-linie-1 .box.maschinen-linien .linie-1,
-.active-linie-2 .box.maschinen-linien .linie-2,
-.active-linie-3 .box.maschinen-linien .linie-3 {
-  display: block; }
+.active-linie-1 .box.maschinen-linien .item.linie-1,
+.active-linie-2 .box.maschinen-linien .item.linie-2,
+.active-linie-3 .box.maschinen-linien .item.linie-3 {
+  visibility: visible;
+  height: auto;
+  pointer-events: all; }
 
 .box.maschinen-linien .flickity-page-dots {
-  bottom: -30px; }
+  bottom: 40px; }
+
+.box.maschinen-linien .carousel-cell {
+  width: 100%;
+  height: calc(40vw - 40px); }
+
+.box.maschinen-linien .caption {
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 1.3; }
 
 .box.material {
   margin-top: -10px; }
