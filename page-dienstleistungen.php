@@ -41,4 +41,8 @@ include(locate_template('inc/image-big.php'));
 include(locate_template('inc/box-logistik.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-logistik-slide.php'));
+?>
+
 <?php get_footer(); ?>

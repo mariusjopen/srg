@@ -53,12 +53,12 @@
 }
 
 .box.maschinen-linien .flickity-page-dots {
-    bottom: $difference-s;
+    bottom: $difference-l;
 }
 
 .box.maschinen-linien .carousel-cell {
     width: 100%;
-    height: calc(40vw - #{$difference-m});
+    height: calc(40vw - #{$difference-xl});
 }
 
 .box.maschinen-linien .caption {
