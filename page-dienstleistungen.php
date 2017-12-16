@@ -28,4 +28,8 @@ include(locate_template('inc/box-navigation-maschinen.php'));
 include(locate_template('inc/box-maschinen-linien.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-montage.php'));
+?>
+
 <?php get_footer(); ?>

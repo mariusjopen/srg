@@ -113,6 +113,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-montage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-montage.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-navigation-blocks.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -527,6 +540,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-mitarbeiter.php",
+		"oF": 0
+		},
+	"\/inc\/box-montage.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-montage.php",
 		"oF": 0
 		},
 	"\/inc\/box-navigation-blocks.php": {
