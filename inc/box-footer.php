@@ -3,7 +3,7 @@
 	<div class="top">
 		<div class="footer-left">
 			<div class="logo">
-				<img src="<?php echo get_field('logo_small' , 'option'); ?>">
+				<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_field('logo_small' , 'option'); ?>"></a>
 			</div>
 		</div>
 
