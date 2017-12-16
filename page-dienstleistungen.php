@@ -32,4 +32,13 @@ include(locate_template('inc/box-maschinen-linien.php'));
 include(locate_template('inc/box-montage.php'));
 ?>
 
+<?php
+$image_big = get_field('montage_bild');
+include(locate_template('inc/image-big.php'));
+?>
+
+<?php
+include(locate_template('inc/box-logistik.php'));
+?>
+
 <?php get_footer(); ?>

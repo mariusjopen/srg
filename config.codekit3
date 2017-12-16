@@ -74,6 +74,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-logistik.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-logistik.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-maschinen-linien.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -519,6 +532,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-linien.php",
+		"oF": 0
+		},
+	"\/inc\/box-logistik.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-logistik.php",
 		"oF": 0
 		},
 	"\/inc\/box-maschinen-linien.php": {
