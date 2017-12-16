@@ -1,0 +1,34 @@
+.box.navigation-maschinen {
+	padding-bottom: $difference-m;
+	@extend .background-beige;
+	margin-top: -$difference-xs;
+}
+
+.box.navigation-maschinen .top {
+	padding-bottom: $difference-m;
+	text-align: center;
+	@extend .flex-center-align;
+}
+
+.box.navigation-maschinen .linien-nav {
+	@extend .flex-center-align;
+}
+
+.box.navigation-maschinen .item {
+	width: calc(100% / 5);
+	text-align: center;
+	border: solid 1px $blue;
+	padding-top: $difference-xs;
+	padding-bottom: $difference-xs;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.box.navigation-maschinen .linie-nav-2 {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.box.navigation-maschinen .item:hover {
+	@extend .background-blue;
+}

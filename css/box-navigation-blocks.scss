@@ -1,0 +1,9 @@
+.box.navigation-blocks {
+	padding-bottom: $difference-m;
+}
+
+.box.navigation-blocks .top {
+	padding-bottom: $difference-m;
+	text-align: center;
+	@extend .flex-center-align;
+}

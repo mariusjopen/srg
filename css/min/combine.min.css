@@ -1,10 +1,10 @@
 @charset "UTF-8";
-.background-blue, .box.welcome, .box.navigation-main, .box.linien, .box.mitarbeiter .blue, .box.mitarbeiter .link {
+.background-blue, .box.welcome, .box.navigation-main, .box.linien, .box.mitarbeiter .blue, .box.mitarbeiter .link, .box.navigation-maschinen .item:hover {
   background-color: #182130;
   color: white; }
-  .background-blue a, .box.welcome a, .box.navigation-main a, .box.linien a, .box.mitarbeiter .blue a, .box.mitarbeiter .link a {
+  .background-blue a, .box.welcome a, .box.navigation-main a, .box.linien a, .box.mitarbeiter .blue a, .box.mitarbeiter .link a, .box.navigation-maschinen .item:hover a {
     color: white; }
-  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .box.linien a:hover, .box.mitarbeiter .blue a:hover, .box.mitarbeiter .link a:hover {
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .box.linien a:hover, .box.mitarbeiter .blue a:hover, .box.mitarbeiter .link a:hover, .box.navigation-maschinen .item:hover a:hover {
     color: #e4002b; }
 
 .background-red, .box.grafik .bottom .line, .box.grafik .bottom .block, .box.technische-beratung-slide .button {
@@ -15,12 +15,12 @@
   .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.electronic, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung {
+.background-beige, .box.electronic, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.electronic a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a {
+  .background-beige a, .box.electronic a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a {
     color: #182130; }
-  .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover {
+  .background-beige a:hover, .box.electronic a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover {
     color: #e4002b; }
 
 .background-white, .box.linien .item, .box.technische-beratung-slide .white, .box.material {
@@ -51,7 +51,7 @@
   padding-right: 0px;
   width: 55%; }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container, .footer .top, .footer .bottom, .footer .navigation {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-maschinen .top, .box.navigation-maschinen .linien-nav {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -488,6 +488,13 @@ http://flickity.metafizzy.co
   float: right;
   margin-left: 10px; }
 
+.box.navigation-blocks {
+  padding-bottom: 40px; }
+
+.box.navigation-blocks .top {
+  padding-bottom: 40px;
+  text-align: center; }
+
 .box.technische-beratung-slide {
   margin-top: -10px; }
 
@@ -533,3 +540,24 @@ http://flickity.metafizzy.co
 
 .box.elektronik-fertigung {
   margin-top: -10px; }
+
+.box.navigation-maschinen {
+  padding-bottom: 40px;
+  margin-top: -10px; }
+
+.box.navigation-maschinen .top {
+  padding-bottom: 40px;
+  text-align: center; }
+
+.box.navigation-maschinen .item {
+  width: calc(100% / 5);
+  text-align: center;
+  border: solid 1px #182130;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+  cursor: pointer; }
+
+.box.navigation-maschinen .linie-nav-2 {
+  border-left: 0px;
+  border-right: 0px; }

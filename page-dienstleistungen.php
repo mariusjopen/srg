@@ -20,4 +20,8 @@ include(locate_template('inc/box-material.php'));
 include(locate_template('inc/box-elektronik-fertigung.php'));
 ?>
 
+<?php
+include(locate_template('inc/box-navigation-maschinen.php'));
+?>
+
 <?php get_footer(); ?>
