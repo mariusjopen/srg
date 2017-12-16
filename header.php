@@ -14,3 +14,7 @@
 	<body <?php body_class(); ?> >
 
 		<div class="wrapper">
+
+			<?php
+			include(locate_template('inc/box-navigation-main.php'));
+			?>

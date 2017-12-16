@@ -301,6 +301,15 @@ http://flickity.metafizzy.co
   padding-left: 10px;
   padding-right: 10px; }
 
+.home .logo-red {
+  display: none; }
+
+.logo-red {
+  height: 25px;
+  position: absolute;
+  top: 16px;
+  left: 50px; }
+
 .box.grafik {
   padding-bottom: 40px; }
 

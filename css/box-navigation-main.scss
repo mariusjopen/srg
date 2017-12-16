@@ -12,3 +12,14 @@
 	padding-left: $difference-xs;
 	padding-right: $difference-xs;
 }
+
+.home .logo-red {
+	display: none;
+}
+
+.logo-red {
+  height: 25px;
+  position: absolute;
+  top: 16px;
+	left: $padding-sides;
+}
