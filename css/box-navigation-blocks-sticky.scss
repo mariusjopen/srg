@@ -1,0 +1,44 @@
+.sticky-navi .sticky .box.navigation-blocks {
+	top: 0px;
+}
+
+
+.sticky .box.navigation-blocks .word {
+  padding-top: $difference-xs;
+  padding-bottom: $difference-xs;
+}
+
+.sticky .box.navigation-blocks .center {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.sticky .box.navigation-blocks {
+		position: fixed;
+		@extend .background-white;
+		top: -60px;
+		left: 0px;
+		padding-top: 6px;
+		padding-bottom: 7px;
+		width: 100%;
+		z-index: 100;
+		transition: 0.2s ease;
+}
+
+.sticky .box.navigation-blocks .item {
+	width: calc(100vw / 7);
+	height: auto;
+	text-align: center;
+	@extend .background-beige;
+	cursor: pointer;
+	margin: 3px;
+	transition: 0.2s ease;
+}
+
+.sticky .box.navigation-blocks .top {
+    display: none;
+}
+
+.sticky .box.navigation-blocks .image {
+    display: none;
+}

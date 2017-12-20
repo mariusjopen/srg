@@ -7,8 +7,8 @@
 	</div>
 
 	<div class="center">
+		<div class="navi-block">
 
-		<div class="row-1 block-nav">
 			<div class="item nav-1">
 				<div class="word">
 					<?php echo get_field('navigation_1_text'); ?>
@@ -38,9 +38,7 @@
 					<img src="<?php echo get_field('navigation_3_image'); ?>">
 				</div>
 			</div>
-		</div>
 
-		<div class="row-2 block-nav">
 			<div class="item nav-4">
 				<div class="word">
 					<?php echo get_field('navigation_4_text'); ?>
@@ -70,8 +68,8 @@
 					<img src="<?php echo get_field('navigation_6_image'); ?>">
 				</div>
 			</div>
-		</div>
 
+		</div>
 	</div>
 </div>
 <!-- END BOX NAVIGATION BLOCKS -->

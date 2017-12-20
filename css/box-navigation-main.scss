@@ -23,3 +23,33 @@
   top: 16px;
 	left: $padding-sides;
 }
+
+.home .navi-empty .box.navigation-main {
+		@extend .background-blue;
+}
+
+.navi-empty .box.navigation-main {
+		@extend .background-white;
+}
+
+.navi-empty .box.navigation-main a,
+.navi-empty .box.navigation-main .menu {
+    visibility: hidden;
+}
+
+.navi-hide .box.navigation-main {
+    position: fixed;
+    z-index: 100;
+    top: -60px;
+    left: 0px;
+    width: 100%;
+		transition: 0.5s ease;
+}
+
+.navi-hide-active .navi-hide .box.navigation-main {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}

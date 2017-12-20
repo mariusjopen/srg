@@ -8,8 +8,15 @@
 	@extend .flex-center-align;
 }
 
-.box.navigation-blocks .block-nav {
+.box.navigation-blocks .navi-block{
 	@extend .flex-center-align;
+  flex-wrap: wrap;
+	display: flex;
+}
+
+.box.navigation-blocks .center {
+	padding-left: 20vw;
+	padding-right: 20vw;
 }
 
 .box.navigation-blocks .item {
@@ -21,6 +28,7 @@
 	margin: $difference-xs;
 	transition: 0.2s ease;
 }
+
 
 .box.navigation-blocks .item:hover {
 	@extend .background-dark-beige;
