@@ -21,12 +21,12 @@
   .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.electronic, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen, .box.maschinen-linien, .box.logistik, .box.logistik-slide, .sticky .box.navigation-blocks .item {
+.background-beige, .box.electronic, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen, .box.maschinen-linien, .box.logistik, .box.logistik-slide, .sticky .box.navigation-blocks .item, .box.link {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.electronic a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a, .box.maschinen-linien a, .box.logistik a, .box.logistik-slide a, .sticky .box.navigation-blocks .item a {
+  .background-beige a, .box.electronic a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a, .box.maschinen-linien a, .box.logistik a, .box.logistik-slide a, .sticky .box.navigation-blocks .item a, .box.link a {
     color: #182130; }
-  .background-beige a:hover, .box.electronic a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover, .box.maschinen-linien a:hover, .box.logistik a:hover, .box.logistik-slide a:hover {
+  .background-beige a:hover, .box.electronic a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover, .box.maschinen-linien a:hover, .box.logistik a:hover, .box.logistik-slide a:hover, .box.link a:hover {
     color: #e4002b; }
 
 .background-dark-beige, .box.navigation-blocks .item:hover {
@@ -396,10 +396,6 @@ http://flickity.metafizzy.co
 .box.electronic .logo-electronic img {
   width: 25%; }
 
-.box.electronic .link {
-  position: absolute;
-  bottom: 20px; }
-
 .box.linien {
   background-size: cover; }
 
@@ -768,3 +764,9 @@ http://flickity.metafizzy.co
 
 .sticky .box.navigation-blocks .image {
   display: none; }
+
+.box.link {
+  padding-top: 20px; }
+
+.box.link .link {
+  text-align: center; }

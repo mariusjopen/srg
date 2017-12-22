@@ -74,6 +74,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-link.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-link.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-logistik-slide.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -570,6 +583,13 @@
 		"oAP": "\/inc\/box-linien.php",
 		"oF": 0
 		},
+	"\/inc\/box-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-link.php",
+		"oF": 0
+		},
 	"\/inc\/box-logistik-slide.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -698,6 +718,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/image-slideshow.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/min\/combine.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/combine.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

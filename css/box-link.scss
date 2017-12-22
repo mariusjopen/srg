@@ -1,0 +1,8 @@
+.box.link {
+	@extend .background-beige;
+	padding-top: $difference-s;
+}
+
+.box.link .link {
+	text-align: center;
+}
