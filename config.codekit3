@@ -674,6 +674,13 @@
 		"oAP": "\/inc\/box-welcome.php",
 		"oF": 0
 		},
+	"\/inc\/flexible-moduls.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/flexible-moduls.php",
+		"oF": 0
+		},
 	"\/inc\/image-big.php": {
 		"cB": 0,
 		"ft": 8192,

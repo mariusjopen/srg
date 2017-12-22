@@ -13,7 +13,7 @@ include(locate_template('inc/box-electronic.php'));
 ?>
 
 <?php
-include(locate_template('inc/box-link.php'));
+include(locate_template('inc/flexible-moduls.php'));
 ?>
 
 <?php
