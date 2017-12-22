@@ -1,5 +1,5 @@
 <!-- START MODUL LINK -->
-<div class="modul link">
+<div class="modul link <?php echo $modul_link_background_color; ?>">
 
 	<div class="link">
 		<p-3>

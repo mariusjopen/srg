@@ -27,3 +27,20 @@
 .icon {
   margin-top: $difference-xs;
 }
+
+
+.button {
+	@extend .background-red;
+	padding: 6px 12px 6px 12px;
+	text-align: center;
+	display: inline-block;
+	margin-top: $difference-m;
+}
+
+.button a {
+	color: white;
+}
+
+.button a:hover {
+	color: white;
+}

@@ -1,33 +1,32 @@
-.box.logistik-slide {
-	@extend .background-beige;
+.modul.slideshow-textbox {
 	margin-top: -$difference-xs;
 	padding-bottom: $difference-xl;
 }
 
-.box.logistik-slide .right {
+.modul.slideshow-textbox .right {
 	float: left;
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
 }
 
-.box.logistik-slide .left {
+.modul.slideshow-textbox .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
 	padding-left: $difference-s;
 }
 
-.box.logistik-slide .technische-spez {
+.modul.slideshow-textbox .technische-spez {
 	margin-bottom: $difference-m;
 }
 
-.box.logistik-slide .text p {
+.modul.slideshow-textbox .text p {
 	font-size: 12px;
 	line-height: 1.3;
 	margin-bottom: $difference-xxs;
 }
 
-.box.logistik-slide .text li {
+.modul.slideshow-textbox .text li {
 	font-size: 12px;
 	line-height: 1.3;
 	list-style: decimal;
@@ -35,16 +34,16 @@
 	margin-bottom: $difference-xs;
 }
 
-.box.logistik-slide .flickity-page-dots {
+.modul.slideshow-textbox .flickity-page-dots {
     bottom: $difference-l;
 }
 
-.box.logistik-slide .carousel-cell {
+.modul.slideshow-textbox .carousel-cell {
     width: 100%;
     height: calc(40vw - #{$difference-xl});
 }
 
-.box.logistik-slide .caption {
+.modul.slideshow-textbox .caption {
 	padding-top: 2px;
 	font-size: 12px;
 	line-height: 1.3;

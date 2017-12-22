@@ -48,19 +48,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/box-logistik-slide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-logistik-slide.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/box-logistik.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -70,19 +57,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/box-logistik.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/box-maschinen-linien.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-maschinen-linien.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -159,7 +133,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/min\/box-navigation-maschinen.min.css",
 		"oF": 0,
 		"oS": 0,
@@ -412,6 +386,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/min\/modul-image.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/min\/modul-image.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/min\/page-frontpage.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -477,6 +461,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-link.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-maschinen-linien.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-maschinen-linien.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-slideshow-textbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-slideshow-textbox.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -590,13 +600,6 @@
 		"oAP": "\/inc\/box-logistik.php",
 		"oF": 0
 		},
-	"\/inc\/box-maschinen-linien.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/box-maschinen-linien.php",
-		"oF": 0
-		},
 	"\/inc\/box-material.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -653,6 +656,13 @@
 		"oAP": "\/inc\/box-welcome.php",
 		"oF": 0
 		},
+	"\/inc\/element-button.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/element-button.php",
+		"oF": 0
+		},
 	"\/inc\/element-link.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -693,6 +703,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/modul-link.php",
+		"oF": 0
+		},
+	"\/inc\/modul-maschinen-linien.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-maschinen-linien.php",
+		"oF": 0
+		},
+	"\/inc\/modul-slideshow-textbox.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-slideshow-textbox.php",
 		"oF": 0
 		},
 	"\/inc\/modul-slideshow.php": {

@@ -1,32 +1,32 @@
 @charset "UTF-8";
-.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .modul.linien, .box.navigation-maschinen .item:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1,
-.active-linie-2 .box.navigation-maschinen .linie-nav-2,
-.active-linie-3 .box.navigation-maschinen .linie-nav-3, .modul.slideshow .blue, .modul.slideshow .link {
+.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .modul.linien, .modul.maschinen-linien .navigation-maschinen .item:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
+.active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2,
+.active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3, .modul.slideshow .link {
   background-color: #182130;
   color: white; }
-  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .modul.linien a, .box.navigation-maschinen .item:hover a, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a,
-  .active-linie-2 .box.navigation-maschinen .linie-nav-2 a,
-  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a, .modul.slideshow .blue a, .modul.slideshow .link a {
+  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .modul.linien a, .modul.maschinen-linien .navigation-maschinen .item:hover a, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a,
+  .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a,
+  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a, .modul.slideshow .link a {
     color: white; }
-  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .home .navi-empty .box.navigation-main a:hover, .modul.linien a:hover, .box.navigation-maschinen .item:hover a:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a:hover,
-  .active-linie-2 .box.navigation-maschinen .linie-nav-2 a:hover,
-  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .blue a:hover, .modul.slideshow .link a:hover {
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .home .navi-empty .box.navigation-main a:hover, .modul.linien a:hover, .modul.maschinen-linien .navigation-maschinen .item:hover a:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a:hover,
+  .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a:hover,
+  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .link a:hover {
     color: #e4002b; }
 
-.background-red, .box.grafik .bottom .line, .box.grafik .bottom .block, .box.technische-beratung-slide .button {
+.background-red, .button, .box.grafik .bottom .line, .box.grafik .bottom .block, .box.technische-beratung-slide .button {
   background-color: #e4002b;
   color: white; }
-  .background-red a, .box.grafik .bottom .line a, .box.grafik .bottom .block a, .box.technische-beratung-slide .button a {
+  .background-red a, .button a, .box.grafik .bottom .line a, .box.grafik .bottom .block a, .box.technische-beratung-slide .button a {
     color: white; }
-  .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
+  .background-red a:hover, .button a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen, .box.maschinen-linien, .box.logistik, .box.logistik-slide, .sticky .box.navigation-blocks .item, .modul.link, .modul.text {
+.background-beige, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.logistik, .sticky .box.navigation-blocks .item, .modul.maschinen-linien .navigation-maschinen, .modul.maschinen-linien {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a, .box.maschinen-linien a, .box.logistik a, .box.logistik-slide a, .sticky .box.navigation-blocks .item a, .modul.link a, .modul.text a {
+  .background-beige a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.logistik a, .sticky .box.navigation-blocks .item a, .modul.maschinen-linien .navigation-maschinen a, .modul.maschinen-linien a {
     color: #182130; }
-  .background-beige a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover, .box.maschinen-linien a:hover, .box.logistik a:hover, .box.logistik-slide a:hover, .modul.link a:hover, .modul.text a:hover {
+  .background-beige a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.logistik a:hover, .modul.maschinen-linien a:hover {
     color: #e4002b; }
 
 .background-dark-beige, .box.navigation-blocks .item:hover {
@@ -65,7 +65,7 @@
   padding-right: 0px;
   width: 55%; }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .modul.linien .item-container, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .box.navigation-maschinen .top, .box.navigation-maschinen .linien-nav {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .modul.linien .item-container, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .modul.maschinen-linien .navigation-maschinen .top, .modul.maschinen-linien .navigation-maschinen .linien-nav {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -292,6 +292,18 @@ http://flickity.metafizzy.co
 .icon {
   margin-top: 10px; }
 
+.button {
+  padding: 6px 12px 6px 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px; }
+
+.button a {
+  color: white; }
+
+.button a:hover {
+  color: white; }
+
 .box.welcome {
   padding-top: 0px;
   padding-bottom: 0px; }
@@ -381,7 +393,8 @@ http://flickity.metafizzy.co
   text-align: center; }
 
 .modul.image {
-  display: flex; }
+  display: flex;
+  padding-top: 0px; }
 
 .modul.image img {
   width: 100%;
@@ -562,131 +575,11 @@ http://flickity.metafizzy.co
 .box.elektronik-fertigung {
   margin-top: -10px; }
 
-.box.navigation-maschinen {
-  padding-bottom: 40px;
-  margin-top: -10px; }
-
-.box.navigation-maschinen .top {
-  padding-bottom: 40px;
-  text-align: center; }
-
-.box.navigation-maschinen .item {
-  width: calc(100% / 5);
-  text-align: center;
-  border: solid 1px #182130;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: 0.2s ease;
-  cursor: pointer; }
-
-.box.navigation-maschinen .linie-nav-2 {
-  border-left: 0px;
-  border-right: 0px; }
-
-.box.maschinen-linien {
-  margin-top: -10px;
-  padding-bottom: 80px; }
-
-.box.maschinen-linien .right {
-  float: left;
-  width: calc(55% - 50px);
-  padding-left: 50px;
-  padding-right: 0px; }
-
-.box.maschinen-linien .left {
-  float: left;
-  width: calc(45% - 50px);
-  padding-left: 20px; }
-
-.box.maschinen-linien .technische-spez {
-  margin-bottom: 40px; }
-
-.box.maschinen-linien .text p {
-  font-size: 12px;
-  line-height: 1.3;
-  margin-bottom: 5px; }
-
-.box.maschinen-linien .text li {
-  font-size: 12px;
-  line-height: 1.3;
-  list-style: decimal;
-  margin-left: 16px;
-  margin-bottom: 10px; }
-
-.box.maschinen-linien .item.linie-1,
-.box.maschinen-linien .item.linie-2,
-.box.maschinen-linien .item.linie-3 {
-  visibility: hidden;
-  height: 0px;
-  pointer-events: none;
-  overflow: hidden; }
-
-.active-linie-1 .box.maschinen-linien .item.linie-1,
-.active-linie-2 .box.maschinen-linien .item.linie-2,
-.active-linie-3 .box.maschinen-linien .item.linie-3 {
-  visibility: visible;
-  height: auto;
-  pointer-events: all; }
-
-.box.maschinen-linien .flickity-page-dots {
-  bottom: 50px; }
-
-.box.maschinen-linien .carousel-cell {
-  width: 100%;
-  height: calc(40vw - 80px); }
-
-.box.maschinen-linien .caption {
-  padding-top: 2px;
-  font-size: 12px;
-  line-height: 1.3; }
-
 .box.material {
   margin-top: -10px; }
 
 .box.logistik {
   margin-top: -10px; }
-
-.box.logistik-slide {
-  margin-top: -10px;
-  padding-bottom: 80px; }
-
-.box.logistik-slide .right {
-  float: left;
-  width: calc(55% - 50px);
-  padding-left: 50px;
-  padding-right: 0px; }
-
-.box.logistik-slide .left {
-  float: left;
-  width: calc(45% - 50px);
-  padding-left: 20px; }
-
-.box.logistik-slide .technische-spez {
-  margin-bottom: 40px; }
-
-.box.logistik-slide .text p {
-  font-size: 12px;
-  line-height: 1.3;
-  margin-bottom: 5px; }
-
-.box.logistik-slide .text li {
-  font-size: 12px;
-  line-height: 1.3;
-  list-style: decimal;
-  margin-left: 16px;
-  margin-bottom: 10px; }
-
-.box.logistik-slide .flickity-page-dots {
-  bottom: 50px; }
-
-.box.logistik-slide .carousel-cell {
-  width: 100%;
-  height: calc(40vw - 80px); }
-
-.box.logistik-slide .caption {
-  padding-top: 2px;
-  font-size: 12px;
-  line-height: 1.3; }
 
 .sticky-navi .sticky .box.navigation-blocks {
   top: 0px; }
@@ -723,6 +616,84 @@ http://flickity.metafizzy.co
 .sticky .box.navigation-blocks .image {
   display: none; }
 
+.modul.maschinen-linien .navigation-maschinen {
+  padding-bottom: 40px;
+  margin-top: -10px; }
+
+.modul.maschinen-linien .navigation-maschinen .top {
+  padding-bottom: 40px;
+  text-align: center; }
+
+.modul.maschinen-linien .navigation-maschinen .item {
+  width: calc(100% / 5);
+  text-align: center;
+  border: solid 1px #182130;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+  cursor: pointer; }
+
+.modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
+  border-left: 0px;
+  border-right: 0px; }
+
+.modul.maschinen-linien {
+  margin-top: -10px;
+  padding-bottom: 80px; }
+
+.modul.maschinen-linien .right {
+  float: left;
+  width: calc(55% - 50px);
+  padding-left: 50px;
+  padding-right: 0px; }
+
+.modul.maschinen-linien .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px; }
+
+.modul.maschinen-linien .technische-spez {
+  margin-bottom: 40px; }
+
+.modul.maschinen-linien .text p {
+  font-size: 12px;
+  line-height: 1.3;
+  margin-bottom: 5px; }
+
+.modul.maschinen-linien .text li {
+  font-size: 12px;
+  line-height: 1.3;
+  list-style: decimal;
+  margin-left: 16px;
+  margin-bottom: 10px; }
+
+.modul.maschinen-linien .item.linie-1,
+.modul.maschinen-linien .item.linie-2,
+.modul.maschinen-linien .item.linie-3 {
+  visibility: hidden;
+  height: 0px;
+  pointer-events: none;
+  overflow: hidden; }
+
+.active-linie-1 .modul.maschinen-linien .item.linie-1,
+.active-linie-2 .modul.maschinen-linien .item.linie-2,
+.active-linie-3 .modul.maschinen-linien .item.linie-3 {
+  visibility: visible;
+  height: auto;
+  pointer-events: all; }
+
+.modul.maschinen-linien .flickity-page-dots {
+  bottom: 50px; }
+
+.modul.maschinen-linien .carousel-cell {
+  width: 100%;
+  height: calc(40vw - 80px); }
+
+.modul.maschinen-linien .caption {
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 1.3; }
+
 .modul.link {
   padding-top: 20px; }
 
@@ -753,12 +724,12 @@ http://flickity.metafizzy.co
   width: calc(45% - 50px);
   padding-left: 20px; }
 
-.modul.slideshow .blue {
+.modul.slideshow .colour {
   display: inline-block;
   margin-top: -80px;
   width: 100%; }
 
-.modul.slideshow .blue .left {
+.modul.slideshow .colour .left {
   float: left;
   width: calc(45% - 50px);
   padding-left: 20px;
@@ -771,3 +742,45 @@ http://flickity.metafizzy.co
   text-align: center;
   padding-bottom: 20px;
   margin-top: -10px; }
+
+.modul.slideshow-textbox {
+  margin-top: -10px;
+  padding-bottom: 80px; }
+
+.modul.slideshow-textbox .right {
+  float: left;
+  width: calc(55% - 50px);
+  padding-left: 50px;
+  padding-right: 0px; }
+
+.modul.slideshow-textbox .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px; }
+
+.modul.slideshow-textbox .technische-spez {
+  margin-bottom: 40px; }
+
+.modul.slideshow-textbox .text p {
+  font-size: 12px;
+  line-height: 1.3;
+  margin-bottom: 5px; }
+
+.modul.slideshow-textbox .text li {
+  font-size: 12px;
+  line-height: 1.3;
+  list-style: decimal;
+  margin-left: 16px;
+  margin-bottom: 10px; }
+
+.modul.slideshow-textbox .flickity-page-dots {
+  bottom: 50px; }
+
+.modul.slideshow-textbox .carousel-cell {
+  width: 100%;
+  height: calc(40vw - 80px); }
+
+.modul.slideshow-textbox .caption {
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 1.3; }

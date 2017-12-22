@@ -1,6 +1,7 @@
 .modul.slideshow {
 	padding-bottom: 0px;
 }
+
 .modul.slideshow .right {
 	float: left;
 	width: calc(#{$right} - #{$padding-sides});
@@ -14,14 +15,13 @@
 	padding-left: $difference-s;
 }
 
-.modul.slideshow .blue {
-	@extend .background-blue;
+.modul.slideshow .colour {
 	display: inline-block;
 	margin-top: -$difference-xl;
 	width: 100%;
 }
 
-.modul.slideshow .blue .left {
+.modul.slideshow .colour .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
 	padding-left: $difference-s;
