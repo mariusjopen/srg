@@ -3,15 +3,16 @@
 
 @import 'fonts';
 @import 'general';
-@import 'image-big';
+
 @import 'image-slideshow';
 @import 'box';
 @import 'box-welcome';
 @import 'box-navigation-main';
 @import 'box-grafik';
-@import 'box-electronic';
-@import 'box-linien';
-@import 'box-mitarbeiter';
+
+@import 'modul-image';
+@import 'modul-linien';
+
 @import 'box-footer';
 @import 'box-navigation-blocks';
 @import 'box-technische-beratung';
@@ -24,4 +25,7 @@
 @import 'box-logistik';
 @import 'box-logistik-slide';
 @import 'box-navigation-blocks-sticky';
-@import 'box-link';
+
+@import 'modul-link';
+@import 'modul-text';
+@import 'modul-slideshow';

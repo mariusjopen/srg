@@ -1,27 +1,27 @@
-.box.mitarbeiter {
+.modul.slideshow {
 	padding-bottom: 0px;
 }
-.box.mitarbeiter .right {
+.modul.slideshow .right {
 	float: left;
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
 }
 
-.box.mitarbeiter .left {
+.modul.slideshow .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
 	padding-left: $difference-s;
 }
 
-.box.mitarbeiter .blue {
+.modul.slideshow .blue {
 	@extend .background-blue;
 	display: inline-block;
 	margin-top: -$difference-xl;
 	width: 100%;
 }
 
-.box.mitarbeiter .blue .left {
+.modul.slideshow .blue .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
 	padding-left: $difference-s;
@@ -30,7 +30,7 @@
 	padding-bottom: $difference-l;
 }
 
-.box.mitarbeiter .link {
+.modul.slideshow .link {
 	@extend .background-blue;
   width: 100%;
   text-align: center;

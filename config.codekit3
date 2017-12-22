@@ -9,19 +9,6 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/css\/box-electronic.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-electronic.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/box-elektronik-fertigung.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -57,32 +44,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/box-grafik.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/box-linien.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-linien.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/box-link.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-link.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -135,19 +96,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/box-material.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/box-mitarbeiter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/box-mitarbeiter.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -317,19 +265,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/general.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/image-big.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/min\/image-big.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -507,6 +442,71 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/modul-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-image.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-linien.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-linien.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-link.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-link.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-slideshow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-slideshow.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-text.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -548,13 +548,6 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/inc\/box-electronic.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/box-electronic.php",
-		"oF": 0
-		},
 	"\/inc\/box-elektronik-fertigung.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -583,13 +576,6 @@
 		"oAP": "\/inc\/box-linien.php",
 		"oF": 0
 		},
-	"\/inc\/box-link.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/box-link.php",
-		"oF": 0
-		},
 	"\/inc\/box-logistik-slide.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -616,13 +602,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/box-material.php",
-		"oF": 0
-		},
-	"\/inc\/box-mitarbeiter.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/box-mitarbeiter.php",
 		"oF": 0
 		},
 	"\/inc\/box-montage.php": {
@@ -674,18 +653,18 @@
 		"oAP": "\/inc\/box-welcome.php",
 		"oF": 0
 		},
+	"\/inc\/element-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/element-link.php",
+		"oF": 0
+		},
 	"\/inc\/flexible-moduls.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/flexible-moduls.php",
-		"oF": 0
-		},
-	"\/inc\/image-big.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/image-big.php",
 		"oF": 0
 		},
 	"\/inc\/image-slideshow.php": {
@@ -695,11 +674,39 @@
 		"oAP": "\/inc\/image-slideshow.php",
 		"oF": 0
 		},
-	"\/inc\/page-link.php": {
+	"\/inc\/modul-image.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/page-link.php",
+		"oAP": "\/inc\/modul-image.php",
+		"oF": 0
+		},
+	"\/inc\/modul-linien.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-linien.php",
+		"oF": 0
+		},
+	"\/inc\/modul-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-link.php",
+		"oF": 0
+		},
+	"\/inc\/modul-slideshow.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-slideshow.php",
+		"oF": 0
+		},
+	"\/inc\/modul-text.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-text.php",
 		"oF": 0
 		},
 	"\/index.php": {

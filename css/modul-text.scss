@@ -1,13 +1,13 @@
-.box.electronic {
+.modul.text {
 	@extend .background-beige;
   display: flex;
 	position: relative;
 }
 
-.box.electronic .logo-electronic {
+.modul.text .logo-electronic {
   margin-top: $difference-m;
 }
 
-.box.electronic .logo-electronic img {
+.modul.text .logo-electronic img {
   width: 25%;
 }

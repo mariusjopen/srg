@@ -12,7 +12,8 @@
 	@extend .center-padding ;
 }
 
-.box {
+.box,
+.modul {
   width: 100%;
   display: inline-block;
 	padding-top: $difference-m;

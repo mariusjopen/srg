@@ -1,0 +1,6 @@
+.modul.image {
+  display: flex; }
+
+.modul.image img {
+  width: 100%;
+  height: auto; }

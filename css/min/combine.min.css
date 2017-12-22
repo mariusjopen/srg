@@ -1,16 +1,16 @@
 @charset "UTF-8";
-.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .box.linien, .box.mitarbeiter .blue, .box.mitarbeiter .link, .box.navigation-maschinen .item:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1,
+.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .modul.linien, .box.navigation-maschinen .item:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1,
 .active-linie-2 .box.navigation-maschinen .linie-nav-2,
-.active-linie-3 .box.navigation-maschinen .linie-nav-3 {
+.active-linie-3 .box.navigation-maschinen .linie-nav-3, .modul.slideshow .blue, .modul.slideshow .link {
   background-color: #182130;
   color: white; }
-  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .box.linien a, .box.mitarbeiter .blue a, .box.mitarbeiter .link a, .box.navigation-maschinen .item:hover a, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a,
+  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .modul.linien a, .box.navigation-maschinen .item:hover a, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a,
   .active-linie-2 .box.navigation-maschinen .linie-nav-2 a,
-  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a {
+  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a, .modul.slideshow .blue a, .modul.slideshow .link a {
     color: white; }
-  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .home .navi-empty .box.navigation-main a:hover, .box.linien a:hover, .box.mitarbeiter .blue a:hover, .box.mitarbeiter .link a:hover, .box.navigation-maschinen .item:hover a:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a:hover,
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .home .navi-empty .box.navigation-main a:hover, .modul.linien a:hover, .box.navigation-maschinen .item:hover a:hover, .active-linie-1 .box.navigation-maschinen .linie-nav-1 a:hover,
   .active-linie-2 .box.navigation-maschinen .linie-nav-2 a:hover,
-  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a:hover {
+  .active-linie-3 .box.navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .blue a:hover, .modul.slideshow .link a:hover {
     color: #e4002b; }
 
 .background-red, .box.grafik .bottom .line, .box.grafik .bottom .block, .box.technische-beratung-slide .button {
@@ -21,12 +21,12 @@
   .background-red a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover, .box.technische-beratung-slide .button a:hover {
     color: #182130; }
 
-.background-beige, .box.electronic, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen, .box.maschinen-linien, .box.logistik, .box.logistik-slide, .sticky .box.navigation-blocks .item, .box.link {
+.background-beige, .box.navigation-blocks .item, .box.technische-beratung, .box.technische-beratung-slide, .box.elektronik-fertigung, .box.navigation-maschinen, .box.maschinen-linien, .box.logistik, .box.logistik-slide, .sticky .box.navigation-blocks .item, .modul.link, .modul.text {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.electronic a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a, .box.maschinen-linien a, .box.logistik a, .box.logistik-slide a, .sticky .box.navigation-blocks .item a, .box.link a {
+  .background-beige a, .box.navigation-blocks .item a, .box.technische-beratung a, .box.technische-beratung-slide a, .box.elektronik-fertigung a, .box.navigation-maschinen a, .box.maschinen-linien a, .box.logistik a, .box.logistik-slide a, .sticky .box.navigation-blocks .item a, .modul.link a, .modul.text a {
     color: #182130; }
-  .background-beige a:hover, .box.electronic a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover, .box.maschinen-linien a:hover, .box.logistik a:hover, .box.logistik-slide a:hover, .box.link a:hover {
+  .background-beige a:hover, .box.navigation-blocks .item a:hover, .box.technische-beratung a:hover, .box.technische-beratung-slide a:hover, .box.elektronik-fertigung a:hover, .box.navigation-maschinen a:hover, .box.maschinen-linien a:hover, .box.logistik a:hover, .box.logistik-slide a:hover, .modul.link a:hover, .modul.text a:hover {
     color: #e4002b; }
 
 .background-dark-beige, .box.navigation-blocks .item:hover {
@@ -37,12 +37,12 @@
   .background-dark-beige a:hover, .box.navigation-blocks .item:hover a:hover {
     color: #e4002b; }
 
-.background-white, .navi-empty .box.navigation-main, .box.linien .item, .box.technische-beratung-slide .white, .box.material, .sticky .box.navigation-blocks {
+.background-white, .navi-empty .box.navigation-main, .modul.linien .item, .box.technische-beratung-slide .white, .box.material, .sticky .box.navigation-blocks {
   background-color: white;
   color: #182130; }
-  .background-white a, .navi-empty .box.navigation-main a, .box.linien .item a, .box.technische-beratung-slide .white a, .box.material a, .sticky .box.navigation-blocks a {
+  .background-white a, .navi-empty .box.navigation-main a, .modul.linien .item a, .box.technische-beratung-slide .white a, .box.material a, .sticky .box.navigation-blocks a {
     color: #182130; }
-  .background-white a:hover, .navi-empty .box.navigation-main a:hover, .box.linien .item a:hover, .box.technische-beratung-slide .white a:hover, .box.material a:hover, .sticky .box.navigation-blocks a:hover {
+  .background-white a:hover, .navi-empty .box.navigation-main a:hover, .modul.linien .item a:hover, .box.technische-beratung-slide .white a:hover, .box.material a:hover, .sticky .box.navigation-blocks a:hover {
     color: #e4002b; }
 
 .left-padding, .left {
@@ -53,7 +53,7 @@
   padding-left: 0px;
   width: 45%; }
 
-.center-padding, .center, .box.linien .top, .box.linien .item-container, .footer .top, .footer .bottom {
+.center-padding, .center, .modul.linien .top, .modul.linien .item-container, .footer .top, .footer .bottom {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -65,7 +65,7 @@
   padding-right: 0px;
   width: 55%; }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .box.linien .item-container, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .box.navigation-maschinen .top, .box.navigation-maschinen .linien-nav {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .modul.linien .item-container, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .box.navigation-maschinen .top, .box.navigation-maschinen .linien-nav {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -144,13 +144,6 @@ a:hover {
 
 li {
   list-style: none; }
-
-.image-big {
-  display: flex; }
-
-.image-big img {
-  width: 100%;
-  height: auto; }
 
 .carousel-cell {
   width: 100%;
@@ -286,7 +279,8 @@ http://flickity.metafizzy.co
 .right {
   float: left; }
 
-.box {
+.box,
+.modul {
   width: 100%;
   display: inline-block;
   padding-top: 40px;
@@ -386,84 +380,48 @@ http://flickity.metafizzy.co
   padding: 6px 12px 6px 12px;
   text-align: center; }
 
-.box.electronic {
-  display: flex;
-  position: relative; }
+.modul.image {
+  display: flex; }
 
-.box.electronic .logo-electronic {
-  margin-top: 40px; }
+.modul.image img {
+  width: 100%;
+  height: auto; }
 
-.box.electronic .logo-electronic img {
-  width: 25%; }
-
-.box.linien {
+.modul.linien {
   background-size: cover; }
 
-.box.linien .top {
+.modul.linien .top {
   padding-bottom: 50px; }
 
-.box.linien .item-container {
+.modul.linien .item-container {
   justify-content: space-around;
   align-items: unset;
   margin-bottom: 50px; }
 
-.box.linien .item {
+.modul.linien .item {
   width: calc(100% / 4); }
 
-.box.linien .sub-headline {
+.modul.linien .sub-headline {
   padding: 12px 10px 7px 10px;
   border-bottom: 1px solid #182130; }
 
-.box.linien .inhalt {
+.modul.linien .inhalt {
   padding: 10px 15px 30px 15px; }
 
-.box.linien .item li {
+.modul.linien .item li {
   margin-bottom: 10px; }
 
-.box.linien .item li:before {
+.modul.linien .item li:before {
   content: "– "; }
 
-.box.linien .item .inhalt p {
+.modul.linien .item .inhalt p {
   font-weight: bold;
   font-size: 15px; }
 
-.box.linien .link {
+.modul.linien .link {
   width: 100%;
   text-align: center;
   padding-bottom: 20px; }
-
-.box.mitarbeiter {
-  padding-bottom: 0px; }
-
-.box.mitarbeiter .right {
-  float: left;
-  width: calc(55% - 50px);
-  padding-left: 50px;
-  padding-right: 0px; }
-
-.box.mitarbeiter .left {
-  float: left;
-  width: calc(45% - 50px);
-  padding-left: 20px; }
-
-.box.mitarbeiter .blue {
-  display: inline-block;
-  margin-top: -80px;
-  width: 100%; }
-
-.box.mitarbeiter .blue .left {
-  float: left;
-  width: calc(45% - 50px);
-  padding-left: 20px;
-  margin-left: 55%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-.box.mitarbeiter .link {
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
-  margin-top: -10px; }
 
 .footer .top {
   padding-bottom: 40px;
@@ -765,8 +723,51 @@ http://flickity.metafizzy.co
 .sticky .box.navigation-blocks .image {
   display: none; }
 
-.box.link {
+.modul.link {
   padding-top: 20px; }
 
-.box.link .link {
+.modul.link .link {
   text-align: center; }
+
+.modul.text {
+  display: flex;
+  position: relative; }
+
+.modul.text .logo-electronic {
+  margin-top: 40px; }
+
+.modul.text .logo-electronic img {
+  width: 25%; }
+
+.modul.slideshow {
+  padding-bottom: 0px; }
+
+.modul.slideshow .right {
+  float: left;
+  width: calc(55% - 50px);
+  padding-left: 50px;
+  padding-right: 0px; }
+
+.modul.slideshow .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px; }
+
+.modul.slideshow .blue {
+  display: inline-block;
+  margin-top: -80px;
+  width: 100%; }
+
+.modul.slideshow .blue .left {
+  float: left;
+  width: calc(45% - 50px);
+  padding-left: 20px;
+  margin-left: 55%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.modul.slideshow .link {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: -10px; }

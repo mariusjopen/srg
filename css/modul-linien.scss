@@ -1,14 +1,14 @@
-.box.linien {
+.modul.linien {
 	background-size: cover;
 	@extend .background-blue ;
 }
 
-.box.linien .top {
+.modul.linien .top {
 	@extend .center-padding ;
 	padding-bottom: $difference-l;
 }
 
-.box.linien .item-container {
+.modul.linien .item-container {
 	@extend .flex-center-align;
 	justify-content: space-around;
 	align-items: unset;
@@ -16,34 +16,34 @@
 	margin-bottom: $difference-l;
 }
 
-.box.linien .item {
+.modul.linien .item {
 	@extend .background-white ;
 	width: calc(100% / 4);
 }
 
-.box.linien .sub-headline {
+.modul.linien .sub-headline {
   padding: 12px 10px 7px 10px;
 	border-bottom: 1px solid $blue;
 }
 
-.box.linien .inhalt {
+.modul.linien .inhalt {
   padding: 10px 15px 30px 15px;
 }
 
-.box.linien .item li {
+.modul.linien .item li {
 	margin-bottom: $difference-xs;
 }
 
-.box.linien .item li:before {
+.modul.linien .item li:before {
 	content: "– ";
 }
 
-.box.linien .item .inhalt p {
+.modul.linien .item .inhalt p {
 	font-weight: bold;
 	font-size: 15px;
 }
 
-.box.linien .link {
+.modul.linien .link {
   width: 100%;
   text-align: center;
 	padding-bottom: $difference-s;
