@@ -2,7 +2,7 @@
 <div class="modul maschinen-linien">
 
 	<div class="navigation-maschinen">
-			
+
 		<div class="top">
 			<h3><?php echo $modul_maschinen_linien_uberschrift; ?></h3>
 		</div>
@@ -32,7 +32,7 @@
 		<div class="right">
 			<?php
 			$image_slideshow = $modul_maschinen_linien_linie_1_slide;
-			include(locate_template('inc/image-slideshow.php'));
+			include(locate_template('inc/element-image-slideshow.php'));
 			?>
 		</div>
 
@@ -51,7 +51,7 @@
 		<div class="right">
 			<?php
 			$image_slideshow = $modul_maschinen_linien_linie_2_slide;
-			include(locate_template('inc/image-slideshow.php'));
+			include(locate_template('inc/element-image-slideshow.php'));
 			?>
 		</div>
 
@@ -70,7 +70,7 @@
 		<div class="right">
 			<?php
 			$image_slideshow = $modul_maschinen_linien_linie_3_slide;
-			include(locate_template('inc/image-slideshow.php'));
+			include(locate_template('inc/element-image-slideshow.php'));
 			?>
 		</div>
 

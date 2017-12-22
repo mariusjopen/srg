@@ -14,7 +14,7 @@
 	<div class="right">
 		<?php
 		$image_slideshow = get_field('image_slideshow');
-		include(locate_template('inc/image-slideshow.php'));
+		include(locate_template('inc/element-image-slideshow.php'));
 		?>
 	</div>
 

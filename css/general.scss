@@ -24,3 +24,34 @@ a:hover {
 li {
 	list-style: none;
 }
+
+
+.left {
+	float: left;
+	@extend .left-padding ;
+}
+
+.right {
+	float: left;
+	@extend .right-padding ;
+}
+
+.center {
+	@extend .center-padding ;
+}
+
+.box,
+.modul {
+  width: 100%;
+  display: inline-block;
+	padding-top: $difference-m;
+	padding-bottom: $difference-s;
+}
+
+.icon img {
+  height: 45px;
+}
+
+.icon {
+  margin-top: $difference-xs;
+}

@@ -4,7 +4,7 @@
 	<div class="white">
 		<div class="right">
 			<?php
-			include(locate_template('inc/image-slideshow.php'));
+			include(locate_template('inc/element-image-slideshow.php'));
 			?>
 		</div>
 

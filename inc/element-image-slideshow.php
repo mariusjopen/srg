@@ -1,4 +1,4 @@
-<!-- START IMAGE SLIDESHOW -->
+<!-- START ELEMENT IMAGE SLIDESHOW -->
 <?php if( $image_slideshow ): ?>
 
 	<div class="image-slideshow">
@@ -36,4 +36,4 @@
 	</div>
 
 <?php endif; ?>
-<!-- END IMAGE SLIDESHOW -->
+<!-- END ELEMENT IMAGE SLIDESHOW -->

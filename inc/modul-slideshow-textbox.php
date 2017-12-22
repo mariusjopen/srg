@@ -2,7 +2,7 @@
 <div class="modul slideshow-textbox <?php echo $modul_slideshow_textbox_background_color; ?>">
 		<div class="right">
 			<?php
-			include(locate_template('inc/image-slideshow.php'));
+			include(locate_template('inc/element-image-slideshow.php'));
 			?>
 		</div>
 
