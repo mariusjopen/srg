@@ -4,16 +4,17 @@ html, * {
 }
 
 body {
-	font-family: helvetica, arial;
 	color: $blue;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	@extend .font-m;
 }
 
 a {
 	text-decoration: none;
 	color: $blue;
 	transition: 0.2s ease;
+	@extend .font-m;
 }
 
 a:hover {
@@ -28,6 +29,34 @@ p {
 li {
 	list-style: none;
 	@extend .font-m;
+}
+
+strong {
+	@extend .font-m;
+}
+
+@font-face {
+    font-family: 'SequelSansW05-MediumBody';
+    src: url('../../fonts/SequelSansW05-MediumBody.woff2') format('woff2'),
+        url('../../fonts/SequelSansW05-MediumBody.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SequelSansW05-LightBody';
+    src: url('../../fonts/SequelSansW05-LightBody.woff2') format('woff2'),
+        url('../../fonts/SequelSansW05-LightBody.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SequelSansW05-RomanBody';
+    src: url('../../fonts/SequelSansW05-RomanBody.woff2') format('woff2'),
+        url('../../fonts/SequelSansW05-RomanBody.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 

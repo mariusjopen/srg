@@ -126,6 +126,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/extend-background.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/extend-background.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/extend-fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -139,7 +152,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/extend.scss": {
+	"\/css\/extend-positioning.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -147,7 +160,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/min\/extend.min.css",
+		"oAP": "\/css\/min\/extend-positioning.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -438,6 +451,48 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/fonts\/SequelSansW05-LightBody.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-LightBody.woff",
+		"oF": 0
+		},
+	"\/fonts\/SequelSansW05-LightBody.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-LightBody.woff2",
+		"oF": 0
+		},
+	"\/fonts\/SequelSansW05-MediumBody.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-MediumBody.woff",
+		"oF": 0
+		},
+	"\/fonts\/SequelSansW05-MediumBody.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-MediumBody.woff2",
+		"oF": 0
+		},
+	"\/fonts\/SequelSansW05-RomanBody.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-RomanBody.woff",
+		"oF": 0
+		},
+	"\/fonts\/SequelSansW05-RomanBody.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SequelSansW05-RomanBody.woff2",
+		"oF": 0
 		},
 	"\/footer.php": {
 		"cB": 0,
