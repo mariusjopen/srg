@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="headline">
-			<h2><?php echo get_field('text_welcome'); ?></h2>
+			<?php echo get_field('text_welcome'); ?>
 		</div>
 	</div>
 

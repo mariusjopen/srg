@@ -1,7 +1,7 @@
 <!-- START MODUL LINIEN -->
 <div class="modul linien" style="background-image: url(<?php echo $modul_linien_hintergrund; ?>)">
 	<div class="top">
-		<h2><?php echo $modul_linien_uberschrift; ?></h2>
+		<?php echo $modul_linien_uberschrift; ?>
 	</div>
 
 	<div class="item-container">
@@ -37,7 +37,7 @@
 	</div>
 
 	<div class="link">
-		<h3><a href=""><?php echo $modul_linien_alle; ?></a></h3>
+		<a href=""><?php echo $modul_linien_alle; ?></a>
 	</div>
 </div>
 <!-- END MODUL LINIEN -->

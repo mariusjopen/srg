@@ -4,7 +4,7 @@
 	<div class="navigation-maschinen">
 
 		<div class="top">
-			<h3><?php echo $modul_maschinen_linien_uberschrift; ?></h3>
+			<?php echo $modul_maschinen_linien_uberschrift; ?>
 		</div>
 
 		<div class="center">
@@ -38,7 +38,7 @@
 
 		<div class="left">
 			<div class="technische-spez">
-				<h4><?php echo $modul_maschinen_linien_unter_uberschrift; ?><h4>
+				<?php echo $modul_maschinen_linien_unter_uberschrift; ?>
 			</div>
 
 			<div class="text">
@@ -57,7 +57,7 @@
 
 		<div class="left">
 			<div class="technische-spez">
-				<h4><?php echo $modul_maschinen_linien_unter_uberschrift; ?><h4>
+				<?php echo $modul_maschinen_linien_unter_uberschrift; ?>
 			</div>
 
 			<div class="text">
@@ -76,7 +76,7 @@
 
 		<div class="left">
 			<div class="technische-spez">
-				<h4><?php echo $modul_maschinen_linien_unter_uberschrift; ?><h4>
+				<?php echo $modul_maschinen_linien_unter_uberschrift; ?>
 			</div>
 
 			<div class="text">

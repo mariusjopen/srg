@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="left">
-			<h2><?php echo $modul_slideshow_text_gros; ?></h2>
+			<?php echo $modul_slideshow_text_gros; ?>
 
 			<?php
 			include(locate_template('inc/element-button.php'));
@@ -19,7 +19,7 @@
 
 	<div class="colour <?php echo $modul_slideshow_background_color_2; ?>">
 		<div class="left">
-			<p-2><?php echo $modul_slideshow_text_klein; ?></p-2>
+			<?php echo $modul_slideshow_text_klein; ?>
 		</div>
 	</div>
 

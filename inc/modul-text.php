@@ -3,7 +3,7 @@
 
 	<div class="left">
 		<div class="headline">
-			<h2><?php echo $modul_text_uberschrift; ?></h2>
+			<?php echo $modul_text_uberschrift; ?>
 		</div>
 
 		<div class="logo-electronic">

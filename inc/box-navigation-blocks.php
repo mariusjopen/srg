@@ -2,7 +2,7 @@
 <div class="box navigation-blocks">
 	<div class="center">
 		<div class="top">
-			<h3><?php echo get_field('navigation_text'); ?></h3>
+			<?php echo get_field('navigation_text'); ?>
 		</div>
 	</div>
 

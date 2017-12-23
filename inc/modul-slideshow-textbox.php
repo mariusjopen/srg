@@ -8,7 +8,7 @@
 
 		<div class="left">
 			<div class="technische-spez">
-				<h4><?php echo $modul_slideshow_textbox_text_gros; ?><h4>
+				<?php echo $modul_slideshow_textbox_text_gros; ?>
 			</div>
 
 			<div class="text">

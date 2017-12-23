@@ -21,8 +21,13 @@ a:hover {
 	color: $red;
 }
 
+p {
+	@extend .font-m;
+}
+
 li {
 	list-style: none;
+	@extend .font-m;
 }
 
 
@@ -54,4 +59,8 @@ li {
 
 .icon {
   margin-top: $difference-xs;
+}
+
+.headline {
+	padding-right: $difference-s;
 }
