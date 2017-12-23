@@ -1,6 +1,6 @@
 .modul.slideshow-textbox {
-	margin-top: -$difference-xs;
-	padding-bottom: $difference-xl;
+	padding-bottom: 0px;
+  display: flex;
 }
 
 .modul.slideshow-textbox .right {
@@ -32,19 +32,4 @@
 	list-style: decimal;
 	margin-left: 16px;
 	margin-bottom: $difference-xs;
-}
-
-.modul.slideshow-textbox .flickity-page-dots {
-    bottom: $difference-l;
-}
-
-.modul.slideshow-textbox .carousel-cell {
-    width: 100%;
-    height: calc(40vw - #{$difference-xl});
-}
-
-.modul.slideshow-textbox .caption {
-	padding-top: 2px;
-	font-size: 12px;
-	line-height: 1.3;
 }

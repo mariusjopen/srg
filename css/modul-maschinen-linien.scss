@@ -1,51 +1,6 @@
-.modul.maschinen-linien .navigation-maschinen {
-	padding-bottom: $difference-m;
-	@extend .background-beige;
-	margin-top: -$difference-xs;
-}
-
-.modul.maschinen-linien .navigation-maschinen .top {
-	padding-bottom: $difference-m;
-	text-align: center;
-	@extend .flex-center-align;
-}
-
-.modul.maschinen-linien .navigation-maschinen .linien-nav {
-	@extend .flex-center-align;
-}
-
-.modul.maschinen-linien .navigation-maschinen .item {
-	width: calc(100% / 5);
-	text-align: center;
-	border: solid 1px $blue;
-	padding-top: $difference-xs;
-	padding-bottom: $difference-xs;
-	transition: 0.2s ease;
-	cursor: pointer;
-}
-
-.modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
-	border-left: 0px;
-	border-right: 0px;
-}
-
-.modul.maschinen-linien .navigation-maschinen .item:hover {
-	@extend .background-blue;
-}
-
-
-.active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
-.active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2,
-.active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 {
-	@extend .background-blue;
-}
-
-
-
 .modul.maschinen-linien {
-	@extend .background-beige;
 	margin-top: -$difference-xs;
-	padding-bottom: $difference-xl;
+	padding-bottom: 0px;
 }
 
 .modul.maschinen-linien .right {
@@ -96,17 +51,46 @@
 	pointer-events: all;
 }
 
-.modul.maschinen-linien .flickity-page-dots {
-    bottom: $difference-l;
+
+
+
+
+.modul.maschinen-linien .navigation-maschinen {
+	padding-bottom: $difference-m;
 }
 
-.modul.maschinen-linien .carousel-cell {
-    width: 100%;
-    height: calc(40vw - #{$difference-xl});
+.modul.maschinen-linien .navigation-maschinen .top {
+	padding-bottom: $difference-m;
+	text-align: center;
+	@extend .flex-center-align;
 }
 
-.modul.maschinen-linien .caption {
-	padding-top: 2px;
-	font-size: 12px;
-	line-height: 1.3;
+.modul.maschinen-linien .navigation-maschinen .linien-nav {
+	@extend .flex-center-align;
+}
+
+.modul.maschinen-linien .navigation-maschinen .item {
+	width: calc(100% / 5);
+	text-align: center;
+	border: solid 1px $blue;
+	padding-top: $difference-xs;
+	padding-bottom: $difference-xs;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.modul.maschinen-linien .navigation-maschinen .item:hover {
+	@extend .background-blue;
+}
+
+
+.active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
+.active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2,
+.active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 {
+	@extend .background-blue;
 }

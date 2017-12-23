@@ -64,6 +64,7 @@
 
 						elseif( get_row_layout() == 'modul_maschinen_linien' ):
 
+						$modul_maschinen_linien_background_color = get_sub_field('background_color');
 						$modul_maschinen_linien_uberschrift = get_sub_field('uberschrift');
 						$modul_maschinen_linien_unter_uberschrift = get_sub_field('unter_uberschrift');
 						$modul_maschinen_linien_linie_1_uberschrift = get_sub_field('linie_1_uberschrift');

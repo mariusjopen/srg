@@ -21,12 +21,12 @@
   .background-red a:hover, .button a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover {
     color: #182130; }
 
-.background-beige, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.maschinen-linien .navigation-maschinen, .modul.maschinen-linien {
+.background-beige, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.navigation-blocks .item a, .sticky .box.navigation-blocks .item a, .modul.maschinen-linien .navigation-maschinen a, .modul.maschinen-linien a {
+  .background-beige a, .box.navigation-blocks .item a, .sticky .box.navigation-blocks .item a {
     color: #182130; }
-  .background-beige a:hover, .box.navigation-blocks .item a:hover, .modul.maschinen-linien a:hover {
+  .background-beige a:hover, .box.navigation-blocks .item a:hover {
     color: #e4002b; }
 
 .background-dark-beige, .box.navigation-blocks .item:hover {
@@ -164,14 +164,22 @@ li {
 .icon {
   margin-top: 10px; }
 
+.carousel-cell img {
+  width: 100%;
+  height: calc(100% - 50px);
+  object-fit: cover; }
+
+.flickity-page-dots {
+  bottom: 6vw; }
+
 .carousel-cell {
   width: 100%;
   height: 40vw; }
 
-.carousel-cell img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
+.caption {
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 1.3; }
 
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co
@@ -269,7 +277,6 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -329,6 +336,12 @@ http://flickity.metafizzy.co
 .box.welcome .image-slideshow {
   position: absolute;
   width: 55%; }
+
+.box.welcome .caption {
+  display: none; }
+
+.box.welcome .carousel-cell img {
+  height: 100%; }
 
 .box.navigation-main {
   padding-top: 20px;
@@ -522,7 +535,8 @@ http://flickity.metafizzy.co
 
 .modul.image {
   display: flex;
-  padding-top: 0px; }
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .modul.image img {
   width: 100%;
@@ -564,30 +578,9 @@ http://flickity.metafizzy.co
   text-align: center;
   padding-bottom: 20px; }
 
-.modul.maschinen-linien .navigation-maschinen {
-  padding-bottom: 40px;
-  margin-top: -10px; }
-
-.modul.maschinen-linien .navigation-maschinen .top {
-  padding-bottom: 40px;
-  text-align: center; }
-
-.modul.maschinen-linien .navigation-maschinen .item {
-  width: calc(100% / 5);
-  text-align: center;
-  border: solid 1px #182130;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: 0.2s ease;
-  cursor: pointer; }
-
-.modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
-  border-left: 0px;
-  border-right: 0px; }
-
 .modul.maschinen-linien {
   margin-top: -10px;
-  padding-bottom: 80px; }
+  padding-bottom: 0px; }
 
 .modul.maschinen-linien .right {
   float: left;
@@ -630,17 +623,25 @@ http://flickity.metafizzy.co
   height: auto;
   pointer-events: all; }
 
-.modul.maschinen-linien .flickity-page-dots {
-  bottom: 50px; }
+.modul.maschinen-linien .navigation-maschinen {
+  padding-bottom: 40px; }
 
-.modul.maschinen-linien .carousel-cell {
-  width: 100%;
-  height: calc(40vw - 80px); }
+.modul.maschinen-linien .navigation-maschinen .top {
+  padding-bottom: 40px;
+  text-align: center; }
 
-.modul.maschinen-linien .caption {
-  padding-top: 2px;
-  font-size: 12px;
-  line-height: 1.3; }
+.modul.maschinen-linien .navigation-maschinen .item {
+  width: calc(100% / 5);
+  text-align: center;
+  border: solid 1px #182130;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+  cursor: pointer; }
+
+.modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
+  border-left: 0px;
+  border-right: 0px; }
 
 .modul.link {
   padding-top: 20px; }
@@ -650,7 +651,8 @@ http://flickity.metafizzy.co
 
 .modul.text {
   display: flex;
-  position: relative; }
+  position: relative;
+  padding-bottom: 40px; }
 
 .modul.text .logo-electronic {
   margin-top: 40px; }
@@ -659,7 +661,8 @@ http://flickity.metafizzy.co
   width: 25%; }
 
 .modul.slideshow {
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  display: grid; }
 
 .modul.slideshow .right {
   float: left;
@@ -692,8 +695,8 @@ http://flickity.metafizzy.co
   margin-top: -10px; }
 
 .modul.slideshow-textbox {
-  margin-top: -10px;
-  padding-bottom: 80px; }
+  padding-bottom: 0px;
+  display: flex; }
 
 .modul.slideshow-textbox .right {
   float: left;
@@ -720,15 +723,3 @@ http://flickity.metafizzy.co
   list-style: decimal;
   margin-left: 16px;
   margin-bottom: 10px; }
-
-.modul.slideshow-textbox .flickity-page-dots {
-  bottom: 50px; }
-
-.modul.slideshow-textbox .carousel-cell {
-  width: 100%;
-  height: calc(40vw - 80px); }
-
-.modul.slideshow-textbox .caption {
-  padding-top: 2px;
-  font-size: 12px;
-  line-height: 1.3; }

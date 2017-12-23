@@ -1,5 +1,5 @@
 <!-- START MODUL MASCHINEN LINIEN -->
-<div class="modul maschinen-linien">
+<div class="modul maschinen-linien <?php echo $modul_maschinen_linien_background_color; ?>">
 
 	<div class="navigation-maschinen">
 

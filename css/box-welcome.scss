@@ -35,3 +35,12 @@
 	position: absolute;
 	width: $right;
 }
+
+.box.welcome .caption {
+	display: none;
+}
+
+
+.box.welcome  .carousel-cell img {
+	height: 100%;
+}
