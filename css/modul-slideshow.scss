@@ -16,6 +16,11 @@
 	padding-left: $difference-s;
 }
 
+.modul.slideshow .left p {
+	@extend .font-xl;
+	@extend .font-regular;
+}
+
 .modul.slideshow .colour {
 	display: inline-block;
 	margin-top: -$difference-xl;
@@ -29,7 +34,9 @@
 	margin-left: $right;
 	padding-top: $difference-l;
 	padding-bottom: $difference-l;
+	@extend .font-s;
 }
+
 
 .modul.slideshow .link {
 	@extend .background-blue;

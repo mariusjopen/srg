@@ -6,11 +6,12 @@
 			<?php echo $modul_text_uberschrift; ?>
 		</div>
 
-		<div class="logo-electronic">
-			<?php if( $modul_text_logo ): ?>
-				<img src="<?php echo $modul_text_logo; ?>">
-			<?php endif; ?>
-		</div>
+		<?php if( $modul_text_logo ): ?>
+			<div class="logo-electronic">
+					<img src="<?php echo $modul_text_logo; ?>">
+			</div>
+		<?php endif; ?>
+
 	</div>
 
 	<div class="right">

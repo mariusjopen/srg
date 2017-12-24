@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="left">
-			<?php echo $modul_slideshow_text_gros; ?>
+			<p><?php echo $modul_slideshow_text_gros; ?><p>
 
 			<?php
 			include(locate_template('inc/element-button.php'));

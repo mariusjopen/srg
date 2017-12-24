@@ -69,16 +69,74 @@
   align-items: center;
   justify-content: center; }
 
-.font-m, body, a, p, li, strong {
+.font-light, body, a, p, li {
+  font-family: 'SequelSansW05-LightBody';
+  font-weight: normal; }
+
+.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p {
+  font-family: 'SequelSansW05-RomanBody';
+  font-weight: normal; }
+
+.font-medium, strong, .modul.maschinen-linien .technische-spez, .modul.slideshow-textbox .technische-spez {
+  font-family: 'SequelSansW05-MediumBody';
+  font-weight: normal; }
+
+.font-xs, .footer .bottom p,
+.footer .bottom a, .footer .top .footer-right {
+  font-size: 10px;
+  line-height: 1.38;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    .font-xs, .footer .bottom p,
+    .footer .bottom a, .footer .top .footer-right {
+      font-size: 8px; } }
+  @media screen and (max-width: 600px) {
+    .font-xs, .footer .bottom p,
+    .footer .bottom a, .footer .top .footer-right {
+      font-size: 8px; } }
+
+.font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+  font-size: 13px;
+  line-height: 1.38;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    .font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+      font-size: 13px; } }
+  @media screen and (max-width: 600px) {
+    .font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+      font-size: 12px; } }
+
+.font-m, body, a, p, li {
   font-size: 17.5px;
   line-height: 1.38;
-  font-weight: normal;
-  font-family: 'SequelSansW05-LightBody'; }
+  font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-m, body, a, p, li, strong {
+    .font-m, body, a, p, li {
       font-size: 17.5px; } }
   @media screen and (max-width: 600px) {
-    .font-m, body, a, p, li, strong {
+    .font-m, body, a, p, li {
+      font-size: 15px; } }
+
+.font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+  font-size: 26px;
+  line-height: 1.38;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    .font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+      font-size: 24px; } }
+  @media screen and (max-width: 600px) {
+    .font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+      font-size: 20px; } }
+
+.font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
+  font-size: 30px;
+  line-height: 1.28;
+  font-weight: normal; }
+  @media screen and (max-width: 900px) {
+    .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
+      font-size: 17.5px; } }
+  @media screen and (max-width: 600px) {
+    .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
       font-size: 15px; } }
 
 html, * {
@@ -281,7 +339,11 @@ http://flickity.metafizzy.co
   padding: 6px 12px 6px 12px;
   text-align: center;
   display: inline-block;
-  margin-top: 40px; }
+  margin-top: 40px;
+  transition: 0.2s ease; }
+
+.button:hover {
+  background-color: #182130; }
 
 .button a {
   color: white; }
@@ -390,10 +452,6 @@ http://flickity.metafizzy.co
 .footer .bottom {
   margin-bottom: 20px;
   align-items: unset; }
-
-.footer .bottom p {
-  font-size: 10px;
-  line-height: 1.4; }
 
 .footer .bottom span {
   padding-right: 10px; }
@@ -524,7 +582,8 @@ http://flickity.metafizzy.co
   background-size: cover; }
 
 .modul.linien .top {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  width: 50%; }
 
 .modul.linien .item-container {
   justify-content: space-around;
@@ -540,6 +599,10 @@ http://flickity.metafizzy.co
 
 .modul.linien .inhalt {
   padding: 10px 15px 30px 15px; }
+
+.modul.linien .inhalt li:before {
+  content: "\2014";
+  padding-right: 5px; }
 
 .modul.linien .item li {
   margin-bottom: 10px; }
@@ -607,6 +670,13 @@ http://flickity.metafizzy.co
 
 .modul.link .link {
   text-align: center; }
+
+.modul.link a {
+  text-transform: uppercase;
+  color: #e4002b; }
+
+.modul.link a:hover {
+  color: #182130; }
 
 .modul.text {
   display: flex;

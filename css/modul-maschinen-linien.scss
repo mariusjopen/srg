@@ -10,6 +10,11 @@
 	padding-right: 0px;
 }
 
+.modul.maschinen-linien .top{
+	@extend .font-l;
+	@extend .font-regular;
+}
+
 .modul.maschinen-linien .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
@@ -18,6 +23,7 @@
 
 .modul.maschinen-linien .technische-spez {
 	margin-bottom: $difference-m;
+	@extend .font-medium;
 }
 
 .modul.maschinen-linien .item.linie-1,
@@ -37,6 +43,14 @@
 	pointer-events: all;
 }
 
+
+.modul.maschinen-linien .text p {
+	@extend .font-s;
+}
+
+.modul.maschinen-linien .text li {
+	@extend .font-s;
+}
 
 
 
@@ -64,6 +78,7 @@
 	transition: 0.2s ease;
 	cursor: pointer;
 }
+
 
 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
 	border-left: 0px;

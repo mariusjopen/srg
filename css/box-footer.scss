@@ -12,13 +12,13 @@
   align-items: unset;
 }
 
-.footer .bottom p {
-	font-size: 10px;
-	line-height: 1.4;
-}
-
 .footer .bottom span {
 	padding-right: $difference-xs;
+}
+
+.footer .bottom p,
+.footer .bottom a  {
+	@extend .font-xs;
 }
 
 .footer .email,
@@ -50,6 +50,7 @@
 .footer .top .footer-right {
 	width: 20%;
 	float: left;
+	@extend .font-xs;
 }
 
 .footer .item {

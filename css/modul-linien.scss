@@ -6,6 +6,9 @@
 .modul.linien .top {
 	@extend .center-padding ;
 	padding-bottom: $difference-l;
+	@extend .font-xl;
+	@extend .font-regular;
+	width: 50%;
 }
 
 .modul.linien .item-container {
@@ -30,6 +33,19 @@
   padding: 10px 15px 30px 15px;
 }
 
+.modul.linien .inhalt p {
+	@extend .font-s;
+}
+
+.modul.linien .inhalt li {
+	@extend .font-s;
+}
+
+.modul.linien .inhalt li:before {
+	content: "\2014";
+	padding-right: 5px;
+}
+
 .modul.linien .item li {
 	margin-bottom: $difference-xs;
 }
@@ -38,4 +54,9 @@
   width: 100%;
   text-align: center;
 	padding-bottom: $difference-s;
+}
+
+.modul.linien .link  a {
+		@extend .font-l;
+		@extend .font-regular;
 }

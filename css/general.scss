@@ -8,6 +8,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	@extend .font-m;
+	@extend .font-light;
 }
 
 a {
@@ -15,6 +16,7 @@ a {
 	color: $blue;
 	transition: 0.2s ease;
 	@extend .font-m;
+	@extend .font-light;
 }
 
 a:hover {
@@ -24,15 +26,17 @@ a:hover {
 
 p {
 	@extend .font-m;
+	@extend .font-light;
 }
 
 li {
 	list-style: none;
 	@extend .font-m;
+	@extend .font-light;
 }
 
 strong {
-	@extend .font-m;
+	@extend .font-medium;
 }
 
 @font-face {
@@ -92,4 +96,6 @@ strong {
 
 .headline {
 	padding-right: $difference-s;
+	@extend .font-xl;
+	@extend .font-regular;
 }

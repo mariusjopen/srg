@@ -18,4 +18,13 @@
 
 .modul.slideshow-textbox .technische-spez {
 	margin-bottom: $difference-m;
+	@extend .font-medium;
+}
+
+.modul.slideshow-textbox  .text p {
+	@extend .font-s;
+}
+
+.modul.slideshow-textbox  .text li {
+	@extend .font-s;
 }

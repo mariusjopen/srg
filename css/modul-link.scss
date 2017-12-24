@@ -5,3 +5,13 @@
 .modul.link .link {
 	text-align: center;
 }
+
+.modul.link a {
+	@extend .font-regular;
+	text-transform: uppercase;
+	color: $red;
+}
+
+.modul.link a:hover {
+	color: $blue;
+}
