@@ -604,9 +604,6 @@ http://flickity.metafizzy.co
   content: "\2014";
   padding-right: 5px; }
 
-.modul.linien .item li {
-  margin-bottom: 10px; }
-
 .modul.linien .link {
   width: 100%;
   text-align: center;
@@ -644,6 +641,13 @@ http://flickity.metafizzy.co
   visibility: visible;
   height: auto;
   pointer-events: all; }
+
+.modul.maschinen-linien .text {
+  padding-bottom: 40px; }
+
+.modul.maschinen-linien .text li:before {
+  content: "\2014";
+  padding-right: 5px; }
 
 .modul.maschinen-linien .navigation-maschinen {
   padding-bottom: 40px; }
@@ -740,3 +744,10 @@ http://flickity.metafizzy.co
 
 .modul.slideshow-textbox .technische-spez {
   margin-bottom: 40px; }
+
+.modul.slideshow-textbox .text {
+  padding-bottom: 40px; }
+
+.modul.slideshow-textbox .text li:before {
+  content: "\2014";
+  padding-right: 5px; }

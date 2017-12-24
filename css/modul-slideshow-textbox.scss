@@ -21,10 +21,19 @@
 	@extend .font-medium;
 }
 
-.modul.slideshow-textbox  .text p {
+.modul.slideshow-textbox .text {
+	padding-bottom: $difference-m;
+}
+
+.modul.slideshow-textbox .text p {
 	@extend .font-s;
 }
 
-.modul.slideshow-textbox  .text li {
+.modul.slideshow-textbox .text li {
 	@extend .font-s;
+}
+
+.modul.slideshow-textbox .text li:before {
+	content: "\2014";
+	padding-right: 5px;
 }

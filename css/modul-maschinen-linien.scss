@@ -43,6 +43,9 @@
 	pointer-events: all;
 }
 
+.modul.maschinen-linien .text {
+	padding-bottom: $difference-m;
+}
 
 .modul.maschinen-linien .text p {
 	@extend .font-s;
@@ -50,6 +53,11 @@
 
 .modul.maschinen-linien .text li {
 	@extend .font-s;
+}
+
+.modul.maschinen-linien .text li:before {
+	content: "\2014";
+	padding-right: 5px;
 }
 
 
