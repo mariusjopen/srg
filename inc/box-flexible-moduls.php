@@ -20,6 +20,7 @@
 						$modul_text_uberschrift = get_sub_field('uberschrift');
 						$modul_text_text = get_sub_field('text');
 						$modul_text_logo = get_sub_field('logo');
+						$modul_text_id = get_sub_field('id');
 	        	include(locate_template('inc/modul-text.php'));
 
 					elseif( get_row_layout() == 'modul_linien' ):

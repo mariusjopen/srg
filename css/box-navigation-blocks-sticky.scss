@@ -16,10 +16,10 @@
 .sticky .box.navigation-blocks {
 		position: fixed;
 		@extend .background-white;
-		top: -60px;
+		top: -80px;
 		left: 0px;
-		padding-top: 6px;
-		padding-bottom: 7px;
+		padding-top: 10px;
+		padding-bottom: 11px;
 		width: 100%;
 		z-index: 100;
 		transition: 0.2s ease;
@@ -33,7 +33,10 @@
 	cursor: pointer;
 	margin: 3px;
 	transition: 0.2s ease;
+	@extend .font-s;
+	@extend .font-regular;
 }
+
 
 .sticky .box.navigation-blocks .top {
     display: none;

@@ -1,5 +1,5 @@
 <!-- START MODUL TEXT -->
-<div class="modul text <?php echo $modul_text_background_color; ?>">
+<div id="<?php echo $modul_text_id; ?>" class="modul text <?php echo $modul_text_background_color; ?>">
 
 	<div class="left">
 		<div class="headline">

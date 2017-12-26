@@ -1,9 +1,11 @@
 jQuery( document ).ready(function() {
 
-	if (jQuery('.technische-beratung').length > 0) {
+	if (jQuery('.navigation-blocks').length > 0) {
 
 		var navi_height = jQuery(".sticky .box.navigation-blocks").outerHeight();
-		var distance = jQuery('.technische-beratung').offset().top-navi_height;
+
+		var distance = jQuery('.flexible-moduls').offset().top-navi_height-1;
+
 	  jQuerywindow = jQuery(window);
 
 		jQuerywindow.scroll(function() {

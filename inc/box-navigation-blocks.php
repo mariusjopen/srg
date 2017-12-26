@@ -9,65 +9,26 @@
 	<div class="center">
 		<div class="navi-block">
 
-			<div class="item nav-1">
-				<div class="word">
-					<?php echo get_field('navigation_1_text'); ?>
+			<?php
+			if( have_rows('navigation_repeater') ):
+			  while ( have_rows('navigation_repeater') ) : the_row();
+			  ?>
+
+				<div class="item" data="<?php echo get_sub_field('navigation_id'); ?>">
+					<div class="word">
+						<?php echo get_sub_field('navigation_text'); ?>
+					</div>
+
+					<div class="image">
+						<img src="<?php echo get_sub_field('navigation_image'); ?>">
+					</div>
 				</div>
 
-				<div class="image">
-					<img src="<?php echo get_field('navigation_1_image'); ?>">
-				</div>
-			</div>
-
-			<div class="item nav-2">
-				<div class="word">
-					<?php echo get_field('navigation_2_text'); ?>
-				</div>
-
-				<div class="image">
-					<img src="<?php echo get_field('navigation_2_image'); ?>">
-				</div>
-			</div>
-
-			<div class="item nav-3">
-				<div class="word">
-					<?php echo get_field('navigation_3_text'); ?>
-				</div>
-
-				<div class="image">
-					<img src="<?php echo get_field('navigation_3_image'); ?>">
-				</div>
-			</div>
-
-			<div class="item nav-4">
-				<div class="word">
-					<?php echo get_field('navigation_4_text'); ?>
-				</div>
-
-				<div class="image">
-					<img src="<?php echo get_field('navigation_4_image'); ?>">
-				</div>
-			</div>
-
-			<div class="item nav-5">
-				<div class="word">
-					<?php echo get_field('navigation_5_text'); ?>
-				</div>
-
-				<div class="image">
-					<img src="<?php echo get_field('navigation_5_image'); ?>">
-				</div>
-			</div>
-
-			<div class="item nav-6">
-				<div class="word">
-					<?php echo get_field('navigation_6_text'); ?>
-				</div>
-
-				<div class="image">
-					<img src="<?php echo get_field('navigation_6_image'); ?>">
-				</div>
-			</div>
+				<?php
+			  endwhile;
+			else :
+			endif;
+			?>
 
 		</div>
 	</div>

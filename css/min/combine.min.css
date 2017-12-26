@@ -73,7 +73,7 @@
   font-family: 'SequelSansW05-LightBody';
   font-weight: normal; }
 
-.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p {
+.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -95,15 +95,15 @@
     .footer .bottom a, .footer .top .footer-right {
       font-size: 8px; } }
 
-.font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+.font-s, .box.navigation-main .menu a, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
   font-size: 13px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+    .font-s, .box.navigation-main .menu a, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
       font-size: 13px; } }
   @media screen and (max-width: 600px) {
-    .font-s, .box.navigation-main .menu a, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
+    .font-s, .box.navigation-main .menu a, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li {
       font-size: 12px; } }
 
 .font-m, body, a, p, li {
@@ -547,10 +547,10 @@ http://flickity.metafizzy.co
 
 .sticky .box.navigation-blocks {
   position: fixed;
-  top: -60px;
+  top: -80px;
   left: 0px;
-  padding-top: 6px;
-  padding-bottom: 7px;
+  padding-top: 10px;
+  padding-bottom: 11px;
   width: 100%;
   z-index: 100;
   transition: 0.2s ease; }
