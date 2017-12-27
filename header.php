@@ -7,6 +7,7 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 		<?php wp_head(); ?>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw3oHsgLHZxwQhCkb1KBETEPDCDQPsznI"></script>
 	</head>
 
 	<body <?php body_class(); ?> >

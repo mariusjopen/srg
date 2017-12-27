@@ -1,0 +1,13 @@
+.modul.maps .text p,
+.modul.maps .text a {
+	@extend .font-regular;
+}
+
+.modul.maps .acf-map {
+	width: 100%;
+	height: 40vw;
+}
+
+.modul.maps .acf-map img {
+   max-width: inherit !important;
+}

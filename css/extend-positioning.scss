@@ -9,11 +9,6 @@
 	width: $left;
 }
 
-.center-padding {
-	padding-left: $padding-sides;
-	padding-right: $padding-sides;
-}
-
 .right-padding {
 	padding-right: $padding-sides;
 	width: calc(#{$right} - #{$padding-sides});
@@ -22,6 +17,35 @@
 .right-no-padding {
 	padding-right: 0px;
 	width: $right;
+}
+
+
+
+.simple-left-padding {
+	padding-left: $padding-sides;
+	width: calc(#{$simple-left} - #{$padding-sides});
+}
+
+.simple-left-no-padding {
+	padding-left: 0px;
+	width: $simple-left;
+}
+
+.simple-right-padding {
+	padding-right: $padding-sides;
+	width: calc(#{$simple-right} - #{$padding-sides});
+}
+
+.simple-right-no-padding {
+	padding-right: 0px;
+	width: $simple-right;
+}
+
+
+
+.center-padding {
+	padding-left: $padding-sides;
+	padding-right: $padding-sides;
 }
 
 .flex-center-align {

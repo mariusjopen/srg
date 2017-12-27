@@ -387,6 +387,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/modul-maps.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-maps.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/modul-maschinen-linien.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -435,6 +448,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-text.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/page-simple.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/page-simple.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -599,6 +625,13 @@
 		"oAP": "\/inc\/modul-link.php",
 		"oF": 0
 		},
+	"\/inc\/modul-maps.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-maps.php",
+		"oF": 0
+		},
 	"\/inc\/modul-maschinen-linien.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -654,12 +687,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/maps.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/maps.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/min\/combine.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/js\/min\/combine.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/min\/maps.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/maps.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -719,6 +772,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-dienstleistungen.php",
+		"oF": 0
+		},
+	"\/page-kontakt.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-kontakt.php",
 		"oF": 0
 		},
 	"\/page.php": {

@@ -9,6 +9,9 @@ add_action( 'after_setup_theme', 'image_sizes' );
 add_action( 'init', 'register_my_menu' );
 add_action( 'init', 'register_my_menu_footer' );
 add_filter('upload_mimes', 'allow_svgimg_types');
+add_action('acf/init', 'my_acf_init');
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
 
 // QUERY SCRIPT AND CSS
 
@@ -18,7 +21,6 @@ function add_theme_scripts(){
 	wp_enqueue_script('flickty', get_template_directory_uri()."/lib/flickity.pkgd.js", array( 'jquery' ), $ver);
   wp_enqueue_style('app-style', get_template_directory_uri()."/css/min/combine.min.css", array(), $ver);
 }
-add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 
 // RESPONSIVE IMAGES
@@ -75,5 +77,13 @@ function wp_get_attachment( $attachment_id ) {
 		'title' => $attachment->post_title
 	);
 }
+
+
+// GOOGLE MAPS
+
+function my_acf_init() {
+	acf_update_setting('google_api_key', 'AIzaSyDw3oHsgLHZxwQhCkb1KBETEPDCDQPsznI');
+}
+
 
 ?>

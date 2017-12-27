@@ -1,0 +1,9 @@
+.simple .left {
+	float: left;
+	@extend .simple-left-padding ;
+}
+
+.simple .right {
+	float: left;
+	@extend .simple-right-padding ;
+}
