@@ -1,0 +1,26 @@
+.modul.people .right {
+	@extend .flex-center-align;
+  flex-wrap: wrap;
+	display: flex;
+  justify-content: space-between;
+}
+
+.modul.people .item {
+	width: calc(100% / 3.2);
+	margin-bottom: $difference-m;
+}
+
+.modul.people .item img {
+	width: 100%;
+	height: 30vw;
+	object-fit: cover;
+}
+
+.modul.people .text {
+	margin-top: $difference-s;
+}
+
+.modul.people .text p,
+.modul.people .text a {
+	@extend .font-s;
+}

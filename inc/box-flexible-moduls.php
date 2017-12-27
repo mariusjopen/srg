@@ -97,6 +97,12 @@
 
 						include(locate_template('inc/modul-contact.php'));
 
+					elseif( get_row_layout() == 'modul_people' ):
+
+						$modul_people_uberschrift = get_sub_field('uberschrift');
+						
+						include(locate_template('inc/modul-people.php'));
+
         endif;
 
 	    endwhile;
