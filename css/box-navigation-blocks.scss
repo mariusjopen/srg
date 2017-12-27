@@ -6,7 +6,10 @@
 	padding-bottom: $difference-m;
 	text-align: center;
 	@extend .flex-center-align;
+	@extend .font-l;
+	@extend .font-regular;
 }
+
 
 .box.navigation-blocks .navi-block{
 	@extend .flex-center-align;
@@ -27,6 +30,7 @@
 	cursor: pointer;
 	margin: $difference-xs;
 	transition: 0.2s ease;
+	@extend .font-regular;
 }
 
 

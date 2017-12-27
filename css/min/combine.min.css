@@ -73,7 +73,7 @@
   font-family: 'SequelSansW05-LightBody';
   font-weight: normal; }
 
-.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p {
+.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .box.navigation-blocks .top, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -117,15 +117,15 @@
     .font-m, body, a, p, li {
       font-size: 15px; } }
 
-.font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
       font-size: 24px; } }
   @media screen and (max-width: 600px) {
-    .font-l, .modul.linien .link a, .modul.maschinen-linien .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -383,6 +383,9 @@ http://flickity.metafizzy.co
 .box.welcome .carousel-cell img {
   height: 100%; }
 
+.box.welcome .flickity-page-dots {
+  bottom: 2vw; }
+
 .box.navigation-main {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -397,7 +400,7 @@ http://flickity.metafizzy.co
 .logo-red {
   height: 25px;
   position: absolute;
-  top: 16px;
+  top: 19px;
   left: 50px; }
 
 .navi-empty .box.navigation-main a,
@@ -691,7 +694,7 @@ http://flickity.metafizzy.co
   margin-top: 40px; }
 
 .modul.text .logo-electronic img {
-  width: 20%; }
+  width: 10%; }
 
 .modul.slideshow {
   padding-bottom: 0px;
@@ -710,7 +713,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow .colour {
   display: inline-block;
-  margin-top: -80px;
+  margin-top: -120px;
   width: 100%; }
 
 .modul.slideshow .colour .left {
