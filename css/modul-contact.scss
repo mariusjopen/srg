@@ -1,0 +1,55 @@
+.modul.contact .text {
+	width: 25%;
+	@extend .font-s;
+	margin-bottom: $difference-s;
+}
+
+
+.modul.contact .contact-left,
+.modul.contact .contact-right {
+  width: 50%;
+  float: left;
+}
+
+.modul.contact .text-958 input,
+.modul.contact .email-967 input,
+.modul.contact .tel-672 input,
+.modul.contact .wpcf7-form-control-wrap textarea {
+    border: 0px;
+    padding: $difference-xs;
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+		color: $dark-beige;
+		@extend .font-s;
+		@extend .font-regular;
+}
+
+.modul.contact .wpcf7-form-control-wrap textarea {
+    height: 158px;
+}
+
+.modul.contact .button {
+	@extend .background-blue;
+	padding: 6px 12px 6px 12px;
+	margin-top: 0px;
+	border: 0px;
+}
+
+.modul.contact .button:hover {
+	background-color: $red;
+}
+
+.modul.contact .radio span {
+	@extend .font-s;
+}
+
+.modul.contact .radio .wpcf7-list-item {
+	margin-left: 0px;
+	margin-right: $difference-xs;
+	margin-bottom: $difference-xs;
+}
+
+span.wpcf7-list-item-label::before{
+    content: " ";
+		padding-left: $difference-xxs;
+}

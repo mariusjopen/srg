@@ -65,28 +65,37 @@
 
 					elseif( get_row_layout() == 'modul_maschinen_linien' ):
 
-					$modul_maschinen_linien_background_color = get_sub_field('background_color');
-					$modul_maschinen_linien_uberschrift = get_sub_field('uberschrift');
-					$modul_maschinen_linien_unter_uberschrift = get_sub_field('unter_uberschrift');
-					$modul_maschinen_linien_linie_1_uberschrift = get_sub_field('linie_1_uberschrift');
-					$modul_maschinen_linien_linie_1_slide = get_sub_field('linie_1_slide');
-					$modul_maschinen_linien_linie_1_text = get_sub_field('linie_1_text');
-					$modul_maschinen_linien_linie_2_uberschrift = get_sub_field('linie_2_uberschrift');
-					$modul_maschinen_linien_linie_2_slide = get_sub_field('linie_2_slide');
-					$modul_maschinen_linien_linie_2_text = get_sub_field('linie_2_text');
-					$modul_maschinen_linien_linie_3_uberschrift = get_sub_field('linie_3_uberschrift');
-					$modul_maschinen_linien_linie_3_slide = get_sub_field('linie_3_slide');
-					$modul_maschinen_linien_linie_3_text = get_sub_field('linie_3_text');
+						$modul_maschinen_linien_background_color = get_sub_field('background_color');
+						$modul_maschinen_linien_uberschrift = get_sub_field('uberschrift');
+						$modul_maschinen_linien_unter_uberschrift = get_sub_field('unter_uberschrift');
+						$modul_maschinen_linien_linie_1_uberschrift = get_sub_field('linie_1_uberschrift');
+						$modul_maschinen_linien_linie_1_slide = get_sub_field('linie_1_slide');
+						$modul_maschinen_linien_linie_1_text = get_sub_field('linie_1_text');
+						$modul_maschinen_linien_linie_2_uberschrift = get_sub_field('linie_2_uberschrift');
+						$modul_maschinen_linien_linie_2_slide = get_sub_field('linie_2_slide');
+						$modul_maschinen_linien_linie_2_text = get_sub_field('linie_2_text');
+						$modul_maschinen_linien_linie_3_uberschrift = get_sub_field('linie_3_uberschrift');
+						$modul_maschinen_linien_linie_3_slide = get_sub_field('linie_3_slide');
+						$modul_maschinen_linien_linie_3_text = get_sub_field('linie_3_text');
 
-					$image_slideshow = get_field('linie_1_slide');
-        	include(locate_template('inc/modul-maschinen-linien.php'));
+						$image_slideshow = get_field('linie_1_slide');
+	        	include(locate_template('inc/modul-maschinen-linien.php'));
 
 					elseif( get_row_layout() == 'modul_maps' ):
 
-					$modul_maps_text = get_sub_field('maps_text');
-					$modul_maps_map = get_sub_field('maps_map');
+						$modul_maps_text = get_sub_field('maps_text');
+						$modul_maps_map = get_sub_field('maps_map');
 
-					include(locate_template('inc/modul-maps.php'));
+						include(locate_template('inc/modul-maps.php'));
+
+					elseif( get_row_layout() == 'modul_contact' ):
+
+						$modul_contact_uberschrift = get_sub_field('contact_uberschrift');
+						$modul_contact_text = get_sub_field('contact_text');
+						$modul_contact_form = get_sub_field('contact_form');
+						$modul_contact_background_color = get_sub_field('background_color');
+
+						include(locate_template('inc/modul-contact.php'));
 
         endif;
 
