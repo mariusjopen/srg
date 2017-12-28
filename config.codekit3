@@ -504,6 +504,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/modul-text-accordeon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-text-accordeon.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/modul-text.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -753,6 +766,13 @@
 		"oAP": "\/inc\/modul-slideshow.php",
 		"oF": 0
 		},
+	"\/inc\/modul-text-accordeon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-text-accordeon.php",
+		"oF": 0
+		},
 	"\/inc\/modul-text.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -766,6 +786,16 @@
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/accordeon.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/accordeon.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/combine.js": {
 		"ft": 64,

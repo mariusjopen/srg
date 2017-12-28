@@ -7,7 +7,7 @@
 		</div>
 
 		<?php if( $modul_text_logo ): ?>
-			<div class="logo-electronic">
+			<div class="logo-electronic <?php if( $modul_text_logo_size == 'big' ): ?>big<?php endif; ?>">
 					<img src="<?php echo $modul_text_logo; ?>">
 			</div>
 		<?php endif; ?>

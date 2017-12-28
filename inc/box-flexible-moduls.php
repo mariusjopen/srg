@@ -21,7 +21,11 @@
 						$modul_text_text = get_sub_field('text');
 						$modul_text_logo = get_sub_field('logo');
 						$modul_text_id = get_sub_field('id');
+						$modul_text_logo_size = get_sub_field('logo_size');
+
 	        	include(locate_template('inc/modul-text.php'));
+
+
 
 					elseif( get_row_layout() == 'modul_linien' ):
 
@@ -128,6 +132,14 @@
 						$modul_background_big_text_background_color = get_sub_field('background_color');
 
 	        	include(locate_template('inc/modul-big-text.php'));
+
+					elseif( get_row_layout() == 'modul_text_accordeon' ):
+
+						$modul_text_accordeon_background_color = get_sub_field('background_color');
+						$modul_text_accordeon_uberschrift = get_sub_field('uberschrift');
+						$modul_text_accordeon_text = get_sub_field('text');
+
+						include(locate_template('inc/modul-text-accordeon.php'));
 
         endif;
 

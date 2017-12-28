@@ -93,7 +93,7 @@
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
-.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text, .modul.big-text .top {
+.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text, .modul.big-text .top, .modul.text-accordeon .link {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -123,7 +123,7 @@
 .modul.big-text .right, .modul.big-text .left p,
 .modul.big-text .right p, .modul.big-text .left a,
 .modul.big-text .right a, .modul.big-text .left li,
-.modul.big-text .right li {
+.modul.big-text .right li, .modul.text-accordeon .text p {
   font-size: 13px;
   line-height: 1.38;
   font-weight: normal; }
@@ -136,7 +136,7 @@
     .modul.big-text .right, .modul.big-text .left p,
     .modul.big-text .right p, .modul.big-text .left a,
     .modul.big-text .right a, .modul.big-text .left li,
-    .modul.big-text .right li {
+    .modul.big-text .right li, .modul.text-accordeon .text p {
       font-size: 13px; } }
   @media screen and (max-width: 600px) {
     .font-s, .box.navigation-main .menu a, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
@@ -147,7 +147,7 @@
     .modul.big-text .right, .modul.big-text .left p,
     .modul.big-text .right p, .modul.big-text .left a,
     .modul.big-text .right a, .modul.big-text .left li,
-    .modul.big-text .right li {
+    .modul.big-text .right li, .modul.text-accordeon .text p {
       font-size: 12px; } }
 
 .font-m, body, a, p, li {
@@ -740,6 +740,9 @@ http://flickity.metafizzy.co
 .modul.text .logo-electronic img {
   width: 10%; }
 
+.modul.text .logo-electronic.big img {
+  width: 25%; }
+
 .modul.slideshow {
   padding-bottom: 0px;
   display: grid; }
@@ -885,6 +888,22 @@ span.wpcf7-list-item-label::before {
 
 .modul.big-text .top {
   margin-bottom: 50px; }
+
+.modul.text-accordeon .text {
+  height: 12vw;
+  overflow: hidden; }
+
+.modul.text-accordeon .open .text {
+  height: auto !important; }
+
+.modul.text-accordeon .link {
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #e4002b;
+  cursor: pointer; }
+
+.modul.text-accordeon .link:hover {
+  color: #182130; }
 
 .simple .left {
   float: left; }

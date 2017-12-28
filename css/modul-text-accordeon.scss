@@ -1,0 +1,24 @@
+.modul.text-accordeon .text {
+	height: 12vw;
+	overflow: hidden;
+}
+
+.modul.text-accordeon .open .text  {
+	height: auto !important;
+}
+
+.modul.text-accordeon .text p {
+	@extend .font-s;
+}
+
+.modul.text-accordeon .link {
+	margin-top: $difference-s;
+	@extend .font-regular;
+	text-transform: uppercase;
+	color: $red;
+	cursor: pointer;
+}
+
+.modul.text-accordeon .link:hover {
+	color: $blue;
+}
