@@ -120,6 +120,15 @@
 
 	        	include(locate_template('inc/modul-background-text.php'));
 
+					elseif( get_row_layout() == 'modul_big_text' ):
+
+						$modul_background_big_text_uberschrift = get_sub_field('uberschrift');
+						$modul_background_big_text_small = get_sub_field('small');
+						$modul_background_big_text_big = get_sub_field('big');
+						$modul_background_big_text_background_color = get_sub_field('background_color');
+
+	        	include(locate_template('inc/modul-big-text.php'));
+
         endif;
 
 	    endwhile;

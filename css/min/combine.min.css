@@ -76,7 +76,7 @@
   padding-right: 0px;
   width: 75%; }
 
-.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link, .modul.background-text {
+.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -93,7 +93,7 @@
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
-.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text {
+.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text, .modul.big-text .top {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -119,7 +119,11 @@
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
 .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
-.modul.people .text a {
+.modul.people .text a, .modul.big-text .left,
+.modul.big-text .right, .modul.big-text .left p,
+.modul.big-text .right p, .modul.big-text .left a,
+.modul.big-text .right a, .modul.big-text .left li,
+.modul.big-text .right li {
   font-size: 13px;
   line-height: 1.38;
   font-weight: normal; }
@@ -128,14 +132,22 @@
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
-    .modul.people .text a {
+    .modul.people .text a, .modul.big-text .left,
+    .modul.big-text .right, .modul.big-text .left p,
+    .modul.big-text .right p, .modul.big-text .left a,
+    .modul.big-text .right a, .modul.big-text .left li,
+    .modul.big-text .right li {
       font-size: 13px; } }
   @media screen and (max-width: 600px) {
     .font-s, .box.navigation-main .menu a, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
-    .modul.people .text a {
+    .modul.people .text a, .modul.big-text .left,
+    .modul.big-text .right, .modul.big-text .left p,
+    .modul.big-text .right p, .modul.big-text .left a,
+    .modul.big-text .right a, .modul.big-text .left li,
+    .modul.big-text .right li {
       font-size: 12px; } }
 
 .font-m, body, a, p, li {
@@ -149,15 +161,15 @@
     .font-m, body, a, p, li {
       font-size: 15px; } }
 
-.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
+.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
       font-size: 24px; } }
   @media screen and (max-width: 600px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -870,6 +882,9 @@ span.wpcf7-list-item-label::before {
 
 .modul.background-text .text {
   width: 75%; }
+
+.modul.big-text .top {
+  margin-bottom: 50px; }
 
 .simple .left {
   float: left; }

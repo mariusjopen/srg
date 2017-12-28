@@ -1,0 +1,23 @@
+.modul.big-text .top {
+	@extend .center-padding;
+	@extend .font-l;
+	@extend .font-regular;
+	margin-bottom: $difference-l;
+}
+
+.modul.big-text .left,
+.modul.big-text .right {
+	@extend .font-s;
+
+	& p {
+		@extend .font-s;
+	}
+
+	& a {
+		@extend .font-s;
+	}
+
+	& li {
+		@extend .font-s;
+	}
+}
