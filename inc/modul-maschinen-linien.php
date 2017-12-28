@@ -1,5 +1,14 @@
 <!-- START MODUL MASCHINEN LINIEN -->
-<div class="modul maschinen-linien <?php echo $modul_maschinen_linien_background_color; ?>">
+<?php
+$string = $_SERVER['QUERY_STRING'] ;
+$numSymbols = 17;
+$res_string = substr($string, 0, $numSymbols);
+$trimmed = ltrim($res_string, "data=");
+$date_url = $trimmed;
+?>
+
+
+<div data="<?php echo $date_url; ?>" class="modul maschinen-linien <?php echo $modul_maschinen_linien_background_color; ?>">
 
 	<div class="navigation-maschinen">
 

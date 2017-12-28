@@ -25,6 +25,7 @@
 
 					elseif( get_row_layout() == 'modul_linien' ):
 
+						$modul_linien_link_to_field = get_sub_field('link_to_field');
 						$modul_linien_hintergrund = get_sub_field('linien_hintergrund');
 						$modul_linien_uberschrift = get_sub_field('linien_uberschrift');
 						$modul_linien_uberschrift_l1 = get_sub_field('linien_uberschrift_l1');

@@ -7,7 +7,7 @@
 	<div class="item-container">
 		<div class="item">
 			<div class="sub-headline">
-				<?php echo $modul_linien_uberschrift_l1; ?>
+				<a href="/dienstleistungen?data=<?php echo $modul_linien_link_to_field; ?>-1"><?php echo $modul_linien_uberschrift_l1; ?></a>
 			</div>
 
 			<div class="inhalt">
@@ -17,7 +17,7 @@
 
 		<div class="item">
 			<div class="sub-headline">
-				<?php echo $modul_linien_uberschrift_l2; ?>
+				<a href="/dienstleistungen?data=<?php echo $modul_linien_link_to_field; ?>-2"><?php echo $modul_linien_uberschrift_l2; ?></a>
 			</div>
 
 			<div class="inhalt">
@@ -27,7 +27,7 @@
 
 		<div class="item">
 			<div class="sub-headline">
-				<?php echo $modul_linien_uberschrift_l3; ?>
+				<a href="/dienstleistungen?data=<?php echo $modul_linien_link_to_field; ?>-3"><?php echo $modul_linien_uberschrift_l3; ?></a>
 			</div>
 
 			<div class="inhalt">
