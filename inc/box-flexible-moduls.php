@@ -141,6 +141,13 @@
 
 						include(locate_template('inc/modul-text-accordeon.php'));
 
+					elseif( get_row_layout() == 'modul_many_maps' ):
+
+						$modul_many_maps_background_color = get_sub_field('background_color');
+						$modul_many_maps_map_2 = get_sub_field('map_2');
+
+						include(locate_template('inc/modul-many-maps.php'));
+
         endif;
 
 	    endwhile;

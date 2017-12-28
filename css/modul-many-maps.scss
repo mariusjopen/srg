@@ -1,0 +1,51 @@
+.modul.many-maps .all {
+	@extend .flex-center-align;
+  flex-wrap: wrap;
+	display: flex;
+  justify-content: space-between;
+	@extend .center-padding;
+}
+
+.modul.many-maps .acf-map {
+	width: 100%;
+	height: 30vw;
+}
+
+.modul.many-maps .acf-map img {
+   max-width: inherit !important;
+}
+
+
+.modul.many-maps .item {
+	width: calc(100% / 4.2);
+	margin-bottom: $difference-m;
+}
+
+.modul.many-maps .item img {
+	margin-top: $difference-s;
+	width: 30%;
+}
+
+.modul.many-maps .text {
+	margin-top: $difference-s;
+}
+
+.modul.many-maps .text p,
+.modul.many-maps .text a {
+	@extend .font-s;
+}
+
+.modul.many-maps .link {
+	padding-top: $difference-s;
+}
+
+.modul.many-maps .link a {
+	@extend .font-s;
+	@extend .font-regular;
+	text-transform: uppercase;
+	color: $red;
+}
+
+.modul.many-maps .link a:hover {
+	color: $blue;
+}
