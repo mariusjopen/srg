@@ -348,6 +348,32 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/modul-background-link.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-background-link.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/modul-background-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-background-text.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/modul-contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -630,6 +656,20 @@
 		"oAP": "\/inc\/element-image-slideshow.php",
 		"oF": 0
 		},
+	"\/inc\/modul-background-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-background-link.php",
+		"oF": 0
+		},
+	"\/inc\/modul-background-text.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-background-text.php",
+		"oF": 0
+		},
 	"\/inc\/modul-contact.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -814,11 +854,11 @@
 		"oAP": "\/page-dienstleistungen.php",
 		"oF": 0
 		},
-	"\/page-kontakt.php": {
+	"\/page-simple.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-kontakt.php",
+		"oAP": "\/page-simple.php",
 		"oF": 0
 		},
 	"\/page.php": {

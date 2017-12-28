@@ -1,15 +1,15 @@
 .background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .modul.linien, .modul.maschinen-linien .navigation-maschinen .item:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
 .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2,
-.active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3, .modul.slideshow .link, .modul.contact .button {
+.active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3, .modul.slideshow .link, .modul.contact .button, .modul.background-text {
   background-color: #182130;
   color: white; }
   .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .modul.linien a, .modul.maschinen-linien .navigation-maschinen .item:hover a, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a,
   .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a,
-  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a, .modul.slideshow .link a, .modul.contact .button a {
+  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a, .modul.slideshow .link a, .modul.contact .button a, .modul.background-text a {
     color: white; }
   .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .home .navi-empty .box.navigation-main a:hover, .modul.linien a:hover, .modul.maschinen-linien .navigation-maschinen .item:hover a:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a:hover,
   .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a:hover,
-  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .link a:hover, .modul.contact .button a:hover {
+  .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .link a:hover, .modul.contact .button a:hover, .modul.background-text a:hover {
     color: #e4002b; }
 
 .background-red, .button, .box.grafik .bottom .line, .box.grafik .bottom .block {
@@ -76,7 +76,7 @@
   padding-right: 0px;
   width: 75%; }
 
-.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container {
+.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link, .modul.background-text {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -93,7 +93,7 @@
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
-.modul.contact .wpcf7-form-control-wrap textarea {
+.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -149,15 +149,15 @@
     .font-m, body, a, p, li {
       font-size: 15px; } }
 
-.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
+.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
       font-size: 24px; } }
   @media screen and (max-width: 600px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -815,8 +815,9 @@ http://flickity.metafizzy.co
 
 .modul.contact .wpcf7-form-control-wrap textarea {
   height: 158px;
-  width: 100%;
-  padding: 0px;
+  width: calc(100% - 10px);
+  padding-right: 0px;
+  padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
@@ -853,6 +854,22 @@ span.wpcf7-list-item-label::before {
 
 .modul.people .text {
   margin-top: 20px; }
+
+.modul.background-link {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.modul.background-link .bottom {
+  padding-top: 50px; }
+
+.modul.background-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 40vw; }
+
+.modul.background-text .text {
+  width: 75%; }
 
 .simple .left {
   float: left; }

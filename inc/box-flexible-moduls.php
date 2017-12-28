@@ -100,8 +100,24 @@
 					elseif( get_row_layout() == 'modul_people' ):
 
 						$modul_people_uberschrift = get_sub_field('uberschrift');
-						
+
 						include(locate_template('inc/modul-people.php'));
+
+					elseif( get_row_layout() == 'modul_background_link' ):
+
+						$modul_background_link_uberschrift = get_sub_field('uberschrift');
+						$modul_background_link_text = get_sub_field('text');
+						$modul_background_link_link = get_sub_field('link');
+						$modul_background_link_image = get_sub_field('image');
+
+	        	include(locate_template('inc/modul-background-link.php'));
+
+					elseif( get_row_layout() == 'modul_background_text' ):
+
+						$modul_background_link_uberschrift = get_sub_field('uberschrift');
+						$modul_background_link_image = get_sub_field('image');
+
+	        	include(locate_template('inc/modul-background-text.php'));
 
         endif;
 

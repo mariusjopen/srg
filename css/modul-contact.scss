@@ -26,8 +26,9 @@
 
 .modul.contact .wpcf7-form-control-wrap textarea {
     height: 158px;
-    width: 100%;
-		padding: 0px;
+    width: calc(100% - #{$difference-xs});
+		padding-right: 0px;
+		padding-left: $difference-xs;
 		padding-top: $difference-xs;
 		padding-bottom: $difference-xs;
 }

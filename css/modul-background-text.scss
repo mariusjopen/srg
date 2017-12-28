@@ -1,0 +1,13 @@
+.modul.background-text {
+	padding-top: $difference-l;
+	padding-bottom: $difference-l;
+	height: 40vw;
+	@extend .center-padding;
+	@extend .background-blue;
+	@extend .font-l;
+	@extend .font-regular;
+}
+
+.modul.background-text .text {
+	width: 75%;
+}
