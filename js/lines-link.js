@@ -19,7 +19,7 @@ jQuery( document ).ready(function() {
 
 
 		jQuery("html, body").animate({
-			scrollTop: data_difference
+			scrollTop: data_difference - 20
 		}, 500);
 
 

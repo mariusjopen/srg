@@ -33,8 +33,12 @@
 		@extend .background-blue;
 }
 
+.blue-nav .navi-empty .box.navigation-main {
+		@extend .background-blue;
+}
+
 .navi-empty .box.navigation-main {
-		@extend .background-white;
+		@extend .background-blue;
 }
 
 .navi-empty .box.navigation-main a,

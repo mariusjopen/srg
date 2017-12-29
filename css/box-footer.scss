@@ -85,3 +85,31 @@
   float: right;
 	margin-left: $difference-xs;
 }
+
+.footer .chimp .email {
+	width: calc(100% - #{$difference-s});
+	background: $beige;
+	border: 0px;
+	padding: $difference-xs;
+	margin-bottom: 0px;
+	text-align: center;
+	@extend .font-s;
+}
+
+.footer .chimp .button {
+	margin-top: 0px;
+	width: 100%;
+	background: $blue;
+	border: 0px;
+	padding: $difference-xs;
+	cursor: pointer;
+	@extend .font-s;
+}
+
+.footer .chimp .button:hover {
+	background: $red;
+}
+
+.footer .mc4wp-response {
+	padding-top: $difference-xs;
+}

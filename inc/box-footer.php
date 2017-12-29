@@ -37,7 +37,12 @@
 		</div>
 
 		<div class="item footer-middle">
-			NEWSLETTER
+
+
+			<?php echo do_shortcode('[mc4wp_form id="420"]'); ?>
+
+
+
 		</div>
 
 		<div class="item footer-right">
