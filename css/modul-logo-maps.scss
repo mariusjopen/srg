@@ -1,0 +1,22 @@
+.modul.logo-maps {
+	@extend .background-beige;
+}
+
+.modul.logo-maps .top {
+	@extend .font-l;
+	@extend .font-regular;
+	@extend .center-padding;
+	text-align: center;
+	padding-top: $difference-s;
+}
+
+.modul.logo-maps .image {
+	@extend .center-padding;
+	text-align: center;
+}
+
+.modul.logo-maps .image img {
+	width: 60%;
+	height: 60%;
+	object-fit: cover;
+}

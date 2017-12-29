@@ -20,12 +20,12 @@
   .background-red a:hover, .button a:hover, .box.grafik .bottom .line a:hover, .box.grafik .bottom .block a:hover {
     color: #182130; }
 
-.background-beige, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item {
+.background-beige, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.logo-maps {
   background-color: #ebe8e3;
   color: #182130; }
-  .background-beige a, .box.navigation-blocks .item a, .sticky .box.navigation-blocks .item a {
+  .background-beige a, .box.navigation-blocks .item a, .sticky .box.navigation-blocks .item a, .modul.logo-maps a {
     color: #182130; }
-  .background-beige a:hover, .box.navigation-blocks .item a:hover {
+  .background-beige a:hover, .box.navigation-blocks .item a:hover, .modul.logo-maps a:hover {
     color: #e4002b; }
 
 .background-dark-beige, .box.navigation-blocks .item:hover {
@@ -76,7 +76,7 @@
   padding-right: 0px;
   width: 75%; }
 
-.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .all {
+.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .all, .modul.logo-maps .top, .modul.logo-maps .image {
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -93,7 +93,7 @@
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
-.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text, .modul.big-text .top, .modul.text-accordeon .link, .modul.many-maps .link a {
+.modul.contact .wpcf7-form-control-wrap textarea, .modul.background-link .top, .modul.background-link .bottom a, .modul.background-text, .modul.big-text .top, .modul.text-accordeon .link, .modul.many-maps .link a, .modul.logo-maps .top {
   font-family: 'SequelSansW05-RomanBody';
   font-weight: normal; }
 
@@ -164,15 +164,15 @@
     .font-m, body, a, p, li {
       font-size: 15px; } }
 
-.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
+.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 24px; } }
   @media screen and (max-width: 600px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top {
+    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -962,6 +962,18 @@ span.wpcf7-list-item-label::before {
 
 .modul.many-maps .link a:hover {
   color: #182130; }
+
+.modul.logo-maps .top {
+  text-align: center;
+  padding-top: 20px; }
+
+.modul.logo-maps .image {
+  text-align: center; }
+
+.modul.logo-maps .image img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover; }
 
 .simple .left {
   float: left; }

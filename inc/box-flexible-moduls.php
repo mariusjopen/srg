@@ -148,6 +148,13 @@
 
 						include(locate_template('inc/modul-many-maps.php'));
 
+					elseif( get_row_layout() == 'modul_logo_map' ):
+
+						$modul_logo_maps_uberschrift = get_sub_field('uberschrift');
+						$modul_logo_maps_image = get_sub_field('image');
+
+						include(locate_template('inc/modul-logo-maps.php'));
+
         endif;
 
 	    endwhile;

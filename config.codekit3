@@ -439,6 +439,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/modul-logo-maps.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-logo-maps.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/modul-many-maps.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -742,6 +755,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/modul-link.php",
+		"oF": 0
+		},
+	"\/inc\/modul-logo-maps.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-logo-maps.php",
 		"oF": 0
 		},
 	"\/inc\/modul-many-maps.php": {
