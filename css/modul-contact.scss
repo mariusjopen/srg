@@ -2,6 +2,10 @@
 	width: 25%;
 	@extend .font-s;
 	margin-bottom: $difference-s;
+
+	@media screen and (max-width: $break-s) {
+		width: initial;
+	}
 }
 
 
@@ -9,6 +13,11 @@
 .modul.contact .contact-right {
   width: 50%;
   float: left;
+
+	@media screen and (max-width: $break-s) {
+		width: 100%;
+		float: none;
+	}
 }
 
 .modul.contact .text-958 input,
@@ -22,6 +31,10 @@
 		color: $dark-beige;
 		@extend .font-s;
 		@extend .font-regular;
+
+		@media screen and (max-width: $break-s) {
+			width: calc(100% - 20px);
+		}
 }
 
 .modul.contact .wpcf7-form-control-wrap textarea {

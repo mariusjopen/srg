@@ -25,3 +25,7 @@
 				include(locate_template('inc/box-navigation-main.php'));
 				?>
 			</div>
+
+			<?php
+			include(locate_template('inc/box-navigation-mobile.php'));
+			?>

@@ -11,6 +11,7 @@ add_action( 'init', 'register_my_menu_footer' );
 add_filter('upload_mimes', 'allow_svgimg_types');
 add_action('acf/init', 'my_acf_init');
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+add_action('admin_head', 'hide_menu');
 
 
 // QUERY SCRIPT AND CSS
@@ -83,6 +84,15 @@ function wp_get_attachment( $attachment_id ) {
 
 function my_acf_init() {
 	acf_update_setting('google_api_key', 'AIzaSyDw3oHsgLHZxwQhCkb1KBETEPDCDQPsznI');
+}
+
+// EDITOR HIDE PAGES
+
+function hide_menu() {
+		remove_menu_page( 'edit-comments.php' );
+		remove_menu_page( 'edit.php' );
+		remove_menu_page( 'profile.php' );
+		remove_menu_page( 'tools.php' );
 }
 
 

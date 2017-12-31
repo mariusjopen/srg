@@ -14,6 +14,10 @@
 
 .box.grafik .bottom {
 	@extend .flex-center-align;
+
+		@media screen and (max-width: $break-s) {
+			display: block;
+		}
 }
 
 .box.grafik .bottom .text-left {
@@ -21,6 +25,12 @@
 	padding-right: $difference-s;
 	@extend .font-xl;
 	@extend .font-regular;
+
+	@media screen and (max-width: $break-s) {
+		text-align: center;
+		padding: 0px;
+		margin-bottom: $difference-s;
+	}
 }
 
 .box.grafik .bottom .text-right {
@@ -28,16 +38,33 @@
 	padding-left: $difference-s;
 	@extend .font-xl;
 	@extend .font-regular;
+
+	@media screen and (max-width: $break-s) {
+		text-align: center;
+		padding: 0px;
+		margin-top: $difference-s;
+	}
 }
 
 .box.grafik .bottom .line {
 	width: calc(100% / 7);
 	@extend .background-red;
 	height: 4px;
+
+	@media screen and (max-width: $break-s) {
+		height: $difference-m;
+		width: 4px;
+		margin-left: calc(50% - 2px);
+	}
 }
 
 .box.grafik .bottom .block {
 	@extend .background-red;
 	padding: 6px 12px 6px 12px;
 	text-align: center;
+
+	@media screen and (max-width: $break-s) {
+		width: calc(80% - #{$difference-s});
+		margin-left: 10%;
+	}
 }

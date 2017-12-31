@@ -2,6 +2,10 @@
 	@extend .background-blue;
 	padding-top: $difference-s;
 	padding-bottom: $difference-s;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .box.navigation-main .menu {
@@ -21,6 +25,7 @@
 .home .logo-red {
 	display: none;
 }
+
 
 .logo-red {
   height: 25px;

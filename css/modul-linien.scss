@@ -9,19 +9,42 @@
 	@extend .font-xl;
 	@extend .font-regular;
 	width: 50%;
+
+	@media screen and (max-width: $break-s) {
+		width: calc(100% - #{$difference-m});
+	}
 }
 
 .modul.linien .item-container {
+	margin-bottom: $difference-l;
+
+	@media screen and (max-width: $break-s) {
+		display: block;
+		overflow-x: scroll;
+	}
+}
+
+.modul.linien .inside {
 	@extend .flex-center-align;
 	justify-content: space-around;
 	align-items: unset;
-	@extend .center-padding ;
 	margin-bottom: $difference-l;
+
+	@media screen and (max-width: $break-s) {
+		width: calc(240vw + 160px) !important;
+	}
 }
 
 .modul.linien .item {
 	@extend .background-white ;
 	width: calc(100% / 4);
+
+	@media screen and (max-width: $break-s) {
+		width: 80vw;
+		float: left;
+		margin-right: $difference-s;
+		margin-left: $difference-s;
+	}
 }
 
 .modul.linien .sub-headline {
@@ -51,9 +74,39 @@
   width: 100%;
   text-align: center;
 	padding-bottom: $difference-s;
+
+	@media screen and (max-width: $break-s) {
+		text-align: left;
+		padding-left: $difference-s;
+		width: initial;
+	}
 }
 
 .modul.linien .link  a {
-		@extend .font-l;
-		@extend .font-regular;
+	@extend .font-l;
+	@extend .font-regular;
+}
+
+.mobil.item-short {
+	width: $difference-s;
+	float: left;
+	height: 10px;
+}
+
+
+.modul.linien .item .link {
+	text-align: left;
+	padding-left: 15px;
+	padding-bottom: $difference-s;
+}
+
+.modul.linien .item .link a {
+	@extend .font-s;
+	@extend .font-regular;
+	text-transform: uppercase;
+	color: $red;
+}
+
+.modul.linien .item .link a:hover {
+	color: $blue;
 }

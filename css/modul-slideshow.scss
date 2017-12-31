@@ -8,12 +8,29 @@
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
+
+	@media screen and (max-width: $break-s) {
+		width: 100% !important;
+		padding-left: 0px;
+		padding-right: 0px;
+		float: none;
+	}
 }
 
 .modul.slideshow .left {
 	float: left;
 	width: calc(#{$left} - #{$padding-sides});
 	padding-left: $difference-s;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
+}
+
+.modul.slideshow .mobil.left {
+	@media screen and (max-width: $break-s) {
+		display: block !important;
+	}
 }
 
 .modul.slideshow .left p {
@@ -25,6 +42,11 @@
 	display: inline-block;
 	margin-top: -$difference-xxl;
 	width: 100%;
+
+	@media screen and (max-width: $break-s) {
+		padding-top: 0px;
+		margin: 0px;
+	}
 }
 
 .modul.slideshow .colour .left {
@@ -35,8 +57,13 @@
 	padding-top: $difference-l;
 	padding-bottom: $difference-l;
 	@extend .font-s;
-}
 
+	@media screen and (max-width: $break-s) {
+		margin-left: 0px;
+		display: block !important;
+		padding-top: $difference-m;
+	}
+}
 
 .modul.slideshow .link {
 	@extend .background-blue;
@@ -44,4 +71,18 @@
   text-align: center;
 	padding-bottom: $difference-s;
 	margin-top: -$difference-xs;
+}
+
+.modul.slideshow .flickity-page-dots {
+	@media screen and (max-width: $break-s) {
+    bottom: 24vw;
+	}
+}
+
+
+.modul.slideshow .image-slideshow {
+	@media screen and (max-width: $break-s) {
+    height: 60vw;
+		overflow: hidden;
+	}
 }

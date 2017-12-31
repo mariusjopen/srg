@@ -8,6 +8,12 @@
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
+
+
+	@media screen and (max-width: $break-s) {
+		padding: 0px;
+		width: 100% !important;
+	}
 }
 
 .modul.maschinen-linien .top {
@@ -85,6 +91,11 @@
 	padding-bottom: $difference-xs;
 	transition: 0.2s ease;
 	cursor: pointer;
+
+
+	@media screen and (max-width: $break-s) {
+		width: calc(100% / 3);
+	}
 }
 
 

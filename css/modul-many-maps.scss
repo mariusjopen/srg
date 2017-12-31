@@ -1,14 +1,32 @@
-.modul.many-maps .all {
+.modul.many-maps .inside {
 	@extend .flex-center-align;
   flex-wrap: wrap;
 	display: flex;
   justify-content: space-between;
 	@extend .center-padding;
+
+	@media screen and (max-width: $break-s) {
+		display: block;
+	  flex-wrap: initial;
+	  justify-content: initial;
+	}
+}
+
+.modul.many-maps .all {
+	@media screen and (max-width: $break-s) {
+		display: block;
+		overflow-x: scroll;
+		width: calc(100% - #{$difference-m});
+	}
 }
 
 .modul.many-maps .acf-map {
 	width: 100%;
 	height: 30vw;
+
+	@media screen and (max-width: $break-s) {
+		height: 60vw;
+	}
 }
 
 .modul.many-maps .acf-map img {
@@ -19,6 +37,12 @@
 .modul.many-maps .item {
 	width: calc(100% / 4.2);
 	margin-bottom: $difference-m;
+
+	@media screen and (max-width: $break-s) {
+		width: 60vw;
+		float: left;
+		padding-left: $difference-s;
+	}
 }
 
 .modul.many-maps .item img {

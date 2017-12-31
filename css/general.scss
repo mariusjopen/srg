@@ -39,6 +39,18 @@ strong {
 	@extend .font-medium;
 }
 
+.mobil {
+	display: none;
+
+	@media screen and (max-width: $break-s) {
+		display: block;
+	}
+}
+
+.inactive {
+	display: none !important;
+}
+
 @font-face {
     font-family: 'SequelSansW05-MediumBody';
     src: url('../../fonts/SequelSansW05-MediumBody.woff2') format('woff2'),
@@ -67,11 +79,23 @@ strong {
 .left {
 	float: left;
 	@extend .left-padding ;
+
+	@media screen and (max-width: $break-s) {
+		float: none;
+		width: 100%;
+		padding-bottom: $difference-s;
+	}
 }
 
 .right {
 	float: left;
 	@extend .right-padding ;
+
+	@media screen and (max-width: $break-s) {
+		float: none;
+		width: 100%;
+		padding-top: $difference-s;
+	}
 }
 
 .center {

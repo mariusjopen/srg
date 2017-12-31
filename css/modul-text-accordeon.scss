@@ -1,6 +1,10 @@
 .modul.text-accordeon .text {
 	height: 12vw;
 	overflow: hidden;
+
+	@media screen and (max-width: $break-s) {
+		height: 25vw;
+	}
 }
 
 .modul.text-accordeon .open .text  {

@@ -1,6 +1,10 @@
 <!-- START MODUL SLIDESHOW -->
 <div class="modul slideshow <?php echo $modul_slideshow_background_color; ?>">
 
+	<div class="mobil left">
+		<p><?php echo $modul_slideshow_text_gros; ?><p>
+	</div>
+
 	<div class="white">
 		<div class="right">
 			<?php
@@ -17,7 +21,10 @@
 		</div>
 	</div>
 
-	<div class="colour <?php echo $modul_slideshow_background_color_2; ?>">
+
+
+
+	<div class="colour <?php if( !$modul_slideshow_text_klein ): ?>inactive<?php endif; ?> <?php echo $modul_slideshow_background_color_2; ?>">
 		<div class="left">
 			<?php echo $modul_slideshow_text_klein; ?>
 		</div>

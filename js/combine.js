@@ -1,1 +1,1 @@
-// @codekit-prepend "image-slideshow.js", "maps.js","sticky-navi.js" ,"accordeon.js" ,"navi-hide.js", "scroll-to.js", "select-linien.js" , "lines-link.js";
+// @codekit-prepend "image-slideshow.js", "maps.js","sticky-navi.js" ,"horizontal-scroll.js" , "accordeon.js" ,"navi-hide.js", "scroll-to.js", "mobile-navigation.js", "select-linien.js" , "lines-link.js";

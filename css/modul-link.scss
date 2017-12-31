@@ -4,6 +4,11 @@
 
 .modul.link .link {
 	text-align: center;
+	@extend .center-padding;
+
+	@media screen and (max-width: $break-s) {
+		text-align: left;
+	}
 }
 
 .modul.link a {

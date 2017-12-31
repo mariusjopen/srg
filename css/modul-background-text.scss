@@ -6,6 +6,11 @@
 	@extend .background-blue;
 	@extend .font-l;
 	@extend .font-regular;
+
+	@media screen and (max-width: $break-s) {
+		height: 60vw;
+		width: calc(100% - #{$difference-m});
+	}
 }
 
 .modul.background-text .text {

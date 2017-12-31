@@ -1,0 +1,181 @@
+.hide-logo.active-navi .logo-big img {
+	opacity: 0;
+}
+
+
+ .home.active-navi  .box.navigation-mobile .logo-nav{
+	opacity: 1 !important;
+	transition: 0.2s all ease;
+	max-height: 200px;
+}
+
+
+
+.box.navigation-mobile {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: block;
+}
+
+.box.navigation-mobile .inside-mobile {
+	height: 50px;
+	@extend .background-blue;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+ .home  .box.navigation-mobile .logo-nav {
+	opacity: 0;
+	max-height: 0;
+}
+
+ .home  .box.navigation-mobile .logo-big img {
+    width: 28%;
+    margin-top: -60px;
+	}
+
+.box.navigation-mobile .logo-nav {
+	height: 30px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: $difference-s;
+	float: left;
+}
+
+.burger-wrapper {
+	float: right;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.box.navigation-mobile .placeholder {
+
+	@media screen and (max-width: $break-s) {
+		height: 50px;
+		width: 100%;
+	}
+}
+
+// slideout
+
+.slideout {
+		opacity: 0;
+		transition: 0.2s ease;
+		pointer-events: none;
+}
+
+
+.active-navi .slideout {
+		opacity: 1;
+		pointer-events: all;
+}
+
+
+.box.navigation-mobile .slideout {
+	@extend .background-blue;
+	text-align: center;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	z-index: 99999999;
+}
+
+.box.navigation-mobile .slideout li {
+	padding-top: $difference-xs;
+	padding-bottom: $difference-xs;
+	border-top: 1px solid white;
+	@extend .font-l;
+}
+
+.box.navigation-mobile .slideout ul {
+	border-bottom: 1px solid white;
+}
+
+// BURGER
+
+$lineHeight: 2px;
+$lineWidth: 30px;
+$burger-color: white;
+$bg-color: #000;
+$transitionTime: .2s;
+$body-fontsize: 2em;
+@mixin transition($time) {
+  -webkit-transition: $time;
+  transition: $time;
+}
+
+@mixin transform($deg) {
+  -webkit-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin dimentions($lineHeight, $lineWidth) {
+  height: $lineHeight;
+  width: $lineWidth;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  width: auto;
+}
+
+.burger-wrapper {
+  display: block;
+  padding: 1.2em 0.6em;
+  cursor: pointer;
+}
+
+.burger {
+  @include transition($transitionTime);
+  @include dimentions($lineHeight, $lineWidth);
+  display: block;
+  position: relative;
+  background: $burger-color;
+}
+
+.burger:before {
+  @include transition($transitionTime);
+  @include dimentions($lineHeight, $lineWidth);
+  position: absolute;
+  top: -0.625em;
+  background: $burger-color;
+  content: "";
+}
+
+.burger:after {
+  @include transition($transitionTime);
+  @include dimentions($lineHeight, $lineWidth);
+  position: absolute;
+  top: 0.625em;
+  background: $burger-color;
+  content: "";
+}
+
+.active-burger {
+  background: transparent;
+}
+
+.active-burger:before {
+  top: 0;
+  @include transform(45deg);
+}
+
+.active-burger:after {
+  top: 0;
+  @include transform(-45deg);
+}

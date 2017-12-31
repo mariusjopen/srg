@@ -2,6 +2,10 @@
   display: flex;
 	position: relative;
 	padding-bottom: $difference-m;
+
+	@media screen and (max-width: $break-s) {
+		display: inline-block;
+	}
 }
 
 .modul.text .logo-electronic {
@@ -14,4 +18,8 @@
 
 .modul.text .logo-electronic.big img {
   width: 25%;
+
+	@media screen and (max-width: $break-s) {
+  	width: 15%;
+	}
 }

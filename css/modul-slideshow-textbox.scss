@@ -1,6 +1,10 @@
 .modul.slideshow-textbox {
 	padding-bottom: 0px;
   display: flex;
+
+	@media screen and (max-width: $break-s) {
+		display: inline-block;
+	}
 }
 
 .modul.slideshow-textbox .right {
@@ -8,6 +12,13 @@
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
+
+	@media screen and (max-width: $break-s) {
+		width: 100% !important;
+		padding-left: 0px;
+		padding-right: 0px;
+		float: none;
+	}
 }
 
 .modul.slideshow-textbox .left {

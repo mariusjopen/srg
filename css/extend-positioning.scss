@@ -2,6 +2,12 @@
 .left-padding {
 	padding-left: $padding-sides;
 	width: calc(#{$left} - #{$padding-sides});
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-s;
+		padding-right: $difference-s;
+		width: calc(100% - #{$difference-m}) !important;
+	}
 }
 
 .left-no-padding {
@@ -12,11 +18,22 @@
 .right-padding {
 	padding-right: $padding-sides;
 	width: calc(#{$right} - #{$padding-sides});
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-s;
+		padding-right: $difference-s;
+		width: calc(100% - #{$difference-m}) !important;
+	}
 }
 
 .right-no-padding {
 	padding-right: 0px;
 	width: $right;
+
+	@media screen and (max-width: $break-s) {
+		width: 100% !important;
+		padding: 0px;
+	}
 }
 
 
@@ -24,6 +41,12 @@
 .simple-left-padding {
 	padding-left: $padding-sides;
 	width: calc(#{$simple-left} - #{$padding-sides});
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-s;
+		padding-right: $difference-s;
+		width: calc(100% - #{$difference-m}) !important;
+	}
 }
 
 .simple-left-no-padding {
@@ -34,6 +57,12 @@
 .simple-right-padding {
 	padding-right: $padding-sides;
 	width: calc(#{$simple-right} - #{$padding-sides});
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-s;
+		padding-right: $difference-s;
+		width: calc(100% - #{$difference-m}) !important;
+	}
 }
 
 .simple-right-no-padding {
@@ -46,6 +75,11 @@
 .center-padding {
 	padding-left: $padding-sides;
 	padding-right: $padding-sides;
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-s;
+		padding-right: $difference-s;
+	}
 }
 
 .flex-center-align {

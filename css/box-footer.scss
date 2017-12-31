@@ -34,32 +34,65 @@
   display: inline-flex;
 	padding-left: $difference-xs;
 	padding-right: $difference-xs;
+
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-xxs;
+		padding-right: $difference-xxs;
+	}
 }
 
 .footer .top .footer-left {
 	width: 20%;
 	float: left;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .footer .top .footer-middle {
 	width: 60%;
 	float: left;
 	margin-top: -10px;
+
+	@media screen and (max-width: $break-s) {
+		width: 100%;
+	}
 }
 
 .footer .top .footer-right {
 	width: 20%;
 	float: left;
 	@extend .font-xs;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .footer .item {
 	width: calc(100% / 3);
+
+	@media screen and (max-width: $break-s) {
+		width: calc(100% - #{$difference-m}) !important;
+	}
 }
 
 .footer .footer-right {
 	text-align: right;
 	position: relative;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
+}
+
+.footer .footer-left {
+	display: block;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .footer .logo img {
@@ -71,10 +104,18 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+
+	@media screen and (max-width: $break-s) {
+		position: relative;
+		padding-top: $difference-s;
+	}
 }
 
 .footer .footer-middle {
 	text-align: center;
+	@media screen and (max-width: $break-s) {
+		width: 100%;
+	}
 }
 
 .footer .social-media img {
@@ -112,4 +153,53 @@
 
 .footer .mc4wp-response {
 	padding-top: $difference-xs;
+}
+
+.footer .hidden-left {
+	@extend .center-padding ;
+	padding-bottom: $difference-m;
+}
+
+.footer .hidden-left p,
+.footer .hidden-left a  {
+	@extend .font-xs;
+}
+
+
+.footer .inside .logo {
+	float: left;
+}
+
+.footer .inside .social-media {
+	float: right;
+}
+
+
+.footer .inside {
+	display: inline-block;
+	@extend .center-padding ;
+}
+
+
+.footer .inside .item {
+	padding: 0px;
+	width: calc(100% - #{$difference-m}) !important;
+}
+
+.footer .hidden .item {
+	padding: 0px;
+	width: calc(100% - #{$difference-m}) !important;
+}
+
+
+.footer .inside {
+	width: calc(100% - #{$difference-m}) !important;
+}
+
+.footer .menu {
+	width: 100%;
+
+	@media screen and (max-width: $break-s) {
+		width: 100% !important;
+	}
 }

@@ -8,32 +8,61 @@
 	@extend .right-no-padding ;
 }
 
+
 .box.welcome .left {
   height: 40vw; //HEIGHT OF BOX
 	position: relative;
+
+	@media screen and (max-width: $break-s) {
+		height: auto; //HEIGHT OF BOX
+	}
 }
 
 .box.welcome .carousel-cell {
   height: 40vw; //HEIGHT OF BOX
+
+	@media screen and (max-width: $break-s) {
+		height: 60vw; //HEIGHT OF BOX
+	}
 }
 
 .logo-big {
   padding-top: 4vw;
   margin-left: -1.3vw;
+
+	@media screen and (max-width: $break-s) {
+		margin-bottom: $difference-m;
+	}
+}
+
+.box.welcome .headline {
+	margin-top: 50vw;
 }
 
 .logo-big img {
   width: 28%;
+	position: absolute;
+	z-index: 10;
 }
 
 .box.welcome .headline {
 	position: absolute;
 	bottom: $difference-m;
+
+	@media screen and (max-width: $break-s) {
+		position: initial;
+		bottom: initial;
+	}
 }
 
 .box.welcome .image-slideshow {
 	position: absolute;
 	width: $right;
+
+	@media screen and (max-width: $break-s) {
+		position: initial;
+		width: initial;
+	}
 }
 
 .box.welcome .caption {
@@ -47,4 +76,8 @@
 
 .box.welcome .flickity-page-dots {
     bottom: 2vw;
+
+		@media screen and (max-width: $break-s) {
+			bottom: -5.5vw;
+		}
 }

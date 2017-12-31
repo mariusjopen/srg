@@ -1,13 +1,13 @@
-.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .blue-nav .navi-empty .box.navigation-main, .navi-empty .box.navigation-main, .modul.linien, .modul.maschinen-linien .navigation-maschinen .item:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
+.background-blue, .box.welcome, .box.navigation-main, .home .navi-empty .box.navigation-main, .blue-nav .navi-empty .box.navigation-main, .navi-empty .box.navigation-main, .box.navigation-mobile .inside-mobile, .box.navigation-mobile .slideout, .modul.linien, .modul.maschinen-linien .navigation-maschinen .item:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1,
 .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2,
 .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3, .modul.slideshow .link, .modul.contact .button, .modul.background-text {
   background-color: #182130;
   color: white; }
-  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .blue-nav .navi-empty .box.navigation-main a, .navi-empty .box.navigation-main a, .modul.linien a, .modul.maschinen-linien .navigation-maschinen .item:hover a, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a,
+  .background-blue a, .box.welcome a, .box.navigation-main a, .home .navi-empty .box.navigation-main a, .blue-nav .navi-empty .box.navigation-main a, .navi-empty .box.navigation-main a, .box.navigation-mobile .inside-mobile a, .box.navigation-mobile .slideout a, .modul.linien a, .modul.maschinen-linien .navigation-maschinen .item:hover a, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a,
   .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a,
   .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a, .modul.slideshow .link a, .modul.contact .button a, .modul.background-text a {
     color: white; }
-  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .modul.linien a:hover, .modul.maschinen-linien .navigation-maschinen .item:hover a:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a:hover,
+  .background-blue a:hover, .box.welcome a:hover, .box.navigation-main a:hover, .box.navigation-mobile .inside-mobile a:hover, .box.navigation-mobile .slideout a:hover, .modul.linien a:hover, .modul.maschinen-linien .navigation-maschinen .item:hover a:hover, .active-linie-1 .modul.maschinen-linien .navigation-maschinen .linie-nav-1 a:hover,
   .active-linie-2 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 a:hover,
   .active-linie-3 .modul.maschinen-linien .navigation-maschinen .linie-nav-3 a:hover, .modul.slideshow .link a:hover, .modul.contact .button a:hover, .modul.background-text a:hover {
     color: #e4002b; }
@@ -47,6 +47,11 @@
 .left-padding, .left {
   padding-left: 50px;
   width: calc(45% - 50px); }
+  @media screen and (max-width: 800px) {
+    .left-padding, .left {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: calc(100% - 40px) !important; } }
 
 .left-no-padding {
   padding-left: 0px;
@@ -55,14 +60,28 @@
 .right-padding, .right {
   padding-right: 50px;
   width: calc(55% - 50px); }
+  @media screen and (max-width: 800px) {
+    .right-padding, .right {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: calc(100% - 40px) !important; } }
 
 .right-no-padding, .box.welcome .right {
   padding-right: 0px;
   width: 55%; }
+  @media screen and (max-width: 800px) {
+    .right-no-padding, .box.welcome .right {
+      width: 100% !important;
+      padding: 0px; } }
 
 .simple-left-padding, .simple .left {
   padding-left: 50px;
   width: calc(25% - 50px); }
+  @media screen and (max-width: 800px) {
+    .simple-left-padding, .simple .left {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: calc(100% - 40px) !important; } }
 
 .simple-left-no-padding {
   padding-left: 0px;
@@ -71,16 +90,25 @@
 .simple-right-padding, .simple .right {
   padding-right: 50px;
   width: calc(75% - 50px); }
+  @media screen and (max-width: 800px) {
+    .simple-right-padding, .simple .right {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: calc(100% - 40px) !important; } }
 
 .simple-right-no-padding {
   padding-right: 0px;
   width: 75%; }
 
-.center-padding, .center, .footer .top, .footer .bottom, .modul.linien .top, .modul.linien .item-container, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .all, .modul.logo-maps .top, .modul.logo-maps .image {
+.center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
   padding-left: 50px;
   padding-right: 50px; }
+  @media screen and (max-width: 800px) {
+    .center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
-.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .modul.linien .item-container, .modul.maschinen-linien .navigation-maschinen .top, .modul.maschinen-linien .navigation-maschinen .linien-nav, .modul.people .right, .modul.many-maps .all {
+.flex-center-align, .box.navigation-main .menu, .box.grafik .top, .box.grafik .bottom, .footer .top, .footer .bottom, .footer .navigation, .box.navigation-blocks .top, .box.navigation-blocks .navi-block, .modul.linien .inside, .modul.maschinen-linien .navigation-maschinen .top, .modul.maschinen-linien .navigation-maschinen .linien-nav, .modul.people .inside, .modul.many-maps .inside {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -89,7 +117,7 @@
   font-family: 'SequelSansW05-LightBody';
   font-weight: normal; }
 
-.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .box.navigation-blocks .top, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p, .modul.maps .text p,
+.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .box.navigation-blocks .top, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.linien .item .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p, .modul.maps .text p,
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
@@ -102,20 +130,23 @@
   font-weight: normal; }
 
 .font-xs, .footer .bottom p,
-.footer .bottom a, .footer .top .footer-right {
+.footer .bottom a, .footer .top .footer-right, .footer .hidden-left p,
+.footer .hidden-left a {
   font-size: 10px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
     .font-xs, .footer .bottom p,
-    .footer .bottom a, .footer .top .footer-right {
+    .footer .bottom a, .footer .top .footer-right, .footer .hidden-left p,
+    .footer .hidden-left a {
       font-size: 8px; } }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .font-xs, .footer .bottom p,
-    .footer .bottom a, .footer .top .footer-right {
-      font-size: 8px; } }
+    .footer .bottom a, .footer .top .footer-right, .footer .hidden-left p,
+    .footer .hidden-left a {
+      font-size: 10px; } }
 
-.font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+.font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
 .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -129,7 +160,7 @@
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -140,8 +171,8 @@
     .modul.big-text .right li, .modul.text-accordeon .text p, .modul.many-maps .text p,
     .modul.many-maps .text a, .modul.many-maps .link a {
       font-size: 13px; } }
-  @media screen and (max-width: 600px) {
-    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+  @media screen and (max-width: 800px) {
+    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -151,28 +182,29 @@
     .modul.big-text .right a, .modul.big-text .left li,
     .modul.big-text .right li, .modul.text-accordeon .text p, .modul.many-maps .text p,
     .modul.many-maps .text a, .modul.many-maps .link a {
-      font-size: 12px; } }
+      font-size: 14px; } }
 
-.font-m, body, a, p, li {
+.font-m, body, a, p, li, .modul.background-link .bottom a {
   font-size: 17.5px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-m, body, a, p, li {
+    .font-m, body, a, p, li, .modul.background-link .bottom a {
       font-size: 17.5px; } }
-  @media screen and (max-width: 600px) {
-    .font-m, body, a, p, li {
-      font-size: 15px; } }
+  @media screen and (max-width: 800px) {
+    .font-m, body, a, p, li, .modul.background-link .bottom a {
+      font-size: 14px;
+      line-height: 1.6; } }
 
-.font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+.font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 24px; } }
-  @media screen and (max-width: 600px) {
-    .font-l, .box.navigation-blocks .top, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+  @media screen and (max-width: 800px) {
+    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -182,9 +214,9 @@
   @media screen and (max-width: 900px) {
     .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
       font-size: 17.5px; } }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
-      font-size: 15px; } }
+      font-size: 25px; } }
 
 html, * {
   margin: 0px;
@@ -207,6 +239,15 @@ a:hover {
 li {
   list-style: none; }
 
+.mobil {
+  display: none; }
+  @media screen and (max-width: 800px) {
+    .mobil {
+      display: block; } }
+
+.inactive {
+  display: none !important; }
+
 @font-face {
   font-family: 'SequelSansW05-MediumBody';
   src: url("../../fonts/SequelSansW05-MediumBody.woff2") format("woff2"), url("../../fonts/SequelSansW05-MediumBody.woff") format("woff");
@@ -227,9 +268,19 @@ li {
 
 .left {
   float: left; }
+  @media screen and (max-width: 800px) {
+    .left {
+      float: none;
+      width: 100%;
+      padding-bottom: 20px; } }
 
 .right {
   float: left; }
+  @media screen and (max-width: 800px) {
+    .right {
+      float: none;
+      width: 100%;
+      padding-top: 20px; } }
 
 .box,
 .modul {
@@ -253,16 +304,22 @@ li {
   object-fit: cover; }
 
 .flickity-page-dots {
-  bottom: 6vw; }
+  bottom: 4vw; }
 
 .carousel-cell {
   width: 100%;
   height: 40vw; }
+  @media screen and (max-width: 800px) {
+    .carousel-cell {
+      height: 80vw; } }
 
 .caption {
   padding-top: 2px;
   font-size: 12px;
   line-height: 1.3; }
+  @media screen and (max-width: 800px) {
+    .caption {
+      padding-left: 20px; } }
 
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co
@@ -405,24 +462,46 @@ http://flickity.metafizzy.co
 .box.welcome .left {
   height: 40vw;
   position: relative; }
+  @media screen and (max-width: 800px) {
+    .box.welcome .left {
+      height: auto; } }
 
 .box.welcome .carousel-cell {
   height: 40vw; }
+  @media screen and (max-width: 800px) {
+    .box.welcome .carousel-cell {
+      height: 60vw; } }
 
 .logo-big {
   padding-top: 4vw;
   margin-left: -1.3vw; }
+  @media screen and (max-width: 800px) {
+    .logo-big {
+      margin-bottom: 40px; } }
+
+.box.welcome .headline {
+  margin-top: 50vw; }
 
 .logo-big img {
-  width: 28%; }
+  width: 28%;
+  position: absolute;
+  z-index: 10; }
 
 .box.welcome .headline {
   position: absolute;
   bottom: 40px; }
+  @media screen and (max-width: 800px) {
+    .box.welcome .headline {
+      position: initial;
+      bottom: initial; } }
 
 .box.welcome .image-slideshow {
   position: absolute;
   width: 55%; }
+  @media screen and (max-width: 800px) {
+    .box.welcome .image-slideshow {
+      position: initial;
+      width: initial; } }
 
 .box.welcome .caption {
   display: none; }
@@ -432,10 +511,16 @@ http://flickity.metafizzy.co
 
 .box.welcome .flickity-page-dots {
   bottom: 2vw; }
+  @media screen and (max-width: 800px) {
+    .box.welcome .flickity-page-dots {
+      bottom: -5.5vw; } }
 
 .box.navigation-main {
   padding-top: 20px;
   padding-bottom: 20px; }
+  @media screen and (max-width: 800px) {
+    .box.navigation-main {
+      display: none; } }
 
 .box.navigation-main .menu li {
   padding-left: 10px;
@@ -479,21 +564,44 @@ http://flickity.metafizzy.co
 .box.grafik .top p {
   width: 70%; }
 
+@media screen and (max-width: 800px) {
+  .box.grafik .bottom {
+    display: block; } }
+
 .box.grafik .bottom .text-left {
   text-align: right;
   padding-right: 20px; }
+  @media screen and (max-width: 800px) {
+    .box.grafik .bottom .text-left {
+      text-align: center;
+      padding: 0px;
+      margin-bottom: 20px; } }
 
 .box.grafik .bottom .text-right {
   text-align: left;
   padding-left: 20px; }
+  @media screen and (max-width: 800px) {
+    .box.grafik .bottom .text-right {
+      text-align: center;
+      padding: 0px;
+      margin-top: 20px; } }
 
 .box.grafik .bottom .line {
   width: calc(100% / 7);
   height: 4px; }
+  @media screen and (max-width: 800px) {
+    .box.grafik .bottom .line {
+      height: 40px;
+      width: 4px;
+      margin-left: calc(50% - 2px); } }
 
 .box.grafik .bottom .block {
   padding: 6px 12px 6px 12px;
   text-align: center; }
+  @media screen and (max-width: 800px) {
+    .box.grafik .bottom .block {
+      width: calc(80% - 20px);
+      margin-left: 10%; } }
 
 .footer .top {
   padding-bottom: 40px;
@@ -514,26 +622,51 @@ http://flickity.metafizzy.co
   display: inline-flex;
   padding-left: 10px;
   padding-right: 10px; }
+  @media screen and (max-width: 800px) {
+    .footer .navigation li {
+      padding-left: 5px;
+      padding-right: 5px; } }
 
 .footer .top .footer-left {
   width: 20%;
   float: left; }
+  @media screen and (max-width: 800px) {
+    .footer .top .footer-left {
+      display: none; } }
 
 .footer .top .footer-middle {
   width: 60%;
   float: left;
   margin-top: -10px; }
+  @media screen and (max-width: 800px) {
+    .footer .top .footer-middle {
+      width: 100%; } }
 
 .footer .top .footer-right {
   width: 20%;
   float: left; }
+  @media screen and (max-width: 800px) {
+    .footer .top .footer-right {
+      display: none; } }
 
 .footer .item {
   width: calc(100% / 3); }
+  @media screen and (max-width: 800px) {
+    .footer .item {
+      width: calc(100% - 40px) !important; } }
 
 .footer .footer-right {
   text-align: right;
   position: relative; }
+  @media screen and (max-width: 800px) {
+    .footer .footer-right {
+      display: none; } }
+
+.footer .footer-left {
+  display: block; }
+  @media screen and (max-width: 800px) {
+    .footer .footer-left {
+      display: none; } }
 
 .footer .logo img {
   height: 34px;
@@ -543,9 +676,16 @@ http://flickity.metafizzy.co
   position: absolute;
   bottom: 0px;
   right: 0px; }
+  @media screen and (max-width: 800px) {
+    .footer .data {
+      position: relative;
+      padding-top: 20px; } }
 
 .footer .footer-middle {
   text-align: center; }
+  @media screen and (max-width: 800px) {
+    .footer .footer-middle {
+      width: 100%; } }
 
 .footer .social-media img {
   height: 20px; }
@@ -576,8 +716,40 @@ http://flickity.metafizzy.co
 .footer .mc4wp-response {
   padding-top: 10px; }
 
+.footer .hidden-left {
+  padding-bottom: 40px; }
+
+.footer .inside .logo {
+  float: left; }
+
+.footer .inside .social-media {
+  float: right; }
+
+.footer .inside {
+  display: inline-block; }
+
+.footer .inside .item {
+  padding: 0px;
+  width: calc(100% - 40px) !important; }
+
+.footer .hidden .item {
+  padding: 0px;
+  width: calc(100% - 40px) !important; }
+
+.footer .inside {
+  width: calc(100% - 40px) !important; }
+
+.footer .menu {
+  width: 100%; }
+  @media screen and (max-width: 800px) {
+    .footer .menu {
+      width: 100% !important; } }
+
 .box.navigation-blocks {
   padding-bottom: 40px; }
+  @media screen and (max-width: 800px) {
+    .box.navigation-blocks {
+      display: none; } }
 
 .box.navigation-blocks .top {
   padding-bottom: 40px;
@@ -641,6 +813,137 @@ http://flickity.metafizzy.co
 .sticky .box.navigation-blocks .image {
   display: none; }
 
+.hide-logo.active-navi .logo-big img {
+  opacity: 0; }
+
+.home.active-navi .box.navigation-mobile .logo-nav {
+  opacity: 1 !important;
+  transition: 0.2s all ease;
+  max-height: 200px; }
+
+.box.navigation-mobile {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: block; }
+
+.box.navigation-mobile .inside-mobile {
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1; }
+
+.home .box.navigation-mobile .logo-nav {
+  opacity: 0;
+  max-height: 0; }
+
+.home .box.navigation-mobile .logo-big img {
+  width: 28%;
+  margin-top: -60px; }
+
+.box.navigation-mobile .logo-nav {
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left; }
+
+.burger-wrapper {
+  float: right;
+  margin-top: 5px;
+  cursor: pointer; }
+
+@media screen and (max-width: 800px) {
+  .box.navigation-mobile .placeholder {
+    height: 50px;
+    width: 100%; } }
+
+.slideout {
+  opacity: 0;
+  transition: 0.2s ease;
+  pointer-events: none; }
+
+.active-navi .slideout {
+  opacity: 1;
+  pointer-events: all; }
+
+.box.navigation-mobile .slideout {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  z-index: 99999999; }
+
+.box.navigation-mobile .slideout li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid white; }
+
+.box.navigation-mobile .slideout ul {
+  border-bottom: 1px solid white; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.row {
+  width: auto; }
+
+.burger-wrapper {
+  display: block;
+  padding: 1.2em 0.6em;
+  cursor: pointer; }
+
+.burger {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  height: 2px;
+  width: 30px;
+  display: block;
+  position: relative;
+  background: white; }
+
+.burger:before {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  height: 2px;
+  width: 30px;
+  position: absolute;
+  top: -0.625em;
+  background: white;
+  content: ""; }
+
+.burger:after {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  height: 2px;
+  width: 30px;
+  position: absolute;
+  top: 0.625em;
+  background: white;
+  content: ""; }
+
+.active-burger {
+  background: transparent; }
+
+.active-burger:before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.active-burger:after {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
 .modul.image {
   display: flex;
   padding-top: 0px;
@@ -656,14 +959,33 @@ http://flickity.metafizzy.co
 .modul.linien .top {
   padding-bottom: 50px;
   width: 50%; }
+  @media screen and (max-width: 800px) {
+    .modul.linien .top {
+      width: calc(100% - 40px); } }
 
 .modul.linien .item-container {
+  margin-bottom: 50px; }
+  @media screen and (max-width: 800px) {
+    .modul.linien .item-container {
+      display: block;
+      overflow-x: scroll; } }
+
+.modul.linien .inside {
   justify-content: space-around;
   align-items: unset;
   margin-bottom: 50px; }
+  @media screen and (max-width: 800px) {
+    .modul.linien .inside {
+      width: calc(240vw + 160px) !important; } }
 
 .modul.linien .item {
   width: calc(100% / 4); }
+  @media screen and (max-width: 800px) {
+    .modul.linien .item {
+      width: 80vw;
+      float: left;
+      margin-right: 20px;
+      margin-left: 20px; } }
 
 .modul.linien .sub-headline {
   padding: 12px 10px 7px 10px;
@@ -680,6 +1002,28 @@ http://flickity.metafizzy.co
   width: 100%;
   text-align: center;
   padding-bottom: 20px; }
+  @media screen and (max-width: 800px) {
+    .modul.linien .link {
+      text-align: left;
+      padding-left: 20px;
+      width: initial; } }
+
+.mobil.item-short {
+  width: 20px;
+  float: left;
+  height: 10px; }
+
+.modul.linien .item .link {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 20px; }
+
+.modul.linien .item .link a {
+  text-transform: uppercase;
+  color: #e4002b; }
+
+.modul.linien .item .link a:hover {
+  color: #182130; }
 
 .modul.maschinen-linien {
   margin-top: -10px;
@@ -690,6 +1034,10 @@ http://flickity.metafizzy.co
   width: calc(55% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
+  @media screen and (max-width: 800px) {
+    .modul.maschinen-linien .right {
+      padding: 0px;
+      width: 100% !important; } }
 
 .modul.maschinen-linien .left {
   float: left;
@@ -736,6 +1084,9 @@ http://flickity.metafizzy.co
   padding-bottom: 10px;
   transition: 0.2s ease;
   cursor: pointer; }
+  @media screen and (max-width: 800px) {
+    .modul.maschinen-linien .navigation-maschinen .item {
+      width: calc(100% / 3); } }
 
 .modul.maschinen-linien .navigation-maschinen .linie-nav-2 {
   border-left: 0px;
@@ -746,6 +1097,9 @@ http://flickity.metafizzy.co
 
 .modul.link .link {
   text-align: center; }
+  @media screen and (max-width: 800px) {
+    .modul.link .link {
+      text-align: left; } }
 
 .modul.link a {
   text-transform: uppercase;
@@ -758,6 +1112,9 @@ http://flickity.metafizzy.co
   display: flex;
   position: relative;
   padding-bottom: 40px; }
+  @media screen and (max-width: 800px) {
+    .modul.text {
+      display: inline-block; } }
 
 .modul.text .logo-electronic {
   margin-top: 40px; }
@@ -767,6 +1124,9 @@ http://flickity.metafizzy.co
 
 .modul.text .logo-electronic.big img {
   width: 25%; }
+  @media screen and (max-width: 800px) {
+    .modul.text .logo-electronic.big img {
+      width: 15%; } }
 
 .modul.slideshow {
   padding-bottom: 0px;
@@ -777,16 +1137,33 @@ http://flickity.metafizzy.co
   width: calc(55% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow .right {
+      width: 100% !important;
+      padding-left: 0px;
+      padding-right: 0px;
+      float: none; } }
 
 .modul.slideshow .left {
   float: left;
   width: calc(45% - 50px);
   padding-left: 20px; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow .left {
+      display: none; } }
+
+@media screen and (max-width: 800px) {
+  .modul.slideshow .mobil.left {
+    display: block !important; } }
 
 .modul.slideshow .colour {
   display: inline-block;
   margin-top: -120px;
   width: 100%; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow .colour {
+      padding-top: 0px;
+      margin: 0px; } }
 
 .modul.slideshow .colour .left {
   float: left;
@@ -795,6 +1172,11 @@ http://flickity.metafizzy.co
   margin-left: 55%;
   padding-top: 50px;
   padding-bottom: 50px; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow .colour .left {
+      margin-left: 0px;
+      display: block !important;
+      padding-top: 40px; } }
 
 .modul.slideshow .link {
   width: 100%;
@@ -802,15 +1184,33 @@ http://flickity.metafizzy.co
   padding-bottom: 20px;
   margin-top: -10px; }
 
+@media screen and (max-width: 800px) {
+  .modul.slideshow .flickity-page-dots {
+    bottom: 24vw; } }
+
+@media screen and (max-width: 800px) {
+  .modul.slideshow .image-slideshow {
+    height: 60vw;
+    overflow: hidden; } }
+
 .modul.slideshow-textbox {
   padding-bottom: 0px;
   display: flex; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow-textbox {
+      display: inline-block; } }
 
 .modul.slideshow-textbox .right {
   float: left;
   width: calc(55% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow-textbox .right {
+      width: 100% !important;
+      padding-left: 0px;
+      padding-right: 0px;
+      float: none; } }
 
 .modul.slideshow-textbox .left {
   float: left;
@@ -830,6 +1230,9 @@ http://flickity.metafizzy.co
 .modul.maps .acf-map {
   width: 100%;
   height: 40vw; }
+  @media screen and (max-width: 800px) {
+    .modul.maps .acf-map {
+      height: 80vw; } }
 
 .modul.maps .acf-map img {
   max-width: inherit !important; }
@@ -837,11 +1240,19 @@ http://flickity.metafizzy.co
 .modul.contact .text {
   width: 25%;
   margin-bottom: 20px; }
+  @media screen and (max-width: 800px) {
+    .modul.contact .text {
+      width: initial; } }
 
 .modul.contact .contact-left,
 .modul.contact .contact-right {
   width: 50%;
   float: left; }
+  @media screen and (max-width: 800px) {
+    .modul.contact .contact-left,
+    .modul.contact .contact-right {
+      width: 100%;
+      float: none; } }
 
 .modul.contact .text-958 input,
 .modul.contact .email-967 input,
@@ -852,6 +1263,12 @@ http://flickity.metafizzy.co
   width: calc(100% - 40px);
   margin-bottom: 10px;
   color: #d2cfcb; }
+  @media screen and (max-width: 800px) {
+    .modul.contact .text-958 input,
+    .modul.contact .email-967 input,
+    .modul.contact .tel-672 input,
+    .modul.contact .wpcf7-form-control-wrap textarea {
+      width: calc(100% - 20px); } }
 
 .modul.contact .wpcf7-form-control-wrap textarea {
   height: 158px;
@@ -878,19 +1295,39 @@ span.wpcf7-list-item-label::before {
   content: " ";
   padding-left: 5px; }
 
-.modul.people .right {
+.modul.people .inside {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 800px) {
+    .modul.people .inside {
+      display: block;
+      flex-wrap: initial;
+      justify-content: initial; } }
+
+@media screen and (max-width: 800px) {
+  .modul.people .right {
+    display: block;
+    overflow-x: scroll;
+    width: calc(100% - 40px); } }
 
 .modul.people .item {
   width: calc(100% / 3.2);
   margin-bottom: 40px; }
+  @media screen and (max-width: 800px) {
+    .modul.people .item {
+      width: 60vw;
+      float: left;
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 .modul.people .item img {
   width: 100%;
   height: 30vw;
   object-fit: cover; }
+  @media screen and (max-width: 800px) {
+    .modul.people .item img {
+      height: 60vw; } }
 
 .modul.people .text {
   margin-top: 20px; }
@@ -907,6 +1344,10 @@ span.wpcf7-list-item-label::before {
   padding-top: 50px;
   padding-bottom: 50px;
   height: 40vw; }
+  @media screen and (max-width: 800px) {
+    .modul.background-text {
+      height: 60vw;
+      width: calc(100% - 40px); } }
 
 .modul.background-text .text {
   width: 75%; }
@@ -917,6 +1358,9 @@ span.wpcf7-list-item-label::before {
 .modul.text-accordeon .text {
   height: 12vw;
   overflow: hidden; }
+  @media screen and (max-width: 800px) {
+    .modul.text-accordeon .text {
+      height: 25vw; } }
 
 .modul.text-accordeon .open .text {
   height: auto !important; }
@@ -930,14 +1374,28 @@ span.wpcf7-list-item-label::before {
 .modul.text-accordeon .link:hover {
   color: #182130; }
 
-.modul.many-maps .all {
+.modul.many-maps .inside {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 800px) {
+    .modul.many-maps .inside {
+      display: block;
+      flex-wrap: initial;
+      justify-content: initial; } }
+
+@media screen and (max-width: 800px) {
+  .modul.many-maps .all {
+    display: block;
+    overflow-x: scroll;
+    width: calc(100% - 40px); } }
 
 .modul.many-maps .acf-map {
   width: 100%;
   height: 30vw; }
+  @media screen and (max-width: 800px) {
+    .modul.many-maps .acf-map {
+      height: 60vw; } }
 
 .modul.many-maps .acf-map img {
   max-width: inherit !important; }
@@ -945,6 +1403,11 @@ span.wpcf7-list-item-label::before {
 .modul.many-maps .item {
   width: calc(100% / 4.2);
   margin-bottom: 40px; }
+  @media screen and (max-width: 800px) {
+    .modul.many-maps .item {
+      width: 60vw;
+      float: left;
+      padding-left: 20px; } }
 
 .modul.many-maps .item img {
   margin-top: 20px;
@@ -974,6 +1437,10 @@ span.wpcf7-list-item-label::before {
   width: 60%;
   height: 60%;
   object-fit: cover; }
+  @media screen and (max-width: 800px) {
+    .modul.logo-maps .image img {
+      width: 100%;
+      height: 100%; } }
 
 .simple .left {
   float: left; }

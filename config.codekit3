@@ -74,6 +74,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/box-navigation-mobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/box-navigation-mobile.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/box-welcome.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -687,6 +700,13 @@
 		"oAP": "\/inc\/box-navigation-main.php",
 		"oF": 0
 		},
+	"\/inc\/box-navigation-mobile.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/box-navigation-mobile.php",
+		"oF": 0
+		},
 	"\/inc\/box-welcome.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -847,6 +867,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/horizontal-scroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/horizontal-scroll.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/image-slideshow.js": {
 		"ft": 64,
 		"ma": 0,
@@ -887,12 +917,42 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/min\/horizontal-scroll.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/horizontal-scroll.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/min\/maps.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/js\/min\/maps.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/min\/mobile-navigation.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/js\/min\/mobile-navigation.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/mobile-navigation.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/mobile-navigation.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

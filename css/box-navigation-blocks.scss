@@ -1,5 +1,9 @@
 .box.navigation-blocks {
 	padding-bottom: $difference-m;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .box.navigation-blocks .top {
