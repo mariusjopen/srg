@@ -60,11 +60,15 @@
 
 .box.grafik .bottom .block {
 	@extend .background-red;
-	padding: 6px 12px 6px 12px;
+	padding: 6px 15px 6px 15px;
 	text-align: center;
 
 	@media screen and (max-width: $break-s) {
 		width: calc(80% - #{$difference-s});
 		margin-left: 10%;
 	}
+}
+
+.box.grafik .bottom .block a:hover {
+	color: white;
 }

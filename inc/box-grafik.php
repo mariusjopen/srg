@@ -14,7 +14,9 @@
 			</div>
 
 			<div class="item block">
-				<?php echo get_field('grafik_text_mitte'); ?>
+				<a href="<?php echo get_field('grafik_link'); ?>">
+					<?php echo get_field('grafik_text_mitte'); ?>
+				</a>
 			</div>
 
 			<div class="item line">

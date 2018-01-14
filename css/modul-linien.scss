@@ -29,9 +29,13 @@
 	justify-content: space-around;
 	align-items: unset;
 	margin-bottom: $difference-l;
+	padding-left: $difference-xl;
+	padding-right: $difference-xl;
 
 	@media screen and (max-width: $break-s) {
 		width: calc(240vw + 160px) !important;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
@@ -62,12 +66,16 @@
 
 .modul.linien .inhalt li {
 	@extend .font-s;
+	padding-left: 20px;
 }
 
 .modul.linien .inhalt li:before {
 	content: "\2014";
-	padding-right: 5px;
+	margin-right: 6px;
+	margin-left: -20px;
 }
+
+
 
 
 .modul.linien .link {

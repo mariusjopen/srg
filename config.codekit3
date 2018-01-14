@@ -439,6 +439,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/modul-link-gross.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/min\/modul-link-gross.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/modul-link.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -768,6 +781,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/modul-linien.php",
+		"oF": 0
+		},
+	"\/inc\/modul-link-gross.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/modul-link-gross.php",
 		"oF": 0
 		},
 	"\/inc\/modul-link.php": {

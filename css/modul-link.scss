@@ -15,6 +15,7 @@
 	@extend .font-regular;
 	text-transform: uppercase;
 	color: $red;
+	@extend .font-s;
 }
 
 .modul.link a:hover {

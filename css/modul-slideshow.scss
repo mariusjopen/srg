@@ -40,7 +40,7 @@
 
 .modul.slideshow .colour {
 	display: inline-block;
-	margin-top: -$difference-xxl;
+	margin-top: -150px;
 	width: 100%;
 
 	@media screen and (max-width: $break-s) {
@@ -62,6 +62,15 @@
 		margin-left: 0px;
 		display: block !important;
 		padding-top: $difference-m;
+	}
+}
+
+
+.modul.slideshow .colour .left .inside {
+	width: 70% !important;
+
+	@media screen and (max-width: $break-s) {
+		width: 100%;
 	}
 }
 

@@ -6,7 +6,15 @@
 
 	    while ( have_rows('moduls') ) : the_row();
 
-	        if( get_row_layout() == 'modul_link' ):
+					if( get_row_layout() == 'modul_link_gross' ):
+
+						$modul_link_gross_background_color = get_sub_field('background_color');
+						$modul_link_gross_link_color = get_sub_field('link_color');
+						$element_link_gross = get_sub_field('link');
+						$element_link_gross_text = get_sub_field('text');
+						include(locate_template('inc/modul-link-gross.php'));
+
+	        elseif( get_row_layout() == 'modul_link' ):
 
 						$modul_link_background_color = get_sub_field('background_color');
 						$element_link = get_sub_field('link', false, false);

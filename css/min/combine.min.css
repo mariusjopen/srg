@@ -46,7 +46,7 @@
 
 .left-padding, .left {
   padding-left: 50px;
-  width: calc(45% - 50px); }
+  width: calc(42% - 50px); }
   @media screen and (max-width: 800px) {
     .left-padding, .left {
       padding-left: 20px;
@@ -55,11 +55,11 @@
 
 .left-no-padding {
   padding-left: 0px;
-  width: 45%; }
+  width: 42%; }
 
 .right-padding, .right {
   padding-right: 50px;
-  width: calc(55% - 50px); }
+  width: calc(58% - 50px); }
   @media screen and (max-width: 800px) {
     .right-padding, .right {
       padding-left: 20px;
@@ -68,7 +68,7 @@
 
 .right-no-padding, .box.welcome .right {
   padding-right: 0px;
-  width: 55%; }
+  width: 58%; }
   @media screen and (max-width: 800px) {
     .right-no-padding, .box.welcome .right {
       width: 100% !important;
@@ -100,11 +100,11 @@
   padding-right: 0px;
   width: 75%; }
 
-.center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
+.center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.link-gross .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
   padding-left: 50px;
   padding-right: 50px; }
   @media screen and (max-width: 800px) {
-    .center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
+    .center-padding, .center, .footer .top, .footer .bottom, .footer .hidden-left, .footer .inside, .modul.linien .top, .modul.link .link, .modul.link-gross .link, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.many-maps .inside, .modul.logo-maps .top, .modul.logo-maps .image {
       padding-left: 20px;
       padding-right: 20px; } }
 
@@ -113,11 +113,11 @@
   align-items: center;
   justify-content: center; }
 
-.font-light, body, a, p, li {
+.font-light, body, a, p, li, .box.navigation-main .menu a {
   font-family: 'SequelSansW05-LightBody';
   font-weight: normal; }
 
-.font-regular, .headline, .box.navigation-main .menu a, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .box.navigation-blocks .top, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.linien .item .link a, .modul.maschinen-linien .top, .modul.link a, .modul.slideshow .left p, .modul.maps .text p,
+.font-regular, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .box.navigation-blocks .top, .box.navigation-blocks .item, .sticky .box.navigation-blocks .item, .modul.linien .top, .modul.linien .link a, .modul.linien .item .link a, .modul.maschinen-linien .top, .modul.link a, .modul.link-gross .link a, .modul.slideshow .left p, .modul.maps .text p,
 .modul.maps .text a, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
@@ -146,7 +146,7 @@
     .footer .hidden-left a {
       font-size: 10px; } }
 
-.font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+.font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.link a, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
 .modul.contact .email-967 input,
 .modul.contact .tel-672 input,
 .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -156,11 +156,11 @@
 .modul.big-text .right a, .modul.big-text .left li,
 .modul.big-text .right li, .modul.text-accordeon .text p, .modul.many-maps .text p,
 .modul.many-maps .text a, .modul.many-maps .link a {
-  font-size: 13px;
-  line-height: 1.38;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.link a, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -172,7 +172,7 @@
     .modul.many-maps .text a, .modul.many-maps .link a {
       font-size: 13px; } }
   @media screen and (max-width: 800px) {
-    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
+    .font-s, .box.navigation-main .menu a, .footer .chimp .email, .footer .chimp .button, .sticky .box.navigation-blocks .item, .modul.linien .inhalt p, .modul.linien .inhalt li, .modul.linien .item .link a, .modul.maschinen-linien .text p, .modul.maschinen-linien .text li, .modul.link a, .modul.slideshow .colour .left, .modul.slideshow-textbox .text p, .modul.slideshow-textbox .text li, .modul.contact .text, .modul.contact .text-958 input,
     .modul.contact .email-967 input,
     .modul.contact .tel-672 input,
     .modul.contact .wpcf7-form-control-wrap textarea, .modul.contact .radio span, .modul.people .text p,
@@ -185,8 +185,8 @@
       font-size: 14px; } }
 
 .font-m, body, a, p, li, .modul.background-link .bottom a {
-  font-size: 17.5px;
-  line-height: 1.38;
+  font-size: 19px;
+  line-height: 33px;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
     .font-m, body, a, p, li, .modul.background-link .bottom a {
@@ -196,15 +196,15 @@
       font-size: 14px;
       line-height: 1.6; } }
 
-.font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+.font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link-gross .link a, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
   font-size: 26px;
   line-height: 1.38;
   font-weight: normal; }
   @media screen and (max-width: 900px) {
-    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link-gross .link a, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 24px; } }
   @media screen and (max-width: 800px) {
-    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
+    .font-l, .box.navigation-blocks .top, .box.navigation-mobile .slideout li, .modul.linien .link a, .modul.maschinen-linien .top, .modul.link-gross .link a, .modul.background-link .top, .modul.background-text, .modul.big-text .top, .modul.logo-maps .top {
       font-size: 20px; } }
 
 .font-xl, .headline, .box.grafik .bottom .text-left, .box.grafik .bottom .text-right, .modul.linien .top, .modul.slideshow .left p {
@@ -286,7 +286,7 @@ li {
 .modul {
   width: 100%;
   display: inline-block;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px; }
 
 .icon img {
@@ -497,7 +497,7 @@ http://flickity.metafizzy.co
 
 .box.welcome .image-slideshow {
   position: absolute;
-  width: 55%; }
+  width: 58%; }
   @media screen and (max-width: 800px) {
     .box.welcome .image-slideshow {
       position: initial;
@@ -596,12 +596,15 @@ http://flickity.metafizzy.co
       margin-left: calc(50% - 2px); } }
 
 .box.grafik .bottom .block {
-  padding: 6px 12px 6px 12px;
+  padding: 6px 15px 6px 15px;
   text-align: center; }
   @media screen and (max-width: 800px) {
     .box.grafik .bottom .block {
       width: calc(80% - 20px);
       margin-left: 10%; } }
+
+.box.grafik .bottom .block a:hover {
+  color: white; }
 
 .footer .top {
   padding-bottom: 40px;
@@ -670,7 +673,7 @@ http://flickity.metafizzy.co
 
 .footer .logo img {
   height: 34px;
-  margin-left: -1.1vw; }
+  margin-left: -9px; }
 
 .footer .data {
   position: absolute;
@@ -973,10 +976,14 @@ http://flickity.metafizzy.co
 .modul.linien .inside {
   justify-content: space-around;
   align-items: unset;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px; }
   @media screen and (max-width: 800px) {
     .modul.linien .inside {
-      width: calc(240vw + 160px) !important; } }
+      width: calc(240vw + 160px) !important;
+      padding-left: 0px;
+      padding-right: 0px; } }
 
 .modul.linien .item {
   width: calc(100% / 4); }
@@ -994,9 +1001,13 @@ http://flickity.metafizzy.co
 .modul.linien .inhalt {
   padding: 10px 15px 30px 15px; }
 
+.modul.linien .inhalt li {
+  padding-left: 20px; }
+
 .modul.linien .inhalt li:before {
   content: "\2014";
-  padding-right: 5px; }
+  margin-right: 6px;
+  margin-left: -20px; }
 
 .modul.linien .link {
   width: 100%;
@@ -1031,7 +1042,7 @@ http://flickity.metafizzy.co
 
 .modul.maschinen-linien .right {
   float: left;
-  width: calc(55% - 50px);
+  width: calc(58% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
   @media screen and (max-width: 800px) {
@@ -1041,7 +1052,7 @@ http://flickity.metafizzy.co
 
 .modul.maschinen-linien .left {
   float: left;
-  width: calc(45% - 50px);
+  width: calc(42% - 50px);
   padding-left: 20px; }
 
 .modul.maschinen-linien .technische-spez {
@@ -1108,6 +1119,45 @@ http://flickity.metafizzy.co
 .modul.link a:hover {
   color: #182130; }
 
+.modul.link-gross {
+  padding-top: 20px; }
+
+.modul.link-gross .link {
+  text-align: center; }
+  @media screen and (max-width: 800px) {
+    .modul.link-gross .link {
+      text-align: left; } }
+
+.modul.link-gross .link .link-blue a {
+  color: #182130; }
+
+.modul.link-gross .link .link-blue a:hover {
+  color: #e4002b; }
+
+.modul.link-gross .link .link-red a {
+  color: #182130; }
+
+.modul.link-gross .link .link-red a:hover {
+  color: white; }
+
+.modul.link-gross .link .link-beige a {
+  color: #ebe8e3; }
+
+.modul.link-gross .link .link-beige a:hover {
+  color: #e4002b; }
+
+.modul.link-gross .link .link-dark-beige a {
+  color: #d2cfcb; }
+
+.modul.link-gross .link .link-dark-beige a:hover {
+  color: #e4002b; }
+
+.modul.link-gross .link .link-white a {
+  color: white; }
+
+.modul.link-gross .link .link-white a:hover {
+  color: #e4002b; }
+
 .modul.text {
   display: flex;
   position: relative;
@@ -1134,7 +1184,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow .right {
   float: left;
-  width: calc(55% - 50px);
+  width: calc(58% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
   @media screen and (max-width: 800px) {
@@ -1146,7 +1196,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow .left {
   float: left;
-  width: calc(45% - 50px);
+  width: calc(42% - 50px);
   padding-left: 20px; }
   @media screen and (max-width: 800px) {
     .modul.slideshow .left {
@@ -1158,7 +1208,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow .colour {
   display: inline-block;
-  margin-top: -120px;
+  margin-top: -150px;
   width: 100%; }
   @media screen and (max-width: 800px) {
     .modul.slideshow .colour {
@@ -1167,9 +1217,9 @@ http://flickity.metafizzy.co
 
 .modul.slideshow .colour .left {
   float: left;
-  width: calc(45% - 50px);
+  width: calc(42% - 50px);
   padding-left: 20px;
-  margin-left: 55%;
+  margin-left: 58%;
   padding-top: 50px;
   padding-bottom: 50px; }
   @media screen and (max-width: 800px) {
@@ -1177,6 +1227,12 @@ http://flickity.metafizzy.co
       margin-left: 0px;
       display: block !important;
       padding-top: 40px; } }
+
+.modul.slideshow .colour .left .inside {
+  width: 70% !important; }
+  @media screen and (max-width: 800px) {
+    .modul.slideshow .colour .left .inside {
+      width: 100%; } }
 
 .modul.slideshow .link {
   width: 100%;
@@ -1202,7 +1258,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow-textbox .right {
   float: left;
-  width: calc(55% - 50px);
+  width: calc(58% - 50px);
   padding-left: 50px;
   padding-right: 0px; }
   @media screen and (max-width: 800px) {
@@ -1214,7 +1270,7 @@ http://flickity.metafizzy.co
 
 .modul.slideshow-textbox .left {
   float: left;
-  width: calc(45% - 50px);
+  width: calc(42% - 50px);
   padding-left: 20px; }
 
 .modul.slideshow-textbox .technische-spez {

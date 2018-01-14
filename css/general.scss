@@ -39,6 +39,7 @@ strong {
 	@extend .font-medium;
 }
 
+
 .mobil {
 	display: none;
 
@@ -106,7 +107,7 @@ strong {
 .modul {
   width: 100%;
   display: inline-block;
-	padding-top: $difference-m;
+	padding-top: $difference-l;
 	padding-bottom: $difference-s;
 }
 

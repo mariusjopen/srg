@@ -1,0 +1,72 @@
+.modul.link-gross {
+	padding-top: $difference-s;
+}
+
+.modul.link-gross .link {
+	text-align: center;
+	@extend .center-padding;
+
+	@media screen and (max-width: $break-s) {
+		text-align: left;
+	}
+}
+
+.modul.link-gross .link a {
+	@extend .font-regular;
+	@extend .font-l;
+}
+
+.modul.link-gross .link .link-blue {
+
+	& a {
+		color: $blue;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}
+
+.modul.link-gross .link .link-red {
+
+	& a {
+		color: $blue;
+	}
+
+	& a:hover {
+		color: white;
+	}
+}
+
+.modul.link-gross .link .link-beige {
+
+	& a {
+		color: $beige;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}
+
+.modul.link-gross .link .link-dark-beige {
+
+	& a {
+		color: $dark-beige;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}
+
+.modul.link-gross .link .link-white {
+
+	& a {
+		color: white;
+	}
+
+	& a:hover {
+		color: $red;
+	}
+}

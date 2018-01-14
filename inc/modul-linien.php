@@ -54,7 +54,7 @@
 	</div>
 
 	<div class="link">
-		<a href=""><?php echo $modul_linien_alle; ?></a>
+		<a href="/dienstleistungen?data=<?php echo $modul_linien_link_to_field; ?>-1"><?php echo $modul_linien_alle; ?></a>
 	</div>
 </div>
 <!-- END MODUL LINIEN -->

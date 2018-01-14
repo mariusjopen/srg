@@ -26,7 +26,9 @@
 
 	<div class="colour <?php if( !$modul_slideshow_text_klein ): ?>inactive<?php endif; ?> <?php echo $modul_slideshow_background_color_2; ?>">
 		<div class="left">
-			<?php echo $modul_slideshow_text_klein; ?>
+			<div class="inside">
+				<?php echo $modul_slideshow_text_klein; ?>
+			</div>
 		</div>
 	</div>
 
