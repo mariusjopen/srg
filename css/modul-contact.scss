@@ -38,7 +38,7 @@
 }
 
 .modul.contact .wpcf7-form-control-wrap textarea {
-    height: 158px;
+    height: 186px;
     width: calc(100% - #{$difference-xs});
 		padding-right: 0px;
 		padding-left: $difference-xs;
@@ -48,9 +48,13 @@
 
 .modul.contact .button {
 	@extend .background-blue;
-	padding: 6px 12px 6px 12px;
+	padding: 8px 14px 8px 14px;
+	text-align: center;
+	display: inline-block;
 	margin-top: 0px;
+	transition: 0.2s ease;
 	border: 0px;
+	@extend .font-xs;
 }
 
 .modul.contact .button:hover {

@@ -73,3 +73,17 @@
 .modul.many-maps .link a:hover {
 	color: $blue;
 }
+
+.modul.many-maps .maps-link {
+	margin-top: $difference-s;
+}
+
+.modul.many-maps .maps-link a {
+	@extend .font-s;
+	@extend .font-light;
+}
+
+
+.modul.many-maps .map {
+    display: none;
+}

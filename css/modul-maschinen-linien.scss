@@ -8,6 +8,7 @@
 	width: calc(#{$right} - #{$padding-sides});
 	padding-left: $padding-sides;
 	padding-right: 0px;
+	padding-bottom: $difference-m;
 
 
 	@media screen and (max-width: $break-s) {
@@ -54,11 +55,11 @@
 }
 
 .modul.maschinen-linien .text p {
-	@extend .font-s;
+	@extend .font-xs;
 }
 
 .modul.maschinen-linien .text li {
-	@extend .font-s;
+	@extend .font-xs;
 }
 
 .modul.maschinen-linien .text li:before {

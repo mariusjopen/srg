@@ -1,5 +1,5 @@
 <!-- START MODUL SLIDESHOW -->
-<div class="modul slideshow <?php echo $modul_slideshow_background_color; ?>">
+<div class="modul <?php if( $modul_slideshow_slide_active == 'off' ): ?>off<?php endif; ?> slideshow <?php echo $modul_slideshow_background_color; ?>">
 
 	<div class="mobil left">
 		<p><?php echo $modul_slideshow_text_gros; ?><p>

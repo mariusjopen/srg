@@ -16,9 +16,14 @@
 	padding-right: $difference-xs;
 }
 
-.footer .bottom p,
-.footer .bottom a  {
+.footer .bottom .footer-left p,
+.footer .bottom .footer-left a  {
 	@extend .font-xs;
+}
+
+.footer .bottom .footer-right p,
+.footer .bottom .footer-right a  {
+	@extend .font-xxs;
 }
 
 .footer .email,

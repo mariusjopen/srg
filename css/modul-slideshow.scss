@@ -95,3 +95,12 @@
 		overflow: hidden;
 	}
 }
+
+
+.modul.slideshow.off .image-slideshow {
+    pointer-events: none;
+}
+
+.modul.slideshow.off .flickity-page-dots {
+    display: none;
+}

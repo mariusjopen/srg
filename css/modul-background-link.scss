@@ -1,11 +1,11 @@
 .modul.background-link {
 	text-align: center;
-	padding-top: $difference-l;
-	padding-bottom: $difference-l;
+	padding-top: $difference-xl;
+	padding-bottom: $difference-xl;
 }
 
 .modul.background-link .top {
-	@extend .font-l;
+	@extend .font-xl;
 	@extend .font-regular;
 	@extend .center-padding;
 }
@@ -17,5 +17,5 @@ padding-top: $difference-l;
 
 .modul.background-link .bottom a {
 	@extend .font-regular;
-	@extend .font-m;
+	@extend .font-l;
 }

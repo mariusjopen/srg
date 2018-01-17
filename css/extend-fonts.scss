@@ -13,9 +13,23 @@
 	font-weight: normal;
 }
 
-.font-xs {
+.font-xxs {
 	font-size: 10px;
-  line-height: 1.38;
+  line-height: 18px;
+	font-weight: normal;
+
+	@media screen and (max-width: $break-m) {
+		font-size: 8px;
+	}
+
+	@media screen and (max-width: $break-s) {
+		font-size: 10px;
+	}
+}
+
+.font-xs {
+	font-size: 13px;
+  line-height: 18px;
 	font-weight: normal;
 
 	@media screen and (max-width: $break-m) {
@@ -74,7 +88,7 @@
 
 .font-xl {
 	font-size: 30px;
-  line-height: 1.28;
+  line-height: 44px;
 	font-weight: normal;
 
 	@media screen and (max-width: $break-m) {

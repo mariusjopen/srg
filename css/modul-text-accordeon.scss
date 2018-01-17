@@ -21,8 +21,19 @@
 	text-transform: uppercase;
 	color: $red;
 	cursor: pointer;
+	@extend .font-s;
 }
 
 .modul.text-accordeon .link:hover {
 	color: $blue;
+}
+
+.modul.text-accordeon .transparent {
+    margin-top: -250px;
+    width: 100%;
+    height: 200px;
+}
+
+.modul.text-accordeon .open .transparent {
+    display: none;
 }

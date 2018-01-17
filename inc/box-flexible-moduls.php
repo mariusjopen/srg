@@ -50,6 +50,7 @@
 
 	        	include(locate_template('inc/modul-linien.php'));
 
+
 					elseif( get_row_layout() == 'modul_slideshow' ):
 
 						$element_button_text = get_sub_field('button_text');
@@ -59,6 +60,7 @@
 						$image_slideshow = get_sub_field('slideshow');
 						$modul_slideshow_text_gros = get_sub_field('text_gros');
 						$modul_slideshow_text_klein = get_sub_field('text_klein');
+						$modul_slideshow_slide_active = get_sub_field('slide_active');
 
 	        	include(locate_template('inc/modul-slideshow.php'));
 
@@ -153,6 +155,8 @@
 
 						$modul_many_maps_background_color = get_sub_field('background_color');
 						$modul_many_maps_map_2 = get_sub_field('map_2');
+						$modul_many_maps_map_link = get_sub_field('map_link');
+						$modul_many_maps_map_link_text = get_sub_field('map_link_text');
 
 						include(locate_template('inc/modul-many-maps.php'));
 

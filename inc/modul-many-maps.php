@@ -12,6 +12,8 @@
 				$modul_many_maps_logo = get_sub_field('logo');
 				$modul_many_maps_link = get_sub_field('link');
 				$modul_many_maps_url = get_sub_field('url');
+				$modul_many_maps_map_link = get_sub_field('map_link');
+				$modul_many_maps_map_link_text = get_sub_field('map_link_text');
 				?>
 
 				<div class="item">
@@ -34,9 +36,15 @@
 						<?php echo $modul_many_maps_text ?>
 					</div>
 
+					<div class="maps-link">
+						<a target="_blank" href="<?php echo $modul_many_maps_map_link ?>"><?php echo $modul_many_maps_map_link_text ?></a>
+					</div>
+
 					<div class="link">
 						<a href="<?php echo $modul_many_maps_url ?>"><?php echo $modul_many_maps_link ?></a>
 					</div>
+
+
 
 				</div>
 

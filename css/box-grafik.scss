@@ -15,6 +15,7 @@
 .box.grafik .bottom {
 	@extend .flex-center-align;
 
+
 		@media screen and (max-width: $break-s) {
 			display: block;
 		}

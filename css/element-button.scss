@@ -1,6 +1,6 @@
 .button {
 	@extend .background-red;
-	padding: 6px 12px 6px 12px;
+	padding: 8px 14px 8px 14px;
 	text-align: center;
 	display: inline-block;
 	margin-top: $difference-m;
@@ -13,6 +13,7 @@
 
 .button a {
 	color: white;
+	@extend .font-s;
 }
 
 .button a:hover {

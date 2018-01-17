@@ -12,6 +12,8 @@
 			<p><?php echo $modul_text_accordeon_text; ?></p>
 		</div>
 
+		<img src="<?php echo get_template_directory_uri()?>/img/transparent.png" class="transparent">
+
 		<div class="link">
 			Weiterlesen
 		</div>

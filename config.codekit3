@@ -19,7 +19,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-footer.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-grafik.scss": {
@@ -32,7 +32,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-grafik.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-navigation-blocks-sticky.scss": {
@@ -45,7 +45,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-navigation-blocks-sticky.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-navigation-blocks.scss": {
@@ -58,7 +58,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-navigation-blocks.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-navigation-main.scss": {
@@ -71,7 +71,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-navigation-main.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-navigation-mobile.scss": {
@@ -84,7 +84,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-navigation-mobile.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/box-welcome.scss": {
@@ -97,7 +97,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/box-welcome.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/combine.scss": {
@@ -110,7 +110,7 @@
 		"oA": 0,
 		"oAP": "\/css\/min\/combine.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/element-button.scss": {
@@ -123,7 +123,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/element-button.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/element-image-slideshow.scss": {
@@ -136,7 +136,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/element-image-slideshow.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/extend-background.scss": {
@@ -149,7 +149,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/extend-background.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/extend-fonts.scss": {
@@ -162,7 +162,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/extend-fonts.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/extend-positioning.scss": {
@@ -175,7 +175,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/extend-positioning.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/general.scss": {
@@ -188,7 +188,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/general.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/min\/box-electronic.min.css": {
@@ -371,7 +371,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-background-link.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-background-text.scss": {
@@ -384,7 +384,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-background-text.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-big-text.scss": {
@@ -397,7 +397,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-big-text.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-contact.scss": {
@@ -410,7 +410,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-contact.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-image.scss": {
@@ -423,7 +423,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-image.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-linien.scss": {
@@ -436,7 +436,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-linien.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-link-gross.scss": {
@@ -449,7 +449,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-link-gross.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-link.scss": {
@@ -462,7 +462,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-link.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-logo-maps.scss": {
@@ -475,7 +475,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-logo-maps.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-many-maps.scss": {
@@ -488,7 +488,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-many-maps.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-maps.scss": {
@@ -501,7 +501,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-maps.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-maschinen-linien.scss": {
@@ -514,7 +514,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-maschinen-linien.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-people.scss": {
@@ -527,7 +527,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-people.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-slideshow-textbox.scss": {
@@ -540,7 +540,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-slideshow-textbox.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-slideshow.scss": {
@@ -553,7 +553,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-slideshow.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-text-accordeon.scss": {
@@ -566,7 +566,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-text-accordeon.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/modul-text.scss": {
@@ -579,7 +579,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/modul-text.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/page-simple.scss": {
@@ -592,7 +592,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/page-simple.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/variables.scss": {
@@ -605,7 +605,7 @@
 		"oA": 1,
 		"oAP": "\/css\/min\/variables.min.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/fonts\/SequelSansW05-LightBody.woff": {
@@ -677,6 +677,17 @@
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
+		},
+	"\/img\/transparent.png": {
+		"ft": 32768,
+		"iS": 5549,
+		"oA": 0,
+		"oAP": "\/img\/transparent.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/inc\/box-flexible-moduls.php": {
 		"cB": 0,
@@ -2988,7 +2999,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1

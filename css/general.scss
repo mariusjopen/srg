@@ -39,6 +39,13 @@ strong {
 	@extend .font-medium;
 }
 
+del {
+    text-decoration: none;
+    width: 60px;
+    display: inline-grid;
+}
+
+
 
 .mobil {
 	display: none;
