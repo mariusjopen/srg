@@ -12,10 +12,17 @@
 
 
 .modul.background-link .bottom {
-padding-top: $difference-l;
+	padding-top: $difference-l;
 }
 
 .modul.background-link .bottom a {
 	@extend .font-regular;
 	@extend .font-l;
+}
+
+.modul.background-link .top {
+	@media screen and (max-width: $break-s) {
+		padding-left: $difference-l;
+    padding-right: $difference-l;
+	}
 }

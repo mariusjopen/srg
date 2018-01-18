@@ -14,6 +14,7 @@ jQuery( document ).ready(function() {
 		 else {
 	     jQuery("body").addClass("navi-hide-active");
 	   }
+
 	   lastScrollTop = st;
 	});
 

@@ -16,6 +16,10 @@
 	text-transform: uppercase;
 	color: $red;
 	@extend .font-s;
+
+	@media screen and (max-width: $break-s) {
+		font-size: 16px;
+	}
 }
 
 .modul.link a:hover {

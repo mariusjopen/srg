@@ -46,6 +46,13 @@
 	}
 }
 
+.footer .navigation li a {
+	@extend .font-m;
+	@media screen and (max-width: $break-s) {
+		font-size: 14px;
+	}
+}
+
 .footer .top .footer-left {
 	width: 20%;
 	float: left;
@@ -140,6 +147,7 @@
 	margin-bottom: 0px;
 	text-align: center;
 	@extend .font-s;
+	border-radius: 0px;
 }
 
 .footer .chimp .button {

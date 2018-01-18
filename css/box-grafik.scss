@@ -8,13 +8,19 @@
 	@extend .flex-center-align;
 }
 
+.box.grafik .center {
+	@media screen and (max-width: $break-s) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 .box.grafik .top  p{
 	width: 70%;
 }
 
 .box.grafik .bottom {
 	@extend .flex-center-align;
-
 
 		@media screen and (max-width: $break-s) {
 			display: block;

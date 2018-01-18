@@ -1,6 +1,10 @@
 .modul.slideshow {
 	padding-bottom: 0px;
   display: grid;
+
+	@media screen and (max-width: $break-s) {
+		padding-top: 0px;
+	}
 }
 
 .modul.slideshow .right {
@@ -29,7 +33,14 @@
 
 .modul.slideshow .mobil.left {
 	@media screen and (max-width: $break-s) {
-		display: block !important;
+		display: block;
+		padding-top: $difference-s;
+	}
+}
+
+.modul.slideshow .m-2 {
+	@media screen and (max-width: $break-s) {
+		display: none !important;
 	}
 }
 
@@ -70,7 +81,7 @@
 	width: 70% !important;
 
 	@media screen and (max-width: $break-s) {
-		width: 100%;
+		width: 100% !important;
 	}
 }
 

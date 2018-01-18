@@ -45,6 +45,11 @@ del {
     display: inline-grid;
 }
 
+input.button {
+	-webkit-appearance: none;
+	border-radius: 0px;
+}
+
 
 
 .mobil {
@@ -130,4 +135,5 @@ del {
 	padding-right: $difference-s;
 	@extend .font-xl;
 	@extend .font-regular;
+
 }

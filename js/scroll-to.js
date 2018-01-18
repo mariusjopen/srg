@@ -11,7 +11,7 @@ jQuery( document ).ready(function() {
 			var data_difference = jQuery("#" + data ).offset().top;
 
 			jQuery("html, body").animate({
-				scrollTop: data_difference - navi_height + 1
+				scrollTop: data_difference - navi_height + 22
 			}, 500);
 		});
 

@@ -87,6 +87,10 @@ http://flickity.metafizzy.co
   /* vertically center */
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 .flickity-prev-next-button svg {

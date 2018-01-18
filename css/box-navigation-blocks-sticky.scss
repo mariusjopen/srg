@@ -1,5 +1,9 @@
 .sticky-navi .sticky .box.navigation-blocks {
 	top: 0px;
+
+	@media screen and (max-width: $break-s) {
+		display: none;
+	}
 }
 
 

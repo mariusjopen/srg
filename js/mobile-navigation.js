@@ -5,7 +5,15 @@ jQuery(document).ready(function() {
   });
 
 jQuerywindow = jQuery(window);
+	var logotouch = jQuery(".logo-big img").offset().top;
+	var logoheight = jQuery(".logo-big img").height();
+
 	var distance = 20;
+
+	var logo_distance = logotouch + logoheight;
+
+
+
 
 	jQuerywindow.scroll(function() {
 		if ( jQuerywindow.scrollTop() >= distance ) {
@@ -14,6 +22,16 @@ jQuerywindow = jQuery(window);
 
 		if ( jQuerywindow.scrollTop() < distance ) {
 				jQuery("body").removeClass("hide-logo");
+		}
+
+
+
+		if ( jQuerywindow.scrollTop() >= logo_distance ) {
+				jQuery("body").addClass("show-logo");
+		}
+
+		if ( jQuerywindow.scrollTop() < logo_distance ) {
+				jQuery("body").removeClass("show-logo");
 		}
 	});
 

@@ -15,6 +15,7 @@
 
 	@media screen and (max-width: $break-s) {
 		height: auto; //HEIGHT OF BOX
+		padding-bottom: $difference-s;
 	}
 }
 
@@ -75,9 +76,5 @@
 }
 
 .box.welcome .flickity-page-dots {
-    bottom: 2vw;
-
-		@media screen and (max-width: $break-s) {
-			bottom: -5.5vw;
-		}
+    bottom: 20px;
 }

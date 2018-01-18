@@ -1,9 +1,6 @@
 .box.navigation-blocks {
 	padding-bottom: $difference-m;
 
-	@media screen and (max-width: $break-s) {
-		display: none;
-	}
 }
 
 .box.navigation-blocks .top {
@@ -26,6 +23,13 @@
 	padding-right: 20vw;
 }
 
+.box.navigation-blocks .down {
+	@media screen and (max-width: $break-s) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 .box.navigation-blocks .item {
 	width: calc(100vw / 6);
 	height: calc(100vw / 6);
@@ -35,6 +39,12 @@
 	margin: $difference-xs;
 	transition: 0.2s ease;
 	@extend .font-regular;
+
+	@media screen and (max-width: $break-s) {
+		width: calc(110vw / 4);
+		height: calc(110vw / 4);
+		margin: $difference-xxs;
+	}
 }
 
 
@@ -49,4 +59,8 @@
 .box.navigation-blocks .word {
     padding-top: 2vw;
     padding-bottom: 1.7vw;
+
+		@media screen and (max-width: $break-s) {
+			font-size: 14px;
+		}
 }

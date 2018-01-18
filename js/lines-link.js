@@ -18,22 +18,46 @@ jQuery( document ).ready(function() {
 
 
 
+		if(jQuery(window).width() >= 800) {
 
-		if (id <= 3) {
-			jQuery("body").addClass("active-linie-" + id);
+			if (id <= 3) {
+				jQuery("body").addClass("active-linie-" + id);
 
-			jQuery("html, body").animate({
-				scrollTop: data_difference - 48
-			}, 500);
+				jQuery("html, body").animate({
+					scrollTop: data_difference - 48
+				}, 500);
+			}
+
+			if (id == "b") {
+				jQuery("body").addClass("active-linie-" + 1);
+
+				jQuery("html, body").animate({
+					scrollTop: lines - 48
+				}, 500);
+			}
+
+		} else {
+
+			if (id <= 3) {
+				jQuery("body").addClass("active-linie-" + id);
+
+				jQuery("html, body").animate({
+					scrollTop: data_difference - 40
+				}, 500);
+			}
+
+			if (id == "b") {
+				jQuery("body").addClass("active-linie-" + 1);
+
+				jQuery("html, body").animate({
+					scrollTop: lines - 40
+				}, 500);
+			}
+
 		}
 
-		if (id == "b") {
-			jQuery("body").addClass("active-linie-" + 1);
 
-			jQuery("html, body").animate({
-				scrollTop: lines - 48
-			}, 500);
-		}
+
 
 
 

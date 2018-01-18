@@ -31,6 +31,7 @@
 		color: $dark-beige;
 		@extend .font-s;
 		@extend .font-regular;
+		border-radius: 0px;
 
 		@media screen and (max-width: $break-s) {
 			width: calc(100% - 20px);
@@ -44,6 +45,7 @@
 		padding-left: $difference-xs;
 		padding-top: $difference-xs;
 		padding-bottom: $difference-xs;
+		border-radius: 0px;
 }
 
 .modul.contact .button {

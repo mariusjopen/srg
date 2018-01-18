@@ -1,5 +1,7 @@
 jQuery( document ).ready(function() {
 
+	jQuery("body").addClass("dienst");
+
 	if (jQuery('.navigation-blocks').length > 0) {
 
 		var navi_height = jQuery(".sticky .box.navigation-blocks").outerHeight();

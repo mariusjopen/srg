@@ -55,11 +55,19 @@
 }
 
 .modul.maschinen-linien .text p {
-	@extend .font-xs;
+	@extend .font-s;
+
+	@media screen and (max-width: $break-s) {
+		font-size: 14px;
+	}
 }
 
 .modul.maschinen-linien .text li {
-	@extend .font-xs;
+	@extend .font-s;
+
+	@media screen and (max-width: $break-s) {
+		font-size: 14px;
+	}
 }
 
 .modul.maschinen-linien .text li:before {
@@ -82,6 +90,10 @@
 
 .modul.maschinen-linien .navigation-maschinen .linien-nav {
 	@extend .flex-center-align;
+	@media screen and (max-width: $break-s) {
+		font-size: 12px;
+	}
+
 }
 
 .modul.maschinen-linien .navigation-maschinen .item {

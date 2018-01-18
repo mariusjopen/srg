@@ -6,13 +6,25 @@
 	@extend .background-blue;
 	@extend .font-xl;
 	@extend .font-regular;
+	background-size: cover;
+	background-position-x: center;
+	padding-left: 0px;
+	padding-right: 0px;
 
 	@media screen and (max-width: $break-s) {
-		height: 60vw;
-		width: calc(100% - #{$difference-m});
+		width: 100%;
+		height: inherit;
 	}
 }
 
 .modul.background-text .text {
-	width: 75%;
+	padding-left: $difference-m;
+	padding-right: $difference-m;
+
+	@media screen and (max-width: $break-s) {
+		padding-top: 40vw;
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
 }

@@ -17,6 +17,8 @@
 		display: block;
 		overflow-x: scroll;
 		width: calc(100% - #{$difference-m});
+		-webkit-overflow-scrolling: touch;
+    height:100%;
 	}
 }
 

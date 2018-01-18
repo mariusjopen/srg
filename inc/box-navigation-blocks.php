@@ -6,7 +6,7 @@
 		</div>
 	</div>
 
-	<div class="center">
+	<div class="center down">
 		<div class="navi-block">
 
 			<?php

@@ -18,6 +18,8 @@
 		display: block;
 		overflow-x: scroll;
 		width: calc(100% - #{$difference-m});
+		-webkit-overflow-scrolling: touch;
+    height:100%;
 	}
 }
 
@@ -39,7 +41,6 @@
 	@media screen and (max-width: $break-s) {
 		width: 60vw;
 		float: left;
-		padding-left: $difference-s;
 		padding-right: $difference-s;
 	}
 }

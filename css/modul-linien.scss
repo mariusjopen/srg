@@ -21,6 +21,8 @@
 	@media screen and (max-width: $break-s) {
 		display: block;
 		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
+    height:100%;
 	}
 }
 
@@ -33,7 +35,7 @@
 	padding-right: $difference-xl;
 
 	@media screen and (max-width: $break-s) {
-		width: calc(240vw + 160px) !important;
+		width: calc(210vw + 160px) !important;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
@@ -44,10 +46,8 @@
 	width: calc(100% / 4);
 
 	@media screen and (max-width: $break-s) {
-		width: 80vw;
+		width: 70vw;
 		float: left;
-		margin-right: $difference-s;
-		margin-left: $difference-s;
 	}
 }
 
@@ -84,7 +84,6 @@
 	padding-bottom: $difference-s;
 
 	@media screen and (max-width: $break-s) {
-		text-align: left;
 		padding-left: $difference-s;
 		width: initial;
 	}

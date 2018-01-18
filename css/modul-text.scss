@@ -8,8 +8,19 @@
 	}
 }
 
+.modul.text .left {
+	@media screen and (max-width: $break-s) {
+		padding-bottom: 0px;
+		display: inline-block;
+	}
+}
+
 .modul.text .logo-electronic {
   margin-top: $difference-s;
+
+	@media screen and (max-width: $break-s) {
+		margin-top: $difference-s;
+	}
 }
 
 .modul.text .logo-electronic img {
@@ -18,8 +29,17 @@
 
 .modul.text .logo-electronic.big img {
   width: 25%;
+}
 
+.dienst .modul.text .headline {
 	@media screen and (max-width: $break-s) {
-  	width: 15%;
+		width: 70vw;
+		float: left;
+	}
+}
+
+.dienst .modul.text .logo-electronic {
+	@media screen and (max-width: $break-s) {
+		margin-top: 0px;
 	}
 }
