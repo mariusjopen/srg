@@ -20,11 +20,13 @@
 .modul.background-text .text {
 	padding-left: $difference-m;
 	padding-right: $difference-m;
+	width: 70%;
 
 	@media screen and (max-width: $break-s) {
 		padding-top: 40vw;
 		padding-left: 0px;
 		padding-right: 0px;
+		width: 100%;
 
 	}
 }
