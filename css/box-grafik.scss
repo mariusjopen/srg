@@ -15,7 +15,7 @@
 	}
 }
 
-.box.grafik .top  p{
+.box.grafik .top  p {
 	width: 70%;
 }
 
@@ -67,8 +67,9 @@
 
 .box.grafik .bottom .block {
 	@extend .background-red;
-	padding: 6px 15px 6px 15px;
+	padding: 6px 20px 6px 20px;
 	text-align: center;
+	transition: 0.2s ease;
 
 	@media screen and (max-width: $break-s) {
 		width: calc(80% - #{$difference-s});
@@ -76,6 +77,6 @@
 	}
 }
 
-.box.grafik .bottom .block a:hover {
-	color: white;
+.box.grafik .bottom .block:hover {
+	@extend .background-blue;
 }

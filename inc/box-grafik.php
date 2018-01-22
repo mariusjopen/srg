@@ -13,11 +13,11 @@
 			<div class="item line">
 			</div>
 
-			<div class="item block">
-				<a href="<?php echo get_field('grafik_link'); ?>">
+			<a href="<?php echo get_field('grafik_link'); ?>">
+				<div class="item block">
 					<?php echo get_field('grafik_text_mitte'); ?>
-				</a>
-			</div>
+				</div>
+			</a>
 
 			<div class="item line">
 			</div>

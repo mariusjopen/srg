@@ -14,7 +14,7 @@
 			  while ( have_rows('navigation_repeater') ) : the_row();
 			  ?>
 
-				<div class="item" data="<?php echo get_sub_field('navigation_id'); ?>">
+				<div class="item <?php echo get_sub_field('navigation_text'); ?>" data="<?php echo get_sub_field('navigation_id'); ?>">
 					<div class="word">
 						<?php echo get_sub_field('navigation_text'); ?>
 					</div>

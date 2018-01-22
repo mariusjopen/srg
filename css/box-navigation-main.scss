@@ -22,8 +22,8 @@
 	@extend .font-light;
 }
 
-.home .logo-red {
-	display: none;
+.home.navi-logo-hide .logo-red {
+	opacity: 0;
 }
 
 
@@ -32,6 +32,8 @@
   position: absolute;
   top: 25px;
 	left: $padding-sides;
+	opacity: 1;
+	transition: 0.2s ease;
 }
 
 .home .navi-empty .box.navigation-main {

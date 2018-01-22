@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
 
 		var navi_height = jQuery(".sticky .box.navigation-blocks").outerHeight();
 		var data_difference = jQuery("#" + name ).offset().top;
-		var lines = jQuery(".maschinen-linien" ).offset().top;
+		var lines = jQuery("#elektronik" ).offset().top;
 
 		jQuery("body").removeClass("active-linie-1");
 		jQuery("body").removeClass("active-linie-2");
