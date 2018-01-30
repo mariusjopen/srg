@@ -3,7 +3,7 @@ jQuery( document ).ready(function() {
 
 	jQuery("body").addClass("navi-hide-active");
 	jQuery("body").addClass("navi-logo-hide");
-	
+
 	var lastScrollTop = 0;
 
 	jQuery(window).scroll(function(event){

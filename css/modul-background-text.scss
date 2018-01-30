@@ -24,9 +24,9 @@
 
 	@media screen and (max-width: $break-s) {
 		padding-top: 40vw;
-		padding-left: 0px;
+		padding-left: $difference-s;
 		padding-right: 0px;
-		width: 100%;
+		width: calc(100% - #{$difference-s});
 
 	}
 }

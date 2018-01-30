@@ -2,9 +2,7 @@
 <div class="footer">
 	<div class="top">
 		<div class="footer-left">
-			<div class="logo">
-				<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_field('logo_small' , 'option'); ?>"></a>
-			</div>
+	
 		</div>
 
 		<div class="footer-middle">
